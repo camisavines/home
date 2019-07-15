@@ -1,0 +1,25 @@
+.project {
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    font-family: 'Oswald', sans-serif;
+    transition: 2s;
+}
+
+.project:hover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
