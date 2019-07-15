@@ -13,13 +13,17 @@ function Home() {
             </div>
         </div>
 
-        <div className="justify-center container-fluid">
+        <div className="coming-soon">
+            <h1>Coming Soon!</h1>
+        </div>
+
+        {/* <div className="justify-center container-fluid">
             <div className="row text-center">
                 <div className="col-md-4 home-link">PORTFOLIO</div>
                 <div className="col-md-4 home-link">RESUME</div>
                 <div className="col-md-4 home-link">CONTACT</div>
             </div>
-        </div>
+        </div> */}
 
         {/* <div className="justify-center full">
             <div className="container-fluid"> */}

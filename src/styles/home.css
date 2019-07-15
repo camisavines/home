@@ -12,7 +12,7 @@
     background-attachment: fixed;
     background-size: cover;
     color: white;
-    margin-top: -8vh;
+    /* margin-top: -8vh; */
     font-family: 'Oswald', sans-serif;
 }
   
@@ -36,4 +36,13 @@ font-size: 5em;
 
 .statement {
     padding: 5%;
+}
+
+.coming-soon {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
 }
