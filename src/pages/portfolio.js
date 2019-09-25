@@ -8,7 +8,7 @@ import sbcs from "../photos/sbcs_logo.png"
 import luma from "../photos/luma.png";
 import karyosoft from "../photos/karyosoft.png";
 import rentlab from "../photos/rentlab.webp";
-import iu from "../photos/iu.jpeg";
+import iu from "../photos/iu.jpg";
 
 import "../styles/portfolio.css";
 

@@ -9,14 +9,11 @@ class WebProject extends React.Component {
             backgroundImage: `url(${this.props.image})`,
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
-            backgroundPosition: "center top",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
+            backgroundPosition: "center center",
             textAlign: "center",
             height: "100px",
             marginBottom: "30px",
-            borderRadius: "5px",
+            borderRadius: "15px",
             fontWeight: "bold"
         }
     }
