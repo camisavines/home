@@ -5,6 +5,7 @@ import Home from "./pages/home";
 import Resume from "./pages/resume";
 import Portfolio from "./pages/portfolio";
 import Contact from "./pages/contact";
+import News from "./pages/news";
 import "./styles/index.css";
 import 'bootstrap';
 
@@ -19,6 +20,7 @@ function App() {
       <Route path="/portfolio/" component={Portfolio} />
       <Route path="/resume/" component={Resume} />
       <Route path="/contact/" component={Contact} />
+      <Route path="/news/" component={News} />
 
 
     </Router>
