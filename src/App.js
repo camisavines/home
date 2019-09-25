@@ -11,14 +11,14 @@ import 'bootstrap';
 function App() {
   return (
     <Router>
-      {/* <Navbar /> */}
+      <Navbar />
       
 
 
       <Route path="/" exact component={Home} />
-      {/* <Route path="/resume/" component={Resume} />
       <Route path="/portfolio/" component={Portfolio} />
-      <Route path="/contact/" component={Contact} /> */}
+      <Route path="/resume/" component={Resume} />
+      <Route path="/contact/" component={Contact} />
 
 
     </Router>

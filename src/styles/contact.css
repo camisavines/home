@@ -3,3 +3,19 @@ input {
     border: none;
     /* border-bottom: 1px solid white; */
 }
+
+.contact-img {
+    /* width: 100%; */
+    background-image: url("../photos/camisa.jpg");
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    /* margin: 25%; */
+}
+
+.contact-img:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}

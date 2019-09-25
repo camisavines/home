@@ -1,10 +1,26 @@
 import React from 'react';
-import WebProject from "../components/webProject";
+import camisa from "../photos/camisa.jpg";
 import "../styles/contact.css";
 
 function Contact() {
     return (
-        <div className="container text-white">
+        <div className="bg-white py-5">
+            <div className="container">
+
+            <div className="row">
+                <div className="col-6 col-md-3 items-center">
+                    <div className="contact-img"></div>
+                </div>
+                <div className="col-md-9">
+                    <h2>Camisa Vines</h2>
+                    <p>Computer Science, BS, Specializing in Software Engineering at Indiana University Bloomington</p>
+                </div>
+            </div>
+
+
+
+            </div>
+
 
             <div className="row">
                 <div className="col-xs-12 col-md-6 py-5 ">
