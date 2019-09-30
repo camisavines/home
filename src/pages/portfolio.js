@@ -3,12 +3,14 @@ import WebProject from "../components/webProject";
 import GraphicDesign from "../components/designProject";
 import projects from "../components/projects";
 
-import futurewonder from "../photos/fw.png";
+import futurewonder from "../photos/fw-1.png";
 import sbcs from "../photos/sbcs_logo.png"
 import luma from "../photos/luma.png";
 import karyosoft from "../photos/karyosoft.png";
-import rentlab from "../photos/rentlab.webp";
+import rentlab from "../photos/rentlab.png";
 import iu from "../photos/iu.jpg";
+import givegrove from "../photos/givegrove.png";
+import bgc from "../photos/bgc.png"
 
 import "../styles/portfolio.css";
 
@@ -37,6 +39,8 @@ function Portfolio() {
                 <div className="col-6 col-md-3 company-image"><img src={sbcs} alt="company"/></div>
                 <div className="col-6 col-md-3 company-image"><img src={luma} alt="company"/></div>
                 <div className="col-6 col-md-3 company-image"><img src={futurewonder} alt="company"/></div>
+                <div className="col-6 col-md-3 company-image"><img src={givegrove} alt="company"/></div>
+                <div className="col-6 col-md-3 company-image"><img src={bgc} alt="company"/></div>
                 <div className="col-6 col-md-3 company-image"><img src={karyosoft} alt="company"/></div>
                 <div className="col-6 col-md-3 company-image"><img src={rentlab} alt="company"/></div>
                 <div className="col-6 col-md-3 company-image"><img src={iu} alt="company"/></div>

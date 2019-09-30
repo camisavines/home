@@ -17,7 +17,7 @@ function App() {
         {/* <Navbar /> */}
 
         <nav className="navbar navbar-expand-sm navbar-dark">
-          <Link to="/home" className="navbar-brand">Camisa Vines</Link>
+          <Link to="/" className="navbar-brand">Camisa Vines</Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
