@@ -6,18 +6,18 @@ function Contact() {
     return (
         <div className="bg-white py-5">
 
-            <div className="container">
+            <div className="container full">
                 <div className="row">
-                    <div className="col-sm-6 col-md-4">
+                    {/* Change column numbers back */}
+                    <div className="col-sm-12 col-md-6">
                         <h1>Camisa Vines</h1>
                         <p>Computer Science, BS, Specializing in Software Engineering at Indiana University Bloomington</p>
-
-                        <div className="row">
-                            <div className="col-1"><i className="material-icons">email</i></div>
-                            <div className="col-10"><p>camisa.vines@icloud.com</p></div>
-                        </div>
+                        <ul type="none">
+                            <li><p><i className="material-icons">email</i> camisa.vines@icloud.com</p></li>
+                            <li><p><i className="material-icons">code</i> github.com/camisavines</p></li>
+                        </ul>
                     </div>
-                    <div className="col-sm-6 col-md-7 offset-md-1 p-5">
+                    {/* <div className="col-sm-6 col-md-7 offset-md-1 p-5">
                         <form>
                             <div className="row mb-3">
                                 <label for="name">Name</label>
@@ -35,7 +35,7 @@ function Contact() {
                                 <button>Send</button>
                             </div>
                         </form>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 

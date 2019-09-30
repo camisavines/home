@@ -19,3 +19,8 @@ input {
     display: block;
     padding-bottom: 100%;
 }
+
+.material-icons {
+    vertical-align: top;
+    padding-right: 10px;
+}
