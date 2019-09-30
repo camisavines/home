@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Link } from "react-router-dom";
 import "../styles/index.css";
 
 function Navbar() {
@@ -14,9 +13,8 @@ function Navbar() {
                 <div className="collapse navbar-collapse pb-8" id="navbarsExample03">
                     <ul className="navbar-nav mr-auto">
                         {/* <li className="nav-item"><a className="nav-link" href="/about/">About</a></li> */}
-                        {/* <li className="nav-item"><a className="nav-link" href="/portfolio/">Portfolio</a></li> */}
+                        <li className="nav-item"><a className="nav-link" href="/portfolio">Portfolio</a></li>
                         <li className="nav-item"><a className="nav-link" href="/resume">Resume</a></li>
-                        <li className="nav-item"><Link to="/resume">Resume</Link></li>
                         {/* <li className="nav-item"><a className="nav-link" href="/contact/">Contact</a></li> */}
                     </ul>
                 </div>

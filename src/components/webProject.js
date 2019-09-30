@@ -11,9 +11,9 @@ class WebProject extends React.Component {
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center center",
             textAlign: "center",
-            height: "100px",
+            height: "150px",
             marginBottom: "30px",
-            borderRadius: "15px",
+            // borderRadius: "15px",
             fontWeight: "bold"
         }
     }
