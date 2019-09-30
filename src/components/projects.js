@@ -1,4 +1,5 @@
-import futurewonder from "../photos/fw.png";
+import futurewonder from "../photos/futurewonder-page.png";
+import falcam from "../photos/falcam.png";
 
 const projects = [
     {
@@ -11,7 +12,7 @@ const projects = [
         title: "Falcam",
         link: "https://falcam.southbendin.gov/",
         width: 3,
-        image: futurewonder
+        image: falcam
     },
     // {
     //     title: "Tic-Tac-Toe",
@@ -38,11 +39,11 @@ const projects = [
     //     link: "https://www.futurewonder.com/",
     //     width: 4
     // },
-    {
-        title: "Future Wonder Website",
-        link: "https://www.futurewonder.com/",
-        width: 4
-    }
+    // {
+    //     title: "Future Wonder Website",
+    //     link: "https://www.futurewonder.com/",
+    //     width: 4
+    // }
 ]
 
 export default projects;
