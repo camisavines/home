@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Navbar from "./components/nav";
 import Home from "./pages/home";
 import Resume from "./pages/resume";
 import Portfolio from "./pages/portfolio";
@@ -17,7 +16,7 @@ function App() {
         {/* <Navbar /> */}
 
         <nav className="navbar navbar-expand-sm navbar-dark">
-          <Link to="/" className="navbar-brand">Camisa Vines</Link>
+          <Link to="/home" className="navbar-brand">Camisa Vines</Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
@@ -31,7 +30,7 @@ function App() {
           </div>
         </nav>
 
-        <Route path="/" exact component={Home} />
+        <Route path="/home" exact component={Home} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/resume" component={Resume} />
         <Route path="/contact" component={Contact} />
