@@ -34,12 +34,12 @@ function Portfolio() {
             {/* COMPANIES */}
             <h2 className="text-white">Companies</h2>
             <div className="justtify-center flex item-center container-fluid row">
-                <div className="col-6 col-md-4 company-image"><img src={sbcs}/></div>
-                <div className="col-6 col-md-4 company-image"><img src={luma}/></div>
-                <div className="col-6 col-md-4 company-image"><img src={futurewonder}/></div>
-                <div className="col-6 col-md-4 company-image"><img src={karyosoft}/></div>
-                <div className="col-6 col-md-4 company-image"><img src={rentlab}/></div>
-                <div className="col-6 col-md-4 company-image"><img src={iu}/></div>
+                <div className="col-6 col-md-4 company-image"><img src={sbcs} alt="company"/></div>
+                <div className="col-6 col-md-4 company-image"><img src={luma} alt="company"/></div>
+                <div className="col-6 col-md-4 company-image"><img src={futurewonder} alt="company"/></div>
+                <div className="col-6 col-md-4 company-image"><img src={karyosoft} alt="company"/></div>
+                <div className="col-6 col-md-4 company-image"><img src={rentlab} alt="company"/></div>
+                <div className="col-6 col-md-4 company-image"><img src={iu} alt="company"/></div>
             </div>
 
         </div>

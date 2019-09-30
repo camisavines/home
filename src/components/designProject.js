@@ -21,7 +21,7 @@ class GraphicDesign extends React.Component {
     render() {
         return (
             <div className={this.width}>
-                <a href={this.props.link} target="_blank">
+                <a href={this.props.link}>
                     <div style={this.style}>
                         <div className="project px-3"><h3>{this.props.name}</h3></div>
                     </div>

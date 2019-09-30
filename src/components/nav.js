@@ -1,11 +1,12 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Link } from "react-router-dom";
 import "../styles/index.css";
+import 'bootstrap';
 
 function Navbar() {
     return (
         <nav className="navbar navbar-expand-sm navbar-dark">
-          <Link to="/" className="navbar-brand">Camisa Vines</Link>
+          <Link to="/home" className="navbar-brand">Camisa Vines</Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>

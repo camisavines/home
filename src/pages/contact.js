@@ -1,5 +1,5 @@
 import React from 'react';
-import camisa from "../photos/camisa.jpg";
+// import camisa from "../photos/camisa.jpg";
 import "../styles/contact.css";
 
 function Contact() {
