@@ -63,13 +63,15 @@ function Resume() {
                             <div className="chip orange">HTML</div>
                             <div className="chip orange">CSS</div>
                             <div className="chip orange">JavaScript</div>
+                            <div className="chip orange">React</div>
+                            <div className="chip orange">Material Design</div>
                             <div className="chip orange">jQuery</div>
                             <div className="chip orange">Python</div>
                             <div className="chip orange">Java</div>
                             <div className="chip orange">Adobe Photoshop</div>
                             <div className="chip orange">Adobe Illustrator</div>
                             <div className="chip orange">Adobe InDesign</div>
-                            <div className="chip orange">Bootstrao</div>
+                            <div className="chip orange">Bootstrap</div>
                             <div className="chip orange">Materialize</div>
                             <div className="chip orange">Responsive Web Design</div>
                             <div className="chip orange">Github</div>

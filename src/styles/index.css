@@ -6,7 +6,7 @@ html body {
 
 .navbar {
   /* border-top: 5px solid red; */
-  /* background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)); */
+  /* background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)); */
 }
 
 .chip {
@@ -21,3 +21,12 @@ html body {
   color: white;
 }
 
+.navbar-brand {
+  color: white !important;
+  cursor: pointer;
+}
+
+Link {
+  text-decoration: none;
+  color: white;
+}

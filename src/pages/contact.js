@@ -12,7 +12,10 @@ function Contact() {
                         <h1>Camisa Vines</h1>
                         <p>Computer Science, BS, Specializing in Software Engineering at Indiana University Bloomington</p>
 
-                        <div className="row"><i className="material-icon">email</i> camisa.vines@icloud.com</div>
+                        <div className="row">
+                            <div className="col-1"><i className="material-icons">email</i></div>
+                            <div className="col-10"><p>camisa.vines@icloud.com</p></div>
+                        </div>
                     </div>
                     <div className="col-sm-6 col-md-7 offset-md-1 p-5">
                         <form>
