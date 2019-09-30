@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/home/static/css/main.253bed61.chunk.css",
+    "main.js": "/home/static/js/main.e073bd3c.chunk.js",
+    "main.js.map": "/home/static/js/main.e073bd3c.chunk.js.map",
+    "runtime~main.js": "/home/static/js/runtime~main.0990ee84.js",
+    "runtime~main.js.map": "/home/static/js/runtime~main.0990ee84.js.map",
+    "static/js/2.7f48c7ac.chunk.js": "/home/static/js/2.7f48c7ac.chunk.js",
+    "static/js/2.7f48c7ac.chunk.js.map": "/home/static/js/2.7f48c7ac.chunk.js.map",
+    "index.html": "/home/index.html",
+    "precache-manifest.ee1c380755bc5317c2e561570ca93407.js": "/home/precache-manifest.ee1c380755bc5317c2e561570ca93407.js",
+    "service-worker.js": "/home/service-worker.js",
+    "static/css/main.253bed61.chunk.css.map": "/home/static/css/main.253bed61.chunk.css.map",
+    "static/media/contact.css": "/home/static/media/camisa.0f007dca.jpg",
+    "static/media/fw.png": "/home/static/media/fw.105ba670.png",
+    "static/media/iu.jpg": "/home/static/media/iu.8ee9a5e1.jpg",
+    "static/media/karyosoft.png": "/home/static/media/karyosoft.f38f9cf1.png",
+    "static/media/luma.png": "/home/static/media/luma.af23a270.png",
+    "static/media/rentlab.webp": "/home/static/media/rentlab.b7d802c4.webp",
+    "static/media/sbcs_logo.png": "/home/static/media/sbcs_logo.8565c3d8.png"
+  }
+}
