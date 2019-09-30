@@ -14,13 +14,13 @@ function Resume() {
                             <h2>Work Experience</h2>
                             <ul>
                                 <div className="pb-3">
-                                    <h4><span className="text-orangered">Development Intern</span>, Future Wonder</h4>
+                                    <h4><span className="text-orangered">Post-Intern</span>, Future Wonder</h4>
                                     <p>Tech Consulting Intern since May 2019</p>
                                     <p><b>JavaScript, React, Python</b></p>
                                 </div>
                                 <div className="pb-3">
                                     <h4><span className="text-orangered">Instructor</span>, South Bend Code School</h4>
-                                    <p>Teach younger students programming languages since June 2017</p>
+                                    <p>Teach younger students programming languages since. June 2017&mdash;August 2019</p>
                                     <p><b>HTML, CSS, JavaScript, Python, Graphic Design</b></p>
                                 </div>
                                 <div className="pb-3">
