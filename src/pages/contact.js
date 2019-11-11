@@ -1,41 +1,20 @@
 import React from 'react';
-// import camisa from "../photos/camisa.jpg";
+import camisa from "../photos/camisa.jpg";
 import "../styles/contact.css";
 
 function Contact() {
     return (
-        <div className="bg-white py-5">
-
-            <div className="container full">
-                <div className="row">
-                    {/* Change column numbers back */}
-                    <div className="col-sm-12 col-md-6">
-                        <h1>Camisa Vines</h1>
-                        <p>Computer Science, BS, Specializing in Software Engineering at Indiana University Bloomington</p>
-                        <ul type="none">
-                            <li><p><i className="material-icons">email</i> camisa.vines@icloud.com</p></li>
-                            <li><p><i className="material-icons">code</i> github.com/camisavines</p></li>
-                        </ul>
+        <div className="bg-white pt-5">
+            <div className="container full text-center">
+                <div>
+                    <div className="contact-img"></div>
+                    {/* <img src={camisa} className="contact-img"/> */}
+                    <h1>Camisa Vines</h1>
+                    <p>Computer Science, BS, Specializing in Software Engineering at Indiana University Bloomington</p>
+                    <div className="row contact-info">
+                        <div className="col-6 col-sm-3 offset-sm-3"><i className="material-icons">email</i> <address>camisa.vines@icloud.com</address></div>
+                        <div className="col-6 col-sm-3"><i className="material-icons">link</i> CamisaVines</div>
                     </div>
-                    {/* <div className="col-sm-6 col-md-7 offset-md-1 p-5">
-                        <form>
-                            <div className="row mb-3">
-                                <label for="name">Name</label>
-                                <input type="text" class="form-control" />
-                            </div>
-                            <div className="row mb-3">
-                                <label for="email">Email</label>
-                                <input type="text" class="form-control" />
-                            </div>
-                            <div className="row mb-3">
-                                <label for="message">Example textarea</label>
-                                <textarea class="form-control" rows="8"></textarea>
-                            </div>
-                            <div className="row mb-3 text-center">
-                                <button>Send</button>
-                            </div>
-                        </form>
-                    </div> */}
                 </div>
             </div>
 

@@ -4,28 +4,19 @@ import "../styles/portfolio.css";
 class WebProject extends React.Component {
     constructor(props){
         super(props);
-        this.width = `col-12 col-sm-6 col-md-${this.props.width} project-container`
-        this.style = {
-            backgroundImage: `url(${this.props.image})`,
-            backgroundSize: "cover",
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "top center",
-            textAlign: "center",
-            height: "250px",
-            marginBottom: "30px",
-            fontWeight: "bold"
-        }
+
     }
 
     
     render() {
         return (
-            <div className={this.width}>
-                <a href={this.props.link} target="_blank">
-                    <div style={this.style}>
-                        <div className="project px-3"><h3>{this.props.name}</h3></div>
+            <div className="col-sm-6" style={{marginBottom: "20px"}}>
+                <div className="card bg-dark text-white">
+                    <iframe src={this.props.link} scrolling="no" height="350px"></iframe>
+                    <div className="card-body">
+                        <h5 className="card-title">{this.props.name}</h5>
                     </div>
-                </a>
+                </div>
             </div>
         )
     }

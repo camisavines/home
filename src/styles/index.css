@@ -1,13 +1,17 @@
 html body {
   height: 100vh;
-  /* background-color: #e9e8e8; */
-  background-color: #1a1919;
+  /* background-color: #37343b; */
+  /* background-color: #1a1919; */
 }
 
 /* .navbar { */
   /* border-top: 5px solid red; */
   /* background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)); */
 /* } */
+
+nav {
+  background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,0.8));
+}
 
 .chip {
   display: inline-block;
@@ -24,4 +28,13 @@ html body {
 .navbar-brand {
   color: white !important;
   cursor: pointer;
+}
+
+.news-image {
+  height: 300px;
+  overflow: hidden;
+}
+.news-post {
+  height: 400px;
+  overflow: scroll;
 }

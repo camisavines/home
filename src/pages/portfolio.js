@@ -23,10 +23,10 @@ function Portfolio() {
 
 
     return (
-        <div className="py-5 container">
+        <div className="py-5 containers">
 
             {/* PROJECTS */}
-            <h2 className="text-white">Projects</h2>
+            <h2>Projects</h2>
             <div className="justify-center flex items-center row pb-5">
                 {displayProject}
             </div>
@@ -34,7 +34,7 @@ function Portfolio() {
 
 
             {/* COMPANIES */}
-            <h2 className="text-white">Companies I've Worked With</h2>
+            <h2>Companies I've Worked With</h2>
             <div className="justtify-center flex item-center container-fluid row">
                 <div className="col-6 col-md-3 company-image"><img src={sbcs} alt="company"/></div>
                 <div className="col-6 col-md-3 company-image"><img src={luma} alt="company"/></div>

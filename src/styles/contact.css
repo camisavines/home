@@ -1,17 +1,11 @@
-input {
-    background-color: inherit;
-    border: none;
-    /* border-bottom: 1px solid white; */
-}
-
 .contact-img {
-    /* width: 100%; */
+    width: 40%;
     background-image: url("../photos/camisa.jpg");
     border-radius: 50%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
-    /* margin: 25%; */
+    margin: auto; 
 }
 
 .contact-img:after {
@@ -23,4 +17,8 @@ input {
 .material-icons {
     vertical-align: top;
     padding-right: 10px;
+}
+
+.contact-info {
+    margin-top: 30px;
 }

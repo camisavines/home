@@ -17,13 +17,13 @@ function Home() {
                 </div>
             </div>
 
-            <div className="justify-center container-fluid">
+            {/* <div className="justify-center container-fluid">
                 <div className="row text-center">
                     <div className="col-4 home-link"><Link to="/portfolio">PROJECTS</Link></div>
                     <div className="col-4 home-link"><Link to="/resume">RESUME</Link></div>
                     <div className="col-4 home-link"><Link to="/news">NEWS</Link></div>
                 </div>
-            </div>
+            </div> */}
 
             <div className="justify-center container-fluid">
                 <div className="row text-center">
@@ -32,13 +32,13 @@ function Home() {
                 </div>
             </div>
 
-            <div className="justify-center container-fluid">
+            {/* <div className="justify-center container-fluid">
                 <div className="row text-center">
                     <div className="col-4 home-link"><a href="https://github.com/camisavines" target="_blank">GITHUB</a></div>
                     <div className="col-4 home-link"><Link to="/contact">CONTACT</Link></div>
                     <div className="col-4 home-link"><a href="https://www.linkedin.com/in/camisa-vines-1b8060115/" target="blank">LINKEDIN</a></div>
                 </div>
-            </div>
+            </div> */}
 
         </div>
 
