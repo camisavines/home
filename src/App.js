@@ -13,9 +13,8 @@ function App() {
   return (
     <Router>
       <div>
-        {/* <Navbar /> */}
 
-        <nav className="navbar navbar-expand-sm navbar-dark">
+        {/* <nav className="navbar navbar-expand-sm navbar-dark">
           <Link to="/home" className="navbar-brand">Camisa Vines</Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
@@ -28,7 +27,7 @@ function App() {
                   <li className="nav-item"><Link to="/contact" className="nav-link">Contact</Link></li>
             </ul>
           </div>
-        </nav>
+        </nav> */}
 
         <Route path="/home" exact component={Home} />
         <Route path="/portfolio" component={Portfolio} />

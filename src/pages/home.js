@@ -12,8 +12,9 @@ function Home() {
 
             <div className="justify-center text-center full" id="home">
                 <div className="container">
-                    <h1>CAMISA VINES</h1>
-                    <h3>DEVELOPER + DESIGNER</h3>
+                    <h1>Coming Soon!</h1>
+                    {/* <h1>CAMISA VINES</h1>
+                    <h3>DEVELOPER + DESIGNER</h3> */}
                 </div>
             </div>
 
