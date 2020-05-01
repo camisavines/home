@@ -1,10 +1,11 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom";
 import $ from 'jquery';
 
 import Home from './pages/home';
 import Resume from './pages/resume';
 import Portfolio from './pages/portfolio';
+import News from './pages/news';
 import './App.css';
 import './css/sidebar.css';
 import './css/custom.css';
@@ -32,22 +33,22 @@ function App() {
 	                    <ul className="list-unstyled components mb-5">
 
 
-                        <li className="active"><Link to="">Home</Link></li>
+                        <li><Link to="">Home</Link></li>
 
                         <li>
                           <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Pages</a>
                           <ul className="collapse list-unstyled" id="pageSubmenu">
                               <li> <Link to="/resume">Resume</Link> </li>
                               <li> <Link to="/portfolio">Portfolio</Link> </li>
-                              <li> <Link to="">News</Link> </li>
+                              <li> <Link to="/news">News</Link> </li>
                           </ul>
                         </li>
 
                         <li> 
                           <a href="#contactSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Contact</a>
                             <ul className="collapse list-unstyled" id="contactSubmenu">
-                                <li> <Link to="">Github</Link> </li>
-                                <li> <Link to="">LinkedIn</Link> </li>
+                              <li><a href="https://github.com/camisavines/" target="_blank">Github</a></li>
+                              <li><a href="https://www.linkedin.com/in/camisa-vines-1b8060115/" target="_blank">LinkedIn</a></li>
                             </ul>
                         </li>
 
@@ -70,10 +71,9 @@ function App() {
 
                           <button type="button" id="sidebarCollapse" className="btn btn-primary" onClick={sidebarToggle}>
                               <i className="material-icons">menu</i>
-                              {/* <span className="sr-only text-black">Toggle Menu</span> */}
                           </button>
 
-                          <button className="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          {/* <button className="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                               <i className="material-icons">menu</i>
                           </button>
 
@@ -92,7 +92,7 @@ function App() {
                                       <a className="nav-link" href="#">Contact</a>
                                   </li>
                               </ul>
-                          </div>
+                          </div> */}  
 
                       </div>
                   </nav>
@@ -100,6 +100,7 @@ function App() {
                   <Route path="/" exact component={Home} />
                   <Route path="/resume" component={Resume} />
                   <Route path="/portfolio" component={Portfolio} />
+                  <Route path="/news" component={News} />
 
 
                 </div>
