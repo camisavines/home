@@ -1,0 +1,27 @@
+h2 {
+    /* color: tomato; */
+    /* border-bottom: 1px solid; */
+    /* padding-left: 10px; */
+    font-weight: bolder;
+}
+
+h4 b, .theme-yellow {
+    color: #f8b739;
+    /* text-decoration: 2px 2px black; */
+    /* text-shadow: 1px 0px black; */
+    /* border-left: 2px solid #f8b739; */
+    /* padding-left: 5px; */
+}
+
+.theme-black {
+    color: #1d1919;
+}
+
+ul#skills li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+ul#skills li:before {
+	content: '\00a0\2022\00a0\00a0';
+}
