@@ -11,7 +11,7 @@ You will also see any lint errors in the console.
 
 
 ## Build Static Version
-> `yarn build`
+> `yarn run deploy`
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
 

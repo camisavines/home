@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.e81a2ebc.chunk.css",
-    "main.js": "/static/js/main.14bf4167.chunk.js",
-    "main.js.map": "/static/js/main.14bf4167.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7813ffa7.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7813ffa7.js.map",
-    "static/js/2.de06a388.chunk.js": "/static/js/2.de06a388.chunk.js",
-    "static/js/2.de06a388.chunk.js.map": "/static/js/2.de06a388.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.b186a408ed13281ab5b1926d63118576.js": "/precache-manifest.b186a408ed13281ab5b1926d63118576.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.e81a2ebc.chunk.css.map": "/static/css/main.e81a2ebc.chunk.css.map",
-    "static/js/2.de06a388.chunk.js.LICENSE.txt": "/static/js/2.de06a388.chunk.js.LICENSE.txt",
-    "static/media/bgc.png": "/static/media/bgc.2e9f8d3f.png",
-    "static/media/givegrove.png": "/static/media/givegrove.aeb524c2.png",
-    "static/media/iu.jpg": "/static/media/iu.8ee9a5e1.jpg",
-    "static/media/karyosoft.png": "/static/media/karyosoft.f38f9cf1.png",
-    "static/media/luma.png": "/static/media/luma.af23a270.png",
-    "static/media/sbcs_logo.png": "/static/media/sbcs_logo.8565c3d8.png"
+    "main.css": "/home/static/css/main.0b36f691.chunk.css",
+    "main.js": "/home/static/js/main.6c3d4bef.chunk.js",
+    "main.js.map": "/home/static/js/main.6c3d4bef.chunk.js.map",
+    "runtime-main.js": "/home/static/js/runtime-main.d4c41adf.js",
+    "runtime-main.js.map": "/home/static/js/runtime-main.d4c41adf.js.map",
+    "static/js/2.eb8ba953.chunk.js": "/home/static/js/2.eb8ba953.chunk.js",
+    "static/js/2.eb8ba953.chunk.js.map": "/home/static/js/2.eb8ba953.chunk.js.map",
+    "index.html": "/home/index.html",
+    "precache-manifest.caab4e46fae567deccf8387a97a7fda1.js": "/home/precache-manifest.caab4e46fae567deccf8387a97a7fda1.js",
+    "service-worker.js": "/home/service-worker.js",
+    "static/css/main.0b36f691.chunk.css.map": "/home/static/css/main.0b36f691.chunk.css.map",
+    "static/js/2.eb8ba953.chunk.js.LICENSE.txt": "/home/static/js/2.eb8ba953.chunk.js.LICENSE.txt",
+    "static/media/bgc.png": "/home/static/media/bgc.2e9f8d3f.png",
+    "static/media/givegrove.png": "/home/static/media/givegrove.aeb524c2.png",
+    "static/media/iu.jpg": "/home/static/media/iu.8ee9a5e1.jpg",
+    "static/media/karyosoft.png": "/home/static/media/karyosoft.f38f9cf1.png",
+    "static/media/luma.png": "/home/static/media/luma.af23a270.png",
+    "static/media/sbcs_logo.png": "/home/static/media/sbcs_logo.8565c3d8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7813ffa7.js",
-    "static/js/2.de06a388.chunk.js",
-    "static/css/main.e81a2ebc.chunk.css",
-    "static/js/main.14bf4167.chunk.js"
+    "static/js/runtime-main.d4c41adf.js",
+    "static/js/2.eb8ba953.chunk.js",
+    "static/css/main.0b36f691.chunk.css",
+    "static/js/main.6c3d4bef.chunk.js"
   ]
 }
