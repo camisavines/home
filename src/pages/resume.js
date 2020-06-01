@@ -4,7 +4,7 @@ const skills = [
     "HTML", "CSS", "JavaScipt", "React.js", "Material Design", "jQuery", "Python", "Java",
     "Adobe Photoshop", "Adobe Illustrator", "Adobe Indesign", "Boostrap", "Materialize",  "Responsive Web Design",
     "Github", "Version Control", "Microsoft Word", "Microsoft PowerPoint", "Communication", "Teamwork",
-    "Leadership"
+    "Leadership", "Organization", "Problem Solving", "Critical Thinking", "Verbal & Written Communication", "Research & Documentation"
 ]
 
 const work = [
@@ -28,7 +28,7 @@ const work = [
 
 const extra = [
     "National Society of Black Engineers", "Women in Computing", "Collins Living Learning Community", "Black Student Union",
-    "Collins Philanthropy Club",
+    "Collins Philanthropy Club", "Peer Tutor"
 ]
 
 const courses = [
@@ -77,12 +77,11 @@ const AWARDS = awards.map (a =>
 function Resume() {
     return (
         <div>
-
             <div className="row">
 
                 <div className="col-xs-12 col-lg-6 my-3">
                     <h2>Experience</h2>
-                    <ul>{EXPERIENCE} </ul>
+                    <ul>{EXPERIENCE}</ul>
                 </div>
 
 
@@ -94,9 +93,14 @@ function Resume() {
                                 <li>Minors in <b className="theme-yellow">Business, Math, Sports Analytics</b></li>
                         </ul> </div>
 
-                        <div> 
+                        <div className="mb-4"> 
                             <h4>Courses</h4> 
                             <ul>{COURSES}</ul>
+                        </div>
+
+                        <div>
+                            <h4>Research Interests</h4>
+                            <p>Sports Analytics</p>
                         </div>
 
                     </ul>

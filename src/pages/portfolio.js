@@ -1,36 +1,13 @@
-
 import React from 'react';
-// import WebProject from "../components/webProject";
-// import GraphicDesign from "../components/designProject";
-// import projects from "../components/projects";
 
-import futurewonder from "../photos/fw-1.png";
-import sbcs from "../photos/sbcs_logo.png"
-import luma from "../photos/luma.png";
-import karyosoft from "../photos/karyosoft.png";
-import rentlab from "../photos/rentlab.png";
-import iu from "../photos/iu.jpg";
-import givegrove from "../photos/givegrove.png";
-import bgc from "../photos/bgc.png"
-
-// import "../styles/portfolio.css";
+import companies from '../js/portfolio_content';
 
 const projects = [
     { title: "Future Wonder Website", link: "https://www.futurewonder.com/" },
-    { title: "JR Cuisine Website", link: "https://jr-cuisine.com/" }
+    { title: "JR Cuisine Website", link: "https://jr-cuisine.com/" },
+    { title: "Personal Webpage", link: "https://camisavines.github.io/home/" }
 ]
 
-
-const companies = [
-    { name: "sbcs", image: sbcs, size: "90%" },
-    { name: "luma", image: luma, size: "65%" },
-    { name: "karyosoft", image: karyosoft, size: "90%" },
-    { name: "rentlab", image: rentlab, size: "70%" },
-    { name: "bgc", image: bgc, size: "70%" },
-    { name: "futurwonder", image: futurewonder, size: "70%" },
-    { name: "iu", image: iu, size: "40%" },
-    { name: "givegrove", image: givegrove, size: "90%" },
-]
 
 
 const PROJECTS = projects.map(p =>
@@ -52,7 +29,8 @@ function Portfolio() {
             <h2>Projects</h2>
             <div className="justify-center flex items-center row pb-5"> {PROJECTS} </div>
 
-            <h2>Companies I've Worked With</h2>
+
+            <h2 className="mt-5">Companies I've Worked With</h2>
             <div className="justtify-center flex item-center container-fluid row"> {COMPANIES} </div>
         </div>
     )
