@@ -5,6 +5,12 @@ import news4 from '../photos/news/news4.png';
 
 const posts = [
     {
+        title: "The Newest Code Makers",
+        link: "https://magazine.nd.edu/stories/the-newest-code-makers/",
+        date: "Jul 1, 2020",
+        description: "Highlights South Bend Code School and its development from the time I was part of their program."
+    },
+    {
         title: "New Players in Tech: Renaissance Women", 
         link: "https://medium.com/south-bend-code-school/new-players-in-tech-renaissance-women-d2d30a0ba18f", 
         image: news1,

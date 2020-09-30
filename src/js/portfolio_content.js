@@ -9,14 +9,14 @@ import bgc from "../photos/company/bgc.png"
 
 
 const companies = [
-    { name: "sbcs", image: sbcs, size: "90%" },
-    { name: "luma", image: luma, size: "65%" },
-    { name: "karyosoft", image: karyosoft, size: "90%" },
-    { name: "rentlab", image: rentlab, size: "70%" },
-    { name: "bgc", image: bgc, size: "70%" },
-    { name: "futurwonder", image: futurewonder, size: "70%" },
-    { name: "iu", image: iu, size: "40%" },
-    { name: "givegrove", image: givegrove, size: "90%" },
+    { name: "sbcs", image: sbcs, size: "75%" },
+    { name: "luma", image: luma, size: "55%" },
+    { name: "karyosoft", image: karyosoft, size: "75%" },
+    { name: "rentlab", image: rentlab, size: "55%" },
+    { name: "bgc", image: bgc, size: "55%" },
+    { name: "futurwonder", image: futurewonder, size: "55%" },
+    { name: "iu", image: iu, size: "35%" },
+    { name: "givegrove", image: givegrove, size: "70%" },
 ]
 
 

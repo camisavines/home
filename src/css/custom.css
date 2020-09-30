@@ -27,6 +27,7 @@ ul#skills li:before {
 
 .project {
     padding: 15px;
-    background-color: #f7f9f9;
-    border: .25px solid #eaecee;
+    /* background-color: #f7f9f9; */
+    border: 2px solid grey;
+    border-radius: 10px;
 }

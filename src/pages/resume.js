@@ -90,7 +90,7 @@ function Resume() {
                     <ul>
                         <div className="mb-4"> <h4><b>Computer Science, BS, 2022</b></h4> <ul>
                                 <li>Luddy School of Informatics, Computing & Engineering<br/>Indiana University—Bloomington</li>
-                                <li>Minors in <b className="theme-yellow">Business, Math, Sports Analytics</b></li>
+                                <li>Minors in <b className="theme-yellow">Business, Math</b></li>
                         </ul> </div>
 
                         <div className="mb-4"> 

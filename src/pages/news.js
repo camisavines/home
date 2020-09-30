@@ -17,8 +17,8 @@ const NEWS = posts.map(p =>
     
 )
 
-const column1 = NEWS.slice(0, posts.length/2);
-const column2 = NEWS.slice(posts.length/2, posts.length);
+const column1 = NEWS.slice(0, posts.length/2 + 1);
+const column2 = NEWS.slice(posts.length/2 + 1, posts.length);
 
 function News() {
     return (
