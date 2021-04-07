@@ -1,0 +1,11 @@
+.about-container {
+    /* background-color: #A25D34; */
+    padding-top: 5vh;
+    text-align: center;
+}
+
+.about-container h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 28pt;
+}
