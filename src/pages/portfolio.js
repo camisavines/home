@@ -1,7 +1,7 @@
 import React from 'react';
 
 import companies from '../js/companies';
-import ProjectCarousel from '../components/project/project-carousel';
+// import ProjectCarousel from '../components/project/project-carousel';
 
 
 const COMPANIES = companies.map(c =>
@@ -15,7 +15,7 @@ function Portfolio() {
     return (
         <div className="py-5 containers">
             <h2>Projects</h2>
-            <ProjectCarousel /> 
+            {/* <ProjectCarousel />  */}
 
 
             <h2 className="mt-5">Companies I've Worked With</h2>

@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 70vh;
-    margin-bottom: 10vh;
+    height: 80%;
+    /* margin-bottom: 15vh; */
 }
 
 .hero-container h1 {
@@ -19,13 +19,12 @@
 
 }
 
-.hero-container .hero-image {
+.hero-image {
     background-image: url("../../photos/camisa.jpg");
-    width: 100%;
-    padding-top: 50%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: inherit;
     /* background-attachment: fixed; */
 }
 

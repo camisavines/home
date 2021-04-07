@@ -1,11 +1,10 @@
 .about-container {
-    /* background-color: #A25D34; */
-    padding-top: 5vh;
-    text-align: center;
+    min-height: 60vh;
+    /* text-align: center; */
 }
 
 .about-container h2 {
-    font-family: 'Roboto', sans-serif;
+    font-size: 32pt;
     font-weight: 500;
-    font-size: 28pt;
+    font-family: 'Roboto', sans-serif;
 }
