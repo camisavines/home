@@ -2,8 +2,8 @@ import React from 'react';
 
 import Navbar from "../components/navbar/navbar";
 import Hero from "../components/hero/hero";
-import About from "../components/about/about";
-import Footer from "../components/footer/footer";
+import AboutComponent from "../components/about/about";
+import NewsComponent from "../components/news/news";
 
 import logo00 from "../photos/00-Logo.png";
 import '../css/home.css';
@@ -25,14 +25,11 @@ class Home extends React.Component {
                     <Hero />
                 </div>
 
-
-
-                <About />
-
+                <AboutComponent />
                 <hr />
 
-                <h2>&#127925; &#127911; Music I Like</h2>
-
+                {/* <NewsComponent /> */}
+                
             </div>
             </div>
         )

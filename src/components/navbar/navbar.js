@@ -13,7 +13,7 @@ class Navbar extends React.Component {
                 <img src={logo00} />
             </div>
 
-            <div className="col-xs-2 col-md-1 offset-md-8">
+            {/* <div className="col-xs-2 col-md-1 offset-md-8">
                 <img src={logo00} />
             </div>
             <div className="col-xs-2 col-md-1">
@@ -21,7 +21,7 @@ class Navbar extends React.Component {
             </div>
             <div className="col-xs-2 col-md-1">
                 <img src={logo00} />
-            </div>
+            </div> */}
         </div>
         
     

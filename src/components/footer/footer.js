@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+import * as ROUTES from "../../data/routes";
 
 import logo00 from "../../photos/00-Logo.png";
 import './footer.css';
@@ -15,16 +17,14 @@ function Footer() {
                     </div>
 
                     <div className="col-xs-6 link-container">
-                        <h4>About Me</h4>
-                        <h4>Resume</h4>
-                        <h4>News</h4>
+                        <h4><Link to={ROUTES.ABOUT}>About Me</Link></h4>
+                        <h4><Link to={ROUTES.RESUME}>Resume</Link></h4>
+                        <h4><Link to={ROUTES.NEWS}>News</Link></h4>
                     </div>
                 </div>
 
 
-
-
-                <p>Copyright © 2021 Camisa Vines, All Rights Reserved</p>
+                <p style={{marginTop: "4vh"}}>Copyright © 2021 Camisa Vines, All Rights Reserved</p>
             </div>
         </div>
     </>
