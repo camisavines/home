@@ -2,7 +2,7 @@ import React from 'react';
 
 import Hero from "../components/hero/hero";
 import AboutComponent from "../components/about/about";
-// import NewsComponent from "../components/news/news";
+import NewsComponent from "../components/news/news";
 
 import logo00 from "../photos/00-Logo.png";
 import '../css/home.css';
@@ -16,6 +16,7 @@ class Home extends React.Component {
 
     render() {
         return (
+        <>
         <div className="home-container">
             <div className="container">
 
@@ -24,17 +25,15 @@ class Home extends React.Component {
                 </div>
 
                 <Hero />
-
-                {/* <AboutComponent /> */}
-
-
-
-                {/* <hr /> */}
-
-                {/* <NewsComponent /> */}
-                
             </div>
         </div>
+
+        <div className="separator reverse"></div>
+
+        <AboutComponent />
+        <NewsComponent />
+
+        </>
         )
     }
 }

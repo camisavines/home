@@ -9,8 +9,9 @@ import './about.css';
 function AboutComponent() {
     return (
         <>
-        <div className="row about-container">
+        <div className="about-container">
             <div className="container">
+
                 <h2>About Me</h2>
 
                 <p>
