@@ -1,8 +1,10 @@
 .hero-container {
-    height: 80vh;
+    height: 40vh;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #ccc;
 }
 
 .hero-container h1 {

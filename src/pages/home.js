@@ -18,21 +18,19 @@ class Home extends React.Component {
         return (
         <>
         <div className="home-container">
-            <div className="container">
+            <Hero />
 
-                <div className="home-nav-logo row">
-                    <img src={logo00} style={{height: "100%"}}/>
-                </div>
-
-                <Hero />
-            </div>
-        </div>
 
         <div className="separator reverse"></div>
 
-        <AboutComponent />
-        <NewsComponent />
+        {/* Layout projects */}
 
+        
+
+        {/* <AboutComponent /> */}
+        {/* <NewsComponent /> */}
+
+        </div>
         </>
         )
     }
