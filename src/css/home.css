@@ -1,7 +1,29 @@
 .home-container {
-    background-color: #D0A380;
-    padding-bottom: 15vh;
+    background-color: #ccc;
+    /* background-color: #D0A380; */
+    /* padding-bottom: 15vh; */
 }
 
+.full-height {
+    height: 100vh;
+}
 
+.home-nav-logo {
+    height: 10vh;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.home-hero-section {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.hero-image {
+    background-image: url("../photos/camisa_pic.JPG");
+    border: 10px solid black;
+}
   

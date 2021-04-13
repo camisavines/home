@@ -1,11 +1,9 @@
 .navbar {
-    height: 10%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    height: 10vh;
+    padding: 20px;
     /* margin-bottom: 2vh; */
 }
 
 .navbar img {
-    height: 75%;
-    width: 75%;
+    height: 100%;
 }

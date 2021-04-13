@@ -1,30 +1,26 @@
 import React from 'react';
-import logo00 from "../../photos/00-Logo.png";
+import { Link } from "react-router-dom";
+
+import * as ROUTES from "../../data/routes";
+
+import logo01_small from "../../photos/01-Logo small.png";
 import "./navbar.css";
 
 class Navbar extends React.Component {
-    constructor(props) {super(props);}
+    constructor(props) {
+        super(props);
+    }
 
     render() {
     return (
     <>
         <div className="row navbar">
-            <div className="col-xs-1 col-md-1">
-                <img src={logo00} />
-            </div>
+            <Link to={ROUTES.HOME}>
+                <img src={logo01_small} alt="" style={{height: "100%"}}/>
+            </Link>
 
-            {/* <div className="col-xs-2 col-md-1 offset-md-8">
-                <img src={logo00} />
-            </div>
-            <div className="col-xs-2 col-md-1">
-                <img src={logo00} />
-            </div>
-            <div className="col-xs-2 col-md-1">
-                <img src={logo00} />
-            </div> */}
+            {/* Maybe add buttons for change color theme */}
         </div>
-        
-    
     </>
     )
     }
