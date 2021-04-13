@@ -28,7 +28,7 @@ function AboutComponent() {
                     Although I am only a third year, undergraduate student, I have internship experience as a frontend web developer and software engineer. I am proficienct in many programming languages and platforms and am confident in my ability to succeed in roles similar to these.
                 </p>
 
-                <button type="button" className="btn"><Link to={ROUTES.ABOUT}>More About Me</Link></button>
+                <p type="button" className="btn"><Link to={ROUTES.ABOUT}>More About Me</Link></p>
                 
             </div>
         </div>
