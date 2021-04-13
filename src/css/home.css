@@ -5,7 +5,7 @@
 }
 
 .full-height {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .home-nav-logo {
@@ -14,16 +14,4 @@
     margin-bottom: 10px;
 }
 
-.home-hero-section {
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10vh;
-}
-
-.hero-image {
-    background-image: url("../photos/camisa_pic.JPG");
-    border: 10px solid black;
-}
   

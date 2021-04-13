@@ -1,40 +1,39 @@
 .hero-container {
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80%;
-    /* margin-bottom: 15vh; */
 }
 
 .hero-container h1 {
-    color: #1A1A19;
-    font-size: 48pt;
+    /* color: #1A1A19; */
+    font-size: 3em;
     font-family: 'Roboto', sans-serif;
 }
 
 .hero-container h2 {
-    color: #A25D34;
-    font-size: 18pt;
+    /* color: #A25D34; */
+    font-size: 14pt;
     font-family: 'Roboto', sans-serif;
 
 }
 
 .hero-image {
-    background-image: url("../../photos/camisa.jpg");
+    background-image: url("../../photos/camisa_pic.JPG");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: inherit;
+    padding-top: 100%;
     /* background-attachment: fixed; */
 }
 
 .btn {
+    font-size: 10pt;
     border: 2px solid #353634;
     color: #353634;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: 2vh;
-    margin-bottom: 1vh;
 }

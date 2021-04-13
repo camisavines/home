@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Navbar from "../components/navbar/navbar";
 import Hero from "../components/hero/hero";
 import AboutComponent from "../components/about/about";
 // import NewsComponent from "../components/news/news";
@@ -26,11 +25,10 @@ class Home extends React.Component {
 
                 <Hero />
 
-
-
-
-
                 {/* <AboutComponent /> */}
+
+
+
                 {/* <hr /> */}
 
                 {/* <NewsComponent /> */}
