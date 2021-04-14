@@ -1,7 +1,4 @@
 import React from 'react';
-import { Link } from "react-router-dom";
-
-import * as ROUTES from "../../data/routes";
 import "./hero.css";
 
 function Hero() {
@@ -9,7 +6,7 @@ function Hero() {
         <div className="hero-container row">
             <div className="col-xs-12">
                 <h1>Camisa Vines</h1>
-                <p>Developer + Engineer + Student + Leader + Female &#127752; &#128187;</p>
+                <p>Developer + Engineer + Student + Leader + Female <span role="img" aria-labelledby="hero emojis">&#127752; &#128187;</span></p>
             </div>
 
 
