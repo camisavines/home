@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/news.css';
 
-import posts from '../js/news_content';
+import posts from '../data/news_content';
 
 const NEWS = posts.map(p =>
     <div className="col-xs-12 my-5">

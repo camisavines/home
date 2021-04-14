@@ -4,6 +4,20 @@ section {
 }
 
 section .row {
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
+}
+
+.music-cover {
+    padding-top: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    margin-bottom: 2vh;
+}
+
+.movie-cover {
+    padding-top: 150%;
+    border-radius: 10px;
+    background-size: cover;
+    margin-bottom: 2vh;
 }

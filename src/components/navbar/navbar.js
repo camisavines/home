@@ -27,17 +27,17 @@ class Navbar extends React.Component {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                     <li className="nav-item active">
-                        <Link to={ROUTES.HOME} className="nav-link">Home</Link>
+                        <Link to={ROUTES.HOME} className="nav-link">Portfolio</Link>
                     </li>
                     <li className="nav-item">
                         <Link to={ROUTES.ABOUT} className="nav-link">About</Link>
                     </li>
-                    {/* <li className="nav-item">
+                    <li className="nav-item">
                         <Link to={ROUTES.RESUME} className="nav-link">Resume</Link>
                     </li>
                     <li className="nav-item">
                         <Link to={ROUTES.NEWS} className="nav-link">News</Link>
-                    </li> */}
+                    </li>
                 </ul>
             </div>
 

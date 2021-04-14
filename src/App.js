@@ -8,9 +8,8 @@ import Footer from './components/footer/footer';
 
 import * as ROUTES from "./data/routes";
 
-// import Resume from './pages/resume';
-// import Portfolio from './pages/portfolio';
-// import News from './pages/news';
+import Resume from './pages/resume';
+import News from './pages/news';
 
 
 function App() {
@@ -22,9 +21,8 @@ function App() {
       <Route path={ROUTES.ABOUT} component={About} />
 
 
-      {/* <Route path="/resume" component={Resume} />
-      <Route path="/portfolio" component={Portfolio} />
-      <Route path="/news" component={News} /> */}
+      <Route path={ROUTES.RESUME} component={Resume} />
+      <Route path={ROUTES.NEWS} component={News} />
 
       <Footer />
     </Router>
