@@ -1,11 +1,15 @@
 .home-container {
-    background-color: #ccc;
+    /* background-color: #ccc; */
     /* background-color: #D0A380; */
     /* padding-bottom: 15vh; */
 }
 
 .full-height {
     min-height: 100vh;
+}
+
+.project-height {
+    min-height: 60vh;
 }
 
 .home-nav-logo {

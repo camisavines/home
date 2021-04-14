@@ -1,0 +1,9 @@
+section {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+section .row {
+    align-items: center;
+    text-align: center;
+}

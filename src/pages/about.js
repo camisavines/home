@@ -2,7 +2,7 @@ import React from 'react';
 
 import Hero from "../components/hero/hero";
 // import logo00 from "../photos/00-Logo.png";
-import '../css/home.css';
+import '../css/about.css';
 
 class About extends React.Component {
     constructor(props) {
@@ -44,7 +44,7 @@ class About extends React.Component {
         </div>
 
 
-        <div className="row">
+        <section>
             <div className="container">
                 <h2>Interests</h2>
                 <div className="row">
@@ -54,10 +54,10 @@ class About extends React.Component {
                     <div className="col-6 col-sm-3">Tech Consulting</div>
                 </div>
             </div>
-        </div>
+        </section>
         
 
-        <div className="row">
+        <section>
             <div className="container">
                 <h2>Hobbies</h2>
                 <div className="row">
@@ -67,21 +67,21 @@ class About extends React.Component {
                     <div className="col-6 col-sm-3">Tech Consulting</div>
                 </div>
             </div>
-        </div>
+        </section>
 
 
-        <div className="row">
+        <section>
             <div className="container">
                 <h2>Art I Like</h2>
             </div>
-        </div>
+        </section>
 
 
-        <div className="row">
+        <section>
             <div className="container">
                 <h2> <span role="img" aria-labelledby="hero emojis">&#127925; &#127911;</span> Music I Like</h2>
             </div>
-        </div>
+        </section>
         
 
    
