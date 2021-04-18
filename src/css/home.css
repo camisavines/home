@@ -9,7 +9,14 @@
 }
 
 .project-height {
-    min-height: 60vh;
+    min-height: 65vh;
+}
+
+.project-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 5vh; */
 }
 
 .home-nav-logo {

@@ -20,19 +20,22 @@ class Home extends React.Component {
         this.projectPosts = projects.map(p =>
             <section className="project-height">
                 <div className="container">
-                    <div className="row">
+                    <div className="row project-text">
                         
                         <div className="col-md-6">
                             <img src={p.img} alt={p.alt} width="100%" />
                         </div>
 
-                        <div className="col-md-6">
+                        <div className="col-md-6 ">
+                            <div>
+
                             <h2>{p.title}</h2>
                             <p>{p.description} {p.link2 ? <a href={p.link2}>{p.link2Text}</a> : <></>}
                             </p>
 
                             {p.link ? <p><a href={p.link}>See Project</a></p>
                             : <></>}
+                            </div>
                         </div>
 
                     </div>
