@@ -4,13 +4,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("https://image.freepik.com/free-photo/top-view-white-desk-office-workspace-table-essential-elements-flat-lay_54178-913.jpg");
-    /* background-image: url("https://t4.ftcdn.net/jpg/03/00/56/61/360_F_300566136_b8TwZKGOqvkrTiu2L0ZIU2I5mLuypbHH.jpg"); */
+    background-image: url("../../photos/heroimage.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: auto 50vh;
     background-color: rgb(244, 245, 245); 
     background-position-x: left;
-    /* background-color: rgb(55, 0, 255); */
+    /* background-color: rgb(55, 0, 255);  */
 }
 
 .hero-container h1 {

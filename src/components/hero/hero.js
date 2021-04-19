@@ -17,7 +17,7 @@ class Hero extends React.Component {
         <div className="hero-container row">
             <div className="col-xs-12">
                 <h1>Camisa Vines</h1>
-                <p>Developer {this.getEmoji(128187)}
+                <p>Developer
                     + Student 
                     + Leader 
                     + Female <span role="img" aria-labelledby="hero emojis">&#127752; &#128187;</span></p>
