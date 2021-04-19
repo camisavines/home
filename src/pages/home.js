@@ -50,8 +50,7 @@ class Home extends React.Component {
         return (
         <>
         <div className="home-container">
-            <Hero />
-            <div className="separator reverse"></div>
+            <Hero showSeparator={true}/>
 
             {this.projectPosts}
 

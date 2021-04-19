@@ -15,7 +15,7 @@ class Navbar extends React.Component {
     render() {
         return (
         <>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light">
             <a className="navbar-brand" href="/">
                 <img src={logo00} width="30" height="30" className="d-inline-block align-top" alt="" />
             </a>
