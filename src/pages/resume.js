@@ -7,6 +7,7 @@ const SKILLS = R.skills.map(item =>
 
 const EXPERIENCE = R.work.map(job =>
     <div className="mb-4"> <h4><b>{job.title}</b>, {job.company}</h4> <ul>
+        <li>{job.dates}</li>
         <li>{job.description}</li>
         <li><b>{job.assets}</b></li>
     </ul> </div>
@@ -41,8 +42,9 @@ function Resume() {
                 <div className="col-xs-12 col-lg-6 my-3">
                     <h2>Education</h2>
                     <ul>
-                        <div className="mb-4"> <h4><b>Computer Science, BS, 2022</b></h4> <ul>
+                        <div className="mb-4"> <h4>Bachelor of Science in <b>Computer Science, 2022</b></h4> <ul>
                                 <li>Luddy School of Informatics, Computing & Engineering<br/>Indiana University—Bloomington</li>
+                                <li>Specializing in <b className="theme-yellow">Software Engineering</b></li>
                                 <li>Minors in <b className="theme-yellow">Business, Math</b></li>
                         </ul> </div>
 
@@ -51,10 +53,10 @@ function Resume() {
                             <ul>{COURSES}</ul>
                         </div>
 
-                        <div>
+                        {/* <div>
                             <h4>Research Interests</h4>
                             <p>Sports Analytics</p>
-                        </div>
+                        </div> */}
 
                     </ul>
                 </div>

@@ -12,7 +12,7 @@ class Home extends React.Component {
         super(props);
 
         this.companyPosts = companies.map(c =>
-            <div className="col-6 col-sm-4 col-lg-3">
+            <div className="col-6 col-sm-4 col-lg-3 my-4">
                 <img src={c.image} alt={c.name} width={c.size} />
             </div>
         )
