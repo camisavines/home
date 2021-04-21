@@ -8,11 +8,11 @@ const NEWS = posts.map(p =>
     <div className="col-xs-12 my-5">
         <div className="card">
             {p.image ? (
-                <img clasNames="card-img-top" src={p.image} alt={p.title }/>
+                <img className="card-img-top" src={p.image} alt={p.title }/>
             ) : (<></>)}
             <div className="card-body">
                 <h3>{p.title}</h3>
-                <p class="card-text">{p.description}</p>
+                <p className="card-text">{p.description}</p>
                 <p><small className="text-muted"><a href={p.link} target="_blank">Visit</a></small></p>
                 <p><small className="text-muted">{p.date}</small></p>
             </div>

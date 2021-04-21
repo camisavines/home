@@ -15,7 +15,7 @@ class Hero extends React.Component {
     render() { return (
         <> 
         <div className="hero-container row">
-            <div className="col-xs-12">
+            <div className="col-xs-12 container">
                 <h1>Camisa Vines</h1>
                 <p>Developer
                     + Student 
