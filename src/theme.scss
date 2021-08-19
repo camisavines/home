@@ -7,6 +7,7 @@ $color-theme-light: #222;
 $bg-theme-dark: #222;
 $color-theme-dark: #fff;
 
+
 * {
     box-sizing: border-box;
 }
@@ -20,4 +21,18 @@ body {
     color: $color-theme-light;
     padding: 0;
     height: 100vh;
+}
+
+.app-router {
+    min-height: 100vh;
+}
+
+.app-router.theme-dark {
+    background-color: $bg-theme-dark;
+    color: $color-theme-dark;
+}
+  
+.app-router.theme-light {
+    background-color: $bg-theme-light;
+    color: $color-theme-light;
 }

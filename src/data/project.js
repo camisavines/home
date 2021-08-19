@@ -31,12 +31,12 @@ const projects = [
        img: pythonProject,
        description: "Another project I worked on as a Future Wonder intern was creating a program that would convert the company's time sheets from a Clockify.me CSV into IIF Quickbooks format. To this day, this has been an essential tool used by the senior consultant and cuts down the time it takes to process monthly finance reports."
    },
-   {
-       title: "Black Database",
-       alt: "blackdatabase",
-       img: bdb,
-       description: "I am currently working on a web application that displays a personally curated database containing accomplishments made by extraordinary, black individuals. The app will be able to filter and give more information about each category.",
-   },
+//    {
+//        title: "Black Database",
+//        alt: "blackdatabase",
+//        img: bdb,
+//        description: "I am currently working on a web application that displays a personally curated database containing accomplishments made by extraordinary, black individuals. The app will be able to filter and give more information about each category.",
+//    },
    {
        title: "Regrader",
        alt: "regrader",
