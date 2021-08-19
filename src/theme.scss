@@ -1,0 +1,23 @@
+// Light mode
+$bg-theme-light: #fff;
+$color-theme-light: #222;
+
+
+// Dark mode
+$bg-theme-dark: #222;
+$color-theme-dark: #fff;
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: $bg-theme-light;
+    color: $color-theme-light;
+    padding: 0;
+    height: 100vh;
+}

@@ -49,7 +49,15 @@ class Home extends React.Component {
     render() {
         return (
         <>
-        <div className="home-container">
+        <div className="container">
+            <div className="hero">
+                <h1>Hey, what's up?</h1>
+                <h2>I'm Camisa. Software Developer and Student.</h2>
+            </div>
+
+            
+        </div>
+        {/* <div className="home-container">
             <Hero showSeparator={true}/>
 
             {this.projectPosts}
@@ -64,7 +72,7 @@ class Home extends React.Component {
             </section>
 
 
-        </div>
+        </div> */}
         </>
         )
     }

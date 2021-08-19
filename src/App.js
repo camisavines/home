@@ -11,6 +11,8 @@ import * as ROUTES from "./data/routes";
 import Resume from './pages/resume';
 import News from './pages/news';
 
+import "./theme.scss";
+
 
 function App() {
   return (
