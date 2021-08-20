@@ -1,7 +1,6 @@
 import React from 'react';
 import '../css/news.css';
 
-import Hero from "../components/hero/hero";
 import posts from '../data/news_content';
 
 const NEWS = posts.map(p =>
@@ -27,7 +26,6 @@ const column2 = NEWS.slice(posts.length/2, posts.length);
 function News() {
     return (
         <>
-        <Hero />
         <div className="container">
             {/* <h2>News</h2> */}
             <div className="row container-fluid">
