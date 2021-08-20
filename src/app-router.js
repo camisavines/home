@@ -63,8 +63,8 @@ function App() {
 
         <Route path={ROUTES.HOME} exact component={Home} />
         <Route path={ROUTES.ABOUT} component={About} />
-        <Route path={ROUTES.RESUME} component={Resume} />
-        <Route path={ROUTES.NEWS} component={News} />
+        {/* <Route path={ROUTES.RESUME} component={Resume} /> */}
+        {/* <Route path={ROUTES.NEWS} component={News} /> */}
 
 
       <div className="row nav-container container">

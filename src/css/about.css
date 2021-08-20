@@ -3,9 +3,21 @@ section {
     padding-bottom: 5vh;
 }
 
-section .row {
-    /* align-items: center; */
-    /* text-align: center; */
+.about {
+    height: 40vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* border: 1px black solid; */
+}
+
+.about h3 span {
+    font-size: 26pt;
+    vertical-align: baseline;
+}
+
+section h2 span {
+    font-size: 30pt;
+    vertical-align: baseline;
 }
 
 .music-cover {

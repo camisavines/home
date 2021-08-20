@@ -47,14 +47,27 @@ class Home extends React.Component {
                 <h2>I'm Camisa. <br/> Student and Software Developer.</h2>
                 <div className="image"></div>
 
-                <p>My journey in Computer Science started in 2016. [...]</p>
+                <p>My journey in Computer Science started in 2016. I joined a 10-week program with South Bend Code School designed to teach web development to middle school and high school students. Shortly after my completion in the program, at age 16, I recieved my first internship offer as a Web Development Intern for a small company out of Notre Dame, IN. Continuing to practice and development tech skills in high school, I decided to major in Computer Science at Indiana University-Bloomington where I will gradute from in Spring 2022.</p>
+                <p>In college, I had more exposure to the tech industry through research, independent study, and other internships. I worked as a Tech Consulting Intern with Future Wonder which provided me my first industry level project and experience.</p>
                 <p>Most recently, I have worked as a Software Developer at IBM. And upon gradutation, I hope to continue my career as a Full Stack Developer.</p>
-
-
-                <Link to={ROUTES.ABOUT}>
-                    <p>More About Me  <span style={{verticalAlign: "middle", fontSize: "1.25rem"}} className="material-icons">arrow_forward</span></p>
-                </Link>
             </div>
+
+
+            <section>
+                <h2>Something I'm working on . . .</h2>
+                <img src={bdb} width="100%" />
+                <h3>Black Database</h3>
+                <h5>I am currently working on a web application that displays a personally curated database containing accomplishments made by extraordinary, black individuals with a focus around tech and black culture. The app will be able to filter through items and give more information about each person, place, or category. Eventually, I'd like to include the accomplishments of all people of color represented in America today.</h5>
+            </section>
+
+
+            <section>
+                <h2>Past Projects</h2>
+                <div className="row center">
+                    {this.projectPosts}
+                </div>
+            </section>
+
 
             <section>
                 <h2>Just a Big Kid</h2>
@@ -75,24 +88,10 @@ class Home extends React.Component {
                         <img src={kualoa} />
                     </div>
                 </div>
-                <p>View my top 10 travel bucket list.</p>
-            </section>
 
-
-            <h2>Something I'm working on . . .</h2>
-
-            <section>
-                <img src={bdb} width="100%" />
-                <h3>Black Database</h3>
-                <h5>I am currently working on a web application that displays a personally curated database containing accomplishments made by extraordinary, black individuals with a focus around tech and black culture. The app will be able to filter through items and give more information about each person, place, or category. Eventually, I'd like to include the accomplishments of all people of color represented in America today.</h5>
-            </section>
-
-
-            <section>
-                <h2>Past Projects</h2>
-                <div className="row center">
-                    {this.projectPosts}
-                </div>
+                <Link to={ROUTES.ABOUT}>
+                    <p>More About Me  <span style={{verticalAlign: "middle", fontSize: "1.25rem"}} className="material-icons">arrow_forward</span></p>
+                </Link>
             </section>
 
             <section>
