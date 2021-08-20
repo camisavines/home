@@ -1,3 +1,58 @@
-.bigger-p {
-    font-size: large;
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.hero {
+    padding-top: 3vh;
+    padding-bottom: 5vh;
+}
+
+.hero .image {
+    height: 30vh;
+    background-image: url('https://gender.indiana.edu/images/banners/banners-3072x1024/sample-gates.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.app-router.theme-light .project {
+    height: 100%;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    box-shadow: none;
+    background-color: #fafafa;
+    border-radius: 20px;
+}
+
+.app-router.theme-dark .project {
+    height: 100%;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    box-shadow: none;
+    background-color: #333;
+    border-radius: 20px;
+}
+
+.app-router.theme-dark .project .card-content {
+    color: white;
+}
+
+.collage {
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.collage img {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
