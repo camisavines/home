@@ -62,3 +62,12 @@ export const MUSIC = [
         img: "https://ratedrnb.com/cdn/2020/05/Lucky-Daye.v1-1140x1140.png"
     }
 ];
+
+export const HOBBIES = [
+    "Taking care of my pets",
+    "Listening to music",
+    "Traveling",
+    "Cooking",
+    "Photography",
+    "Trying new things",
+]

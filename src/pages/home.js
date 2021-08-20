@@ -2,25 +2,25 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import * as ROUTES from "../data/routes"
-
-import Hero from "../components/hero/hero";
 import ProjectComponent from "../components/project/projectComponent";
-
-import companies from "../data/companies";
+import bdb from "../photos/projects/blackdatabase.png";
 import projects from "../data/project";
 import '../css/home.css';
 
-// Toggle theme colors: https://css-tricks.com/a-dark-mode-toggle-with-react-and-themeprovider/
+import dogs from "../photos/fun/dogs.JPG"
+import insta from "../photos/fun/insta.PNG";
+import insta3 from "../photos/fun/insta3.jpg";
+import kualoa from "../photos/fun/kualoa.JPG";
+import me from "../photos/fun/me.JPG";
+import sunset from "../photos/fun/sunset.JPG";
+import turtle from "../photos/fun/turtle.jpg";
+import train from "../photos/fun/train.jpg";
+
 
 class Home extends React.Component {
     constructor(props) {
         super(props);
 
-        this.companyPosts = companies.map(c =>
-            <div className="col-6 col-sm-4 col-lg-3 my-4">
-                <img src={c.image} alt={c.name} width={c.size} />
-            </div>
-        )
 
         this.projectPosts = projects.map(p =>
             <div className="col s12 l6">
@@ -42,32 +42,63 @@ class Home extends React.Component {
     render() {
         return (
         <div className="container">
-            <div className="hero">
+            <div className="row hero">
                 <h1>Hey, what's up?</h1>
-                <h2>I'm Camisa. <br/> Software Developer and Student.</h2>
+                <h2>I'm Camisa. <br/> Student and Software Developer.</h2>
                 <div className="image"></div>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <Link to={ROUTES.ABOUT} >
+
+                <p>My journey in Computer Science started in 2016. [...]</p>
+                <p>Most recently, I have worked as a Software Developer at IBM. And upon gradutation, I hope to continue my career as a Full Stack Developer.</p>
+
+
+                <Link to={ROUTES.ABOUT}>
                     <p>More About Me  <span style={{verticalAlign: "middle", fontSize: "1.25rem"}} className="material-icons">arrow_forward</span></p>
                 </Link>
             </div>
 
+            <section>
+                <h2>Just a Big Kid</h2>
+                <p>I am a kid at heart. I have two big and beautiful dogs. When I'm not in school, I'm typically hanging out with my friends or streaming a new show or movie. In my freetime, I enjoy traveling, trying new foods, movies, music and art. Recently, I've scratched Hawai'i off of my travel bucket list and I hope to get through my entire list one day.</p>
+                <div className="row collage">
+                    <div className="col s12 m6 l4">
+                        <img src={dogs} />
+                        <img src={insta} />
+                        <img src={sunset} />
+                    </div>
+                    <div className="col s12 m6 l4">
+                        <img src={insta3} />
+                        <img src={me} />
+                        <img src={turtle} />
+                    </div>
+                    <div className="col s12 m6 l4">
+                        <img src={train} />
+                        <img src={kualoa} />
+                    </div>
+                </div>
+                <p>View my top 10 travel bucket list.</p>
+            </section>
+
+
+            <h2>Something I'm working on . . .</h2>
 
             <section>
-                <h2>What I've worked on</h2>
+                <img src={bdb} width="100%" />
+                <h3>Black Database</h3>
+                <h5>I am currently working on a web application that displays a personally curated database containing accomplishments made by extraordinary, black individuals with a focus around tech and black culture. The app will be able to filter through items and give more information about each person, place, or category. Eventually, I'd like to include the accomplishments of all people of color represented in America today.</h5>
+            </section>
+
+
+            <section>
+                <h2>Past Projects</h2>
                 <div className="row center">
                     {this.projectPosts}
                 </div>
             </section>
 
-            {/* <section>
-                <h2>Let's Connect!</h2>
-                <div className="row">
-                    <div className="col s12 m6">
-
-                    </div>
-                </div>
-            </section> */}
+            <section>
+                <h2>Thanks for visiting!</h2>
+                <p>Let's stay connected on social media. Feel free to reach out with any questions!</p>
+            </section>
         </div>
         )
     }

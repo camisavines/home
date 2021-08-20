@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 
 import Home from './pages/home';
@@ -38,10 +38,15 @@ function App() {
 
   return (
     <div className={`app-router theme-${theme}`}>
-      <div className="row container" style={{paddingTop: "3vh", paddingBottom: "3vh"}}>
-        <div className="col s6" style={{padding: "10px"}}>
-          <img src={theme === 'light' ? logo_light: logo_dark} width="10%"/>
+      <Router>
+      <div className="row nav-container container">
+        <div className="col s1 left">
+          <Link to={ROUTES.HOME}>
+            <img src={theme === 'light' ? logo_light: logo_dark} height="50vh" className="center" />
+          </Link>
         </div>
+        {/* empty div for spacing */}
+        <div className="col s5"></div>
 
         <div className="col s6">
           <div className="switch right">
@@ -56,22 +61,30 @@ function App() {
       </div>
 
 
-      <Router>
         <Route path={ROUTES.HOME} exact component={Home} />
         <Route path={ROUTES.ABOUT} component={About} />
         <Route path={ROUTES.RESUME} component={Resume} />
         <Route path={ROUTES.NEWS} component={News} />
-      </Router>
 
-      <div className="row container">
-        <div className="col s6" style={{padding: "10px"}}>
-          <img src={theme === 'light' ? logo_light: logo_dark} width="5%"/>
+
+      <div className="row nav-container container">
+        <div className="col s1 left">
+          <Link to={ROUTES.HOME}>
+            <img src={theme === 'light' ? logo_light: logo_dark} height="30vh" className="center" />
+          </Link>
         </div>
 
-        <div className="col s6" style={{padding: "10px"}}>
-          {/* Links to github, linkedin and instagram */}
+        {/* empty div for spacing */}
+        <div className="col s11">
+          <p className="right">
+            <span><a href="https://www.linkedin.com/in/camisavines/">LinkedIn</a></span>
+            <span style={{marginLeft: "20px"}}><a href="https://github.com/camisavines">Github</a></span>
+            {/* <span style={{marginLeft: "20px"}}>Instagram</span> */}
+          </p>
         </div>
+
       </div>
+      </Router>
     </div>
   );
 }

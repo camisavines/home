@@ -1,43 +1,9 @@
-.home-container {
-    /* background-color: #ccc; */
-    /* background-color: #D0A380; */
-    /* padding-bottom: 15vh; */
-}
-
-.full-height {
-    min-height: 100vh;
-}
-
-.project-height {
-    min-height: 65vh;
-}
-
-.project-text {
+.nav-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding-top: 5vh; */
-}
-
-.home-nav-logo {
     height: 10vh;
-    padding: 10px;
-    margin-bottom: 10px;
 }
-
-.btn {
-    font-size: 10pt;
-    border: 2px solid #353634;
-    color: #353634;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-
-
-
 
 .hero {
     padding-top: 3vh;
@@ -63,4 +29,16 @@
     background-color: transparent;
 
     /* background-color: #555; */
+}
+
+.collage {
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.collage img {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }

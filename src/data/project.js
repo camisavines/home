@@ -1,7 +1,7 @@
 
 import fw from "../photos/projects/futurewonder.png";
 import pythonProject from "../photos/projects/python_project.png"
-import bdb from "../photos/projects/blackdatabase.png";
+// import bdb from "../photos/projects/blackdatabase.png";
 import hackathon from "../photos/projects/covidfacts.png";
 
 const projects = [
