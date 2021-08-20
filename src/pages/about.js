@@ -1,12 +1,12 @@
 import React from 'react';
 
-// import Hero from "../components/hero/hero";
 import * as CAMISA from "../data/camisa";
 import '../css/about.css';
 
 class About extends React.Component {
     constructor(props) {
         super(props);
+        window.scrollTo(0,0);
 
         this.interests = CAMISA.INTERESTS.map(i =>
             <div className="chip">{i}</div>
@@ -48,9 +48,7 @@ class About extends React.Component {
                     </div>
 
                     <div className="col s12 m6">
-                        <h3>Hello, again!</h3>
-                        {/* <p>I'm Camisa. I am a 21 year old student studying Computer Science at Indiana University-Bloomington.</p> */}
-                        
+                        <h3>Hello, again!</h3>                        
                         <p>I am a highly capable and innovative young professional with an exemplary academic report, and a passion for continuous learning and development.</p>
                         <p> I am have the ability to work well both independently and part of a team. Although still an undergraduate student, I have internship experience as a frontend web developer and software engineer. I am proficienct in many programming languages and platforms and am confident in my ability to succeed in roles similar to these.</p>
                         <p>Most recently, I've worked as a Frontend Development Intern at IBM. This experience was transformative and helped me gain clarity about the corporate work environment and skills needed to thrive in a full stack development position.</p> 

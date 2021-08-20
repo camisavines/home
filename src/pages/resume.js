@@ -2,7 +2,7 @@ import React from 'react';
 import * as R from "../data/resume";
 
 const SKILLS = R.skills.map(item =>
-    <li>{item}</li>
+    <span className="chip">{item}</span>
 )
 
 const EXPERIENCE = R.work.map(job =>
@@ -14,7 +14,7 @@ const EXPERIENCE = R.work.map(job =>
 )
 
 const EXTRA = R.extra.map(item =>
-    <li>{item}</li>
+    <span className="chip">{item}</span>
 )
 
 const COURSES = R.courses.map(c =>
@@ -22,7 +22,7 @@ const COURSES = R.courses.map(c =>
 )
 
 const AWARDS = R.awards.map (a =>
-    <div className="col-xs-12 col-sm-6 col-md-3">
+    <div className="col s6 m4 l3" style={{height: "30vh"}}>
         <h4>{a.name}</h4>
         <p>{a.description}</p>
     </div>
@@ -33,13 +33,13 @@ function Resume() {
         <div className="container">
             <div className="row">
 
-                <div className="col-xs-12 col-lg-6 my-3">
+                <div className="col s12 l6 my-3">
                     <h2>Experience</h2>
-                    <ul>{EXPERIENCE}</ul>
+                    <ul type="bullet">{EXPERIENCE}</ul>
                 </div>
 
 
-                <div className="col-xs-12 col-lg-6 my-3">
+                <div className="col s12 l6 my-3">
                     <h2>Education</h2>
                     <ul>
                         <div className="mb-4"> <h4>Bachelor of Science in <b>Computer Science, 2022</b></h4> <ul>
@@ -64,11 +64,11 @@ function Resume() {
 
 
             <div className="row">
-                <div className="col-xs-12 col-lg-6 my-3">
+                <div className="col s12 l6 my-3">
                     <h2>Skills</h2>
                     <ul id="skills"> {SKILLS} </ul>
                 </div>
-                <div className="col-xs-12 col-lg-6 my-3">
+                <div className="col s12 l6 my-3">
                     <h2>Extra-Curricular</h2>
                     <ul id="skills"> {EXTRA} </ul>
                 </div>
@@ -79,7 +79,7 @@ function Resume() {
                 <div className="containers">
 
                     <div className="row">
-                        <div className="col-xs-12 my-5 px-3">
+                        <div className="col s12 my-5 px-3">
                             <h2>Awards</h2>
                             <ul><div className="row">{AWARDS}</div></ul>
                         </div>

@@ -22,7 +22,7 @@ const ProjectComponent = ({imageURL, title, description, link, link2, link2text}
                     <div className="activator" style={imageStyle}></div>
                 </div>
 
-                <span className="card-title activator grey-text text-darken-4">{title}<i className="material-icons right">more_vert</i></span>
+                <span className="card-title activator">{title}<i className="material-icons right">more_vert</i></span>
                 <p>
                     {link ? <a href={link}>View Project</a> : null} 
                     {link2 ? <span><span style={separator}>|</span><a href={link2}>{link2text}</a></span> : null}
@@ -31,7 +31,7 @@ const ProjectComponent = ({imageURL, title, description, link, link2, link2text}
 
             <div className="card-reveal">
                 <span className="card-title grey-text text-darken-4">{title}<i class="material-icons right">close</i></span>
-                <p>{description}</p>
+                <p className="grey-text text-darken-4">{description}</p>
             </div>
         </div>
     )

@@ -12,23 +12,37 @@
 
 .hero .image {
     height: 30vh;
-    background-image: url('https://assets.hongkiat.com/uploads/minimalist-dekstop-wallpapers/4k/original/15.jpg');
+    background-image: url('https://gender.indiana.edu/images/banners/banners-3072x1024/sample-gates.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
 }
 
-.project {
+.app-router.theme-light .project {
     height: 100%;
     text-align: left;
     margin-top: 10px;
     margin-bottom: 15px;
     padding: 20px;
     box-shadow: none;
-    background-color: transparent;
+    background-color: #fafafa;
+    border-radius: 20px;
+}
 
-    /* background-color: #555; */
+.app-router.theme-dark .project {
+    height: 100%;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    box-shadow: none;
+    background-color: #333;
+    border-radius: 20px;
+}
+
+.app-router.theme-dark .project .card-content {
+    color: white;
 }
 
 .collage {

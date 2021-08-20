@@ -20,6 +20,7 @@ import train from "../photos/fun/train.jpg";
 class Home extends React.Component {
     constructor(props) {
         super(props);
+        window.scrollTo(0,0)
 
 
         this.projectPosts = projects.map(p =>
