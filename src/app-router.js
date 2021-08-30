@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Home from './pages/home';
 import About from './pages/about';
 import Resume from './pages/resume';
-import News from './pages/news';
+// import News from './pages/news';
 
 import * as ROUTES from "./data/routes";
 import "./theme.scss";
@@ -42,7 +42,7 @@ function App() {
       <div className="row nav-container container">
         <div className="col s1 left">
           <Link to={ROUTES.HOME}>
-            <img src={theme === 'light' ? logo_light: logo_dark} height="50vh" className="center" />
+            <img src={theme === 'light' ? logo_light: logo_dark} height="50vh" className="center" alt="logo top" />
           </Link>
         </div>
         {/* empty div for spacing */}
@@ -70,7 +70,7 @@ function App() {
       <div className="row nav-container container">
         <div className="col s1 left">
           <Link to={ROUTES.HOME}>
-            <img src={theme === 'light' ? logo_light: logo_dark} height="30vh" className="center" />
+            <img src={theme === 'light' ? logo_light: logo_dark} height="30vh" className="center" alt="logo bottom" />
           </Link>
         </div>
 
