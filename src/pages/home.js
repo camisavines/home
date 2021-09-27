@@ -52,10 +52,6 @@ class Home extends React.Component {
                 <p>Most recently, I have worked as a Software Developer Intern at IBM. And upon gradutation, I hope to continue my career as a Full Stack Developer.</p>
             </div>
 
-            <section>
-
-            </section>
-
 
             <section>
                 <h2>Something I'm working on . . .</h2>

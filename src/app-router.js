@@ -40,9 +40,9 @@ function App() {
     <div className={`app-router theme-${theme}`}>
       <Router>
       <div className="row nav-container container">
-        <div className="col s1 left">
+        <div className="col s1 left" style={{height: "100%"}}>
           <Link to={ROUTES.HOME}>
-            <img src={theme === 'light' ? logo_light: logo_dark} height="50vh" className="center" alt="logo top" />
+            <img src={theme === 'light' ? logo_light: logo_dark} height="100%" className="center" alt="logo top" />
           </Link>
         </div>
         {/* empty div for spacing */}
