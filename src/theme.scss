@@ -1,0 +1,16 @@
+$theme-light-bg: #999;
+
+$theme-dark-bg: #222;
+
+
+.app-router.theme-light {
+    .navbar {
+        background-color: $theme-light-bg;
+    }
+}
+
+.app-router.theme-dark {
+    .navbar {
+        color: white;
+    }
+}

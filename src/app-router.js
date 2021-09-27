@@ -8,13 +8,14 @@ import Resume from './pages/resume';
 // import News from './pages/news';
 
 import Navbar from './components/navbar';
-import Footer from './components/footer';
+// import Footer from './components/footer';
 import * as ROUTES from "./data/routes";
 
 
 import "./css/index.css";
-import "./css/theme_light.css";
-import "./css/theme_dark.css";
+import "./theme.scss";
+// import "./css/theme_light.css";
+// import "./css/theme_dark.css";
 
 const App = () => {
   const [theme, setTheme] = useState('light');
@@ -41,7 +42,7 @@ const App = () => {
           {/* <Route path={ROUTES.NEWS} component={News} /> */}
         </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </Router>
   );
 }
