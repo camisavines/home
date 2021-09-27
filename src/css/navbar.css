@@ -1,0 +1,18 @@
+.theme-changer {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.theme-changer:hover {
+    cursor: pointer;
+}
+
+.theme-changer.light {
+    background-color: lightgrey;
+    border: 2px solid black;
+}
+
+.theme-changer.dark {
+    background-color: black;
+    border: 2px solid grey;
+}

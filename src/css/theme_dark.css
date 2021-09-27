@@ -1,20 +1,15 @@
-// Light mode
-$bg-theme-light: #fff;
-$color-theme-light: #222;
 
-
+/* 
 // Dark mode
 $bg-theme-dark: #222;
-$color-theme-dark: #fff;
+$color-theme-dark: #fff; */ */
 
-
-* {
-    box-sizing: border-box;
+.theme-dark {
+    background-color: #222;
 }
 
-html {
-    height: 100%;
-}
+/*
+
 
 body {
     background-color: $bg-theme-light;
@@ -35,4 +30,4 @@ body {
 .app-router.theme-light {
     background-color: $bg-theme-light;
     color: $color-theme-light;
-}
+} */

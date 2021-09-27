@@ -1,54 +1,52 @@
-.nav-container {
+.home-hero {
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)), url('https://www.wallpaperup.com/uploads/wallpapers/2014/09/17/444694/cc8a396bd0e21574a7182a1eb49bcb72.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 8vh;
-    padding-top: 2vh;
-    margin-bottom: 2vh;
-}
-
-.hero {
-    padding-top: 3vh;
-    padding-bottom: 5vh;
-}
-
-.hero .image {
-    height: 30vh;
-    background-image: url('https://gender.indiana.edu/images/banners/banners-3072x1024/sample-gates.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
-}
-
-.app-router.theme-light .project {
-    height: 100%;
-    text-align: left;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    padding: 20px;
-    box-shadow: none;
-    background-color: #fafafa;
-    border-radius: 20px;
-}
-
-.app-router.theme-dark .project {
-    height: 100%;
-    text-align: left;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    padding: 20px;
-    box-shadow: none;
-    background-color: #333;
-    border-radius: 20px;
-}
-
-.app-router.theme-dark .project .card-content {
     color: white;
 }
+  
+.hr-text {
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: .5;
+}
+.hr-text:before {
+    content: '';
+    /* // use the linear-gradient for the fading effect
+    // use a solid background color for a solid bar */
+    background: linear-gradient(to right, transparent, #818078, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+}
+
+.hr-text:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+
+    padding: 0 .5em;
+    line-height: 1.5em;
+    /* // this is really the only tricky part, you need to specify the background color of the container element... */
+    color: #818078;
+    background-color: #fcfcfa;
+}
+
 
 .collage {
-    height: 100vh;
     overflow-y: hidden;
 }
 
