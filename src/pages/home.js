@@ -89,6 +89,7 @@ class Home extends React.Component {
 
 
 
+    {/* 
         <section>
             <div className="container-fluid">
                 <div className="row align-items-center">
@@ -121,7 +122,8 @@ class Home extends React.Component {
                 </div>
             </div>
 
-        </section>
+        </section> 
+    */}
         </>
         )
     }
