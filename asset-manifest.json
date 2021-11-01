@@ -1,34 +1,22 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.fb29bfd1.chunk.css",
-    "main.js": "/home/static/js/main.4f5d9bdf.chunk.js",
-    "main.js.map": "/home/static/js/main.4f5d9bdf.chunk.js.map",
+    "main.css": "/home/static/css/main.39cf4f1f.chunk.css",
+    "main.js": "/home/static/js/main.a0fe60a9.chunk.js",
+    "main.js.map": "/home/static/js/main.a0fe60a9.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.b3cf67a7.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.b3cf67a7.js.map",
-    "static/js/2.2eb103bc.chunk.js": "/home/static/js/2.2eb103bc.chunk.js",
-    "static/js/2.2eb103bc.chunk.js.map": "/home/static/js/2.2eb103bc.chunk.js.map",
+    "static/js/2.27a764f2.chunk.js": "/home/static/js/2.27a764f2.chunk.js",
+    "static/js/2.27a764f2.chunk.js.map": "/home/static/js/2.27a764f2.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.95eb58767d98b98ae144fb7cdd62dd74.js": "/home/precache-manifest.95eb58767d98b98ae144fb7cdd62dd74.js",
+    "precache-manifest.a495e4cec977647e574262e7c802e8fd.js": "/home/precache-manifest.a495e4cec977647e574262e7c802e8fd.js",
     "service-worker.js": "/home/service-worker.js",
-    "static/css/main.fb29bfd1.chunk.css.map": "/home/static/css/main.fb29bfd1.chunk.css.map",
-    "static/js/2.2eb103bc.chunk.js.LICENSE.txt": "/home/static/js/2.2eb103bc.chunk.js.LICENSE.txt",
-    "static/media/blackdatabase.png": "/home/static/media/blackdatabase.5a105990.png",
-    "static/media/covidfacts.png": "/home/static/media/covidfacts.0527ee44.png",
-    "static/media/dogs.JPG": "/home/static/media/dogs.f8f4ff92.JPG",
-    "static/media/futurewonder.png": "/home/static/media/futurewonder.8adf2aaa.png",
-    "static/media/insta.PNG": "/home/static/media/insta.0938cc05.PNG",
-    "static/media/insta3.jpg": "/home/static/media/insta3.96e9e31b.jpg",
-    "static/media/kualoa.JPG": "/home/static/media/kualoa.74aa54de.JPG",
-    "static/media/me.JPG": "/home/static/media/me.0d70ce16.JPG",
-    "static/media/python_project.png": "/home/static/media/python_project.bb767d37.png",
-    "static/media/sunset.JPG": "/home/static/media/sunset.4d84db4a.JPG",
-    "static/media/train.jpg": "/home/static/media/train.fbd68b15.jpg",
-    "static/media/turtle.jpg": "/home/static/media/turtle.ef6e8de5.jpg"
+    "static/css/main.39cf4f1f.chunk.css.map": "/home/static/css/main.39cf4f1f.chunk.css.map",
+    "static/js/2.27a764f2.chunk.js.LICENSE.txt": "/home/static/js/2.27a764f2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b3cf67a7.js",
-    "static/js/2.2eb103bc.chunk.js",
-    "static/css/main.fb29bfd1.chunk.css",
-    "static/js/main.4f5d9bdf.chunk.js"
+    "static/js/2.27a764f2.chunk.js",
+    "static/css/main.39cf4f1f.chunk.css",
+    "static/js/main.a0fe60a9.chunk.js"
   ]
 }
