@@ -9,10 +9,10 @@
 
 .theme-changer.light {
     background-color: lightgrey;
-    border: 2px solid black;
+    /* border: .5px solid black; */
 }
 
 .theme-changer.dark {
     background-color: black;
-    border: 2px solid grey;
+    /* border: .5px solid grey; */
 }

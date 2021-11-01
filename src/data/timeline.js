@@ -1,38 +1,40 @@
 const timeline = [
     {
-        position: "left",
-        date: "2016",
-        icon: "home",
-        title: "How I got started",
-        content: "My journey in tech started in 2016. I joined a 10-week program with South Bend Code School designed to teach web development to middle school and high school students."
+        item_classes: "active",
+        bar_color: "b-primary",
+        date: "Summer 2016",
+        title: "Getting Started",
+        content: "My journey in tech started in 2016. I joined a 10-week program with South Bend Code School designed to teach web development to middle school and high school students.",
+        subtexts: ["South Bend Code School", "South Bend, IN"]
     },
     {
-        position: "right",
-        date: "2016",
-        icon: "home",
-        title: "First Intenship",
-        content: " Shortly after my completion in the program, at age 16, I recieved my first internship offer as a Web Development Intern for a small company out of Notre Dame, IN."
+        bar_color: "b-primary",
+        date: "August 2016",
+        title: "First Internship",
+        content: " Shortly after my completion in the program, at age 16, I recieved my first internship offer as a Web Development Intern for a small company out of Notre Dame, IN.",
+        subtexts: []
     },
     {
-        position: "left",
+        bar_color: "b-primary",
         date: "2018",
-        icon: "home",
         title: "Graduated from High School",
-        content: "Continuing to practice and development tech skills in high school, I decided to major in Computer Science at Indiana University-Bloomington."
+        content: "Continuing to practice and development tech skills in high school, I decided to major in Computer Science at Indiana University-Bloomington.",
+        subtexts: []
     },
     {
-        position: "right",
+        bar_color: "b-primary",
         date: "2019",
-        icon: "home",
         title: "Future Wonder",
-        content: "Began working at Future Wonder as a Tech Consulting Intern."
+        content: "Began working at Future Wonder as a Tech Consulting Intern.",
+        subtexts: []
     },
     {
-        position: "left",
+        item_classes: "active",
+        bar_color: "b-danger",
         date: "2021",
-        icon: "home",
         title: "IBM",
-        content: "Began working at IBM as a Frontend Development Intern."
+        content: "Began working at IBM as a Frontend Development Intern.",
+        subtexts: []
     },
 
 ]

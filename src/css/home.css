@@ -1,13 +1,8 @@
 .home-hero {
-    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)), url('https://www.wallpaperup.com/uploads/wallpapers/2014/09/17/444694/cc8a396bd0e21574a7182a1eb49bcb72.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 60vh;
-    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
 }
   
 .hr-text {

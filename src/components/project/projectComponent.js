@@ -16,23 +16,21 @@ const ProjectComponent = ({imageURL, title, description, link, link2, link2text}
     }
 
     return (
-        <section>
-            <div className="container-fluid">
-                <div className="row align-items-center">
-                    <div className="col-xs-12 col-md-6 px-5">
-                        <h3>{title}</h3>
-                        <h5>{description}</h5>
-                        <p>
-                            {link ? <a href={link}>View Project</a> : null}
-                            {link2 ? <span><span style={separator}>|</span><a href={link2}>{link2text}</a></span> : null}
-                        </p>
-                    </div>
-                    <div className="col-xs-12 col-md-6">
-                        <img src={imageURL} width="100%" alt="hero" />
-                    </div>
+        <div className="col-sm-12 col-lg-6 mb-4">
+            <div className="p-5 h-100">
+                <div className="pb-3 text-center">
+                    <img src={imageURL} width="75%"/>
                 </div>
+                <h4>{title}</h4>
+                <p style={{fontSize: "10pt"}}>{description}</p>
+                <p>
+                    <small>
+                        {link ? <a href={link}>View Project</a> : null}
+                        {link2 ? <span><span style={separator}>|</span><a href={link2}>{link2text}</a></span> : null}
+                    </small>
+                </p>
             </div>
-        </section>
+        </div>
     )
 
 }

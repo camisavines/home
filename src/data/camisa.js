@@ -71,3 +71,23 @@ export const HOBBIES = [
     "Photography",
     "Trying new things",
 ]
+
+
+export const SKILLS = [
+    "HTML / CSS",
+    "JavaScript",
+    "ReactJS",
+    "Python",
+    "Java",
+    "Bootstrap",
+    "Ruby on Rails",
+    "Docker",
+    "AWS EC2",
+    "Googling",
+    "Teamwork",
+    "Leadership",
+    "Organization",
+    "Responsive Web Design",
+    "Written and Verbal Communication",
+    "Reaserch & Documentation",
+]
