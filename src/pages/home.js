@@ -9,6 +9,7 @@ import timeline from '../data/timeline';
 
 import bdb from "../photos/projects/blackdatabase.png";
 import me from "../photos/fun/me.JPG";
+import camisa from "../photos/camisa_pic.JPG";
 import '../css/home.css';
 import '../css/timeline.css';
 
@@ -39,6 +40,7 @@ class Home extends React.Component {
                     <div className="row">
                         <div className="col-sm-12 col-md-6">
                             <p>{t.content}</p>
+                            <p><a href={t.link} target="_blank" rel="noopener noreferrer">{t.linkText}</a></p>
                             <div className="tl-date text-muted mt-1">{t.subtexts.map(t => { return <>{t}<br/></>})}</div>
                         </div>
 
@@ -60,8 +62,23 @@ class Home extends React.Component {
         <>
             <section className="home-hero">
                 <div className="container">
-                    <h1>Hi, I'm Camisa</h1>
-                    <h4>Student and Software Developer</h4>
+                    <div className="row d-flex justify-content-center align-items-center">
+                        <div className="col-md-6">
+                            <h1>Hi, I'm Camisa</h1>
+                            <h4>Student and Software Developer</h4>
+                        </div>
+                        <div className="col-md-6 justify-content-center align-items-center d-flex">
+                            <div className="w-75" style={{
+                                backgroundImage: `url(${camisa})`, 
+                                backgroundRepeat: "no-repeat", 
+                                backgroundSize: "cover",
+                                backgroundPosition: "center",
+                                borderRadius: "50%", 
+                                paddingTop: "75%"}}>
+                            </div>
+                            {/* <img src={camisa} /> */}
+                        </div>
+                    </div>
                 </div>
             </section>
 

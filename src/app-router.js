@@ -31,7 +31,6 @@ const App = () => {
   }, []);
   
 
-
   return (
       <Router className={`app-router theme-${theme}`}>
         <Navbar setTheme={setTheme} theme={theme} />
