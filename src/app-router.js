@@ -4,12 +4,12 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Home from './pages/home';
 // import About from './pages/about';
-// import Resume from './pages/resume';
+import Resume from './pages/resume';
 // import News from './pages/news';
 // import ComingSoon from './pages/comingsoon';
 
 import Navbar from './components/navbar';
-// import Footer from './components/footer';
+import Footer from './components/footer';
 import * as ROUTES from "./data/routes";
 
 
@@ -40,11 +40,11 @@ const App = () => {
           {/* <Route exact path={ROUTES.HOME} component={ComingSoon} /> */}
           <Route exact path={ROUTES.HOME} component={Home}/>
           {/* <Route path={ROUTES.ABOUT} component={About} /> */}
-          {/* <Route path={ROUTES.RESUME} component={Resume} /> */}
+          <Route path={ROUTES.RESUME} component={Resume} />
           {/* <Route path={ROUTES.NEWS} component={News} /> */}
         </div>
 
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   );
 }

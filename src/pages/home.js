@@ -2,23 +2,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import * as ROUTES from "../data/routes"
+import { SKILLS } from '../data/camisa';
 import ProjectComponent from "../components/project/projectComponent";
-import bdb from "../photos/projects/blackdatabase.png";
 import projects from "../data/project";
 import timeline from '../data/timeline';
+
+import bdb from "../photos/projects/blackdatabase.png";
+import me from "../photos/fun/me.JPG";
 import '../css/home.css';
 import '../css/timeline.css';
-import { SKILLS } from '../data/camisa';
-
-
-import dogs from "../photos/fun/dogs.JPG"
-import insta from "../photos/fun/insta.PNG";
-import insta3 from "../photos/fun/insta3.jpg";
-import kualoa from "../photos/fun/kualoa.JPG";
-import me from "../photos/fun/me.JPG";
-import sunset from "../photos/fun/sunset.JPG";
-import turtle from "../photos/fun/turtle.jpg";
-import train from "../photos/fun/train.jpg";
 
 
 class Home extends React.Component {
@@ -50,9 +42,11 @@ class Home extends React.Component {
                             <div className="tl-date text-muted mt-1">{t.subtexts.map(t => { return <>{t}<br/></>})}</div>
                         </div>
 
-                        <div className="col-sm-12 col-md-6">
-                            <img src={t.image} width="100%" />
-                        </div>
+                        {t.image ? 
+                            <div className="col-sm-12 col-md-6">
+                                <img src={t.image} width="100%" alt="timeline_image" />
+                            </div>
+                        : null}
                     </div>
                 </div>
             </div>
@@ -109,8 +103,8 @@ class Home extends React.Component {
             </section>
 
             <section>
-                <div className="container" style={{marginTop: "5rem", marginBottom: "15rem"}}>
-                    <h2 className="my-5">Skills</h2>
+                <div className="container" style={{marginTop: "5rem", marginBottom: "10rem"}}>
+                    <h2>Skills</h2>
 
                     <div className="row my-5">
                         {SKILLS.map((s) => (
@@ -124,14 +118,14 @@ class Home extends React.Component {
 
 
             <section>
-                <div className="container">
+                <div className="container"  style={{marginTop: "10rem", paddingBottom: "5rem"}}>
                         <h2 className="my-5">More About Me</h2>
                     <div className="row pb-5">
                         <div className="col-sm-12 col-md-4">
-                            <img src={me} width="100%"  />
+                            <img src={me} width="100%"  alt="me" />
                         </div>
                         <div className="col-sm-12 col-md-8">
-                            <p>5 things to know:</p>
+                            <h5>5 things to know:</h5>
                             <ol style={{lineHeight:"1.75em"}}>
                                 <li>I am a kid at heart</li>
                                 <li>I have two big and beautiful dogs.</li>
