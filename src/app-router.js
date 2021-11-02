@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 
 import Home from './pages/home';
-// import About from './pages/about';
 import Resume from './pages/resume';
+import About from './pages/about';
 // import News from './pages/news';
 // import ComingSoon from './pages/comingsoon';
 
@@ -38,8 +38,8 @@ const App = () => {
         <div className={`container-fluid ${theme === 'light' ? "bg-light" : "bg-dark"}`}>
           {/* <Route exact path={ROUTES.HOME} component={ComingSoon} /> */}
           <Route exact path={ROUTES.HOME} component={Home}/>
-          {/* <Route path={ROUTES.ABOUT} component={About} /> */}
           <Route path={ROUTES.RESUME} component={Resume} />
+          <Route path={ROUTES.ABOUT} component={About} />
           {/* <Route path={ROUTES.NEWS} component={News} /> */}
         </div>
 

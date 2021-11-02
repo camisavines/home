@@ -2,6 +2,7 @@ import React from 'react';
 
 import * as CAMISA from "../data/camisa";
 import '../css/about.css';
+import camisa from "../photos/camisa_pic.JPG"
 
 class About extends React.Component {
     constructor(props) {
@@ -9,7 +10,7 @@ class About extends React.Component {
         window.scrollTo(0,0);
 
         this.interests = CAMISA.INTERESTS.map(i =>
-            <div className="chip">{i}</div>
+            <div className="badge mr-1">- {i}</div>
         )
 
         this.music = CAMISA.MUSIC.map(m =>
@@ -29,25 +30,27 @@ class About extends React.Component {
         )
 
         this.hobbies = CAMISA.HOBBIES.map(h => 
-            <div className="chip">{h}</div>
+            <div className="badge mr-1">- {h}</div>
         )
     }
 
     render() {
         return (
             <div className="container">
-                <div className="row">
-                    <div className="col s12">
-                        <h1>More About Me</h1>
+                <div className="row justify-content-center align-items-center d-flex" style={{height: "80vh"}}>
+                    <div className="col-md-6 justify-content-center align-items-center d-flex">
+                        <div className="w-75" style={{
+                            backgroundImage: `url(${camisa})`, 
+                            backgroundRepeat: "no-repeat", 
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            borderRadius: "50%", 
+                            paddingTop: "75%"}}>
+                        </div>
+                        {/* <img src={camisa} /> */}
                     </div>
-                </div>
 
-                <div className="row">
-                    <div className="col s12 m6">
-                        <div className="hero-image"></div>
-                    </div>
-
-                    <div className="col s12 m6">
+                    <div className="col-md-6">
                         <h3>Hello, again!</h3>                        
                         <p>I am a highly capable and innovative young professional with an exemplary academic report, and a passion for continuous learning and development.</p>
                         <p> I am have the ability to work well both independently and part of a team. Although still an undergraduate student, I have internship experience as a frontend web developer and software engineer. I am proficienct in many programming languages and platforms and am confident in my ability to succeed in roles similar to these.</p>
@@ -56,26 +59,25 @@ class About extends React.Component {
                     </div>
                 </div>
 
+                <section>
+                    <h5>But, enough with the boring stuff...</h5>
+                </section>
+
 
                 <section>
                     <div className="row">
-                        <div className="col s12 m6 about ab1">
-                            <h3><span className="material-icons">school</span> Education</h3>
-                            <p>Indiana University-Bloomington, 2022 <br/>Luddy School of Informatics, Computing & Engineering</p>
-                            <p> Computer Science BS with a specialization in Software Engineering and minors in Business and Math.</p>
-                        </div>
 
-                        <div className="col s12 m6 about ab2">
+                        <div className="col-md-4 about ab2">
                             <h3><span className="material-icons">interests</span> Interests</h3>
                             {this.interests}
                         </div>
 
-                        <div className="col s12 m6 about ab3">                        
+                        <div className="col-md-4 about ab3">                        
                             <h3><span className="material-icons">pets</span> Hobbies</h3>
                             {this.hobbies}
                         </div>
 
-                        <div className="col s12 m6 about ab4">
+                        <div className="col-md-4 about ab4">
                             <h3><span className="material-icons">priority_high</span> Fun Fact</h3>
                             <p>My first name translates to 'shirt' in 4 languages-- spelled and pronounced exactly the same.</p>
                         </div>

@@ -11,6 +11,11 @@ $theme-dark-bg: #222;
 
 .app-router.theme-dark {
     .navbar {
+        background-color: $theme-dark-bg;
+        color: white;
+    }
+
+    .home-hero .h1 {
         color: white;
     }
 }

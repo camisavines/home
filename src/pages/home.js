@@ -10,7 +10,6 @@ import timeline from '../data/timeline';
 import bdb from "../photos/projects/blackdatabase.png";
 import me from "../photos/fun/me.JPG";
 import camisa from "../photos/camisa_pic.JPG";
-import '../css/home.css';
 import '../css/timeline.css';
 
 
@@ -137,11 +136,11 @@ class Home extends React.Component {
             <section>
                 <div className="container"  style={{marginTop: "10rem", paddingBottom: "5rem"}}>
                         <h2 className="my-5">More About Me</h2>
-                    <div className="row pb-5">
-                        <div className="col-sm-12 col-md-4">
+                    <div className="row pb-5 d-flex justify-content-center align-items-center">
+                        <div className="col-sm-12 col-md-6 col-lg-4">
                             <img src={me} width="100%"  alt="me" />
                         </div>
-                        <div className="col-sm-12 col-md-8">
+                        <div className="col-sm-12 col-md-6 col-lg-8 pt-4">
                             <h5>5 things to know:</h5>
                             <ol style={{lineHeight:"1.75em"}}>
                                 <li>I am a kid at heart</li>

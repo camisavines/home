@@ -2,54 +2,62 @@ import React from 'react';
 import * as R from "../data/resume";
 
 const SKILLS = R.skills.map(item =>
-    <span className="chip">{item}</span>
+    <span className="mr-1 badge badge-primary">{item}</span>
 )
 
 const EXPERIENCE = R.work.map(job =>
-    <div className="mb-4"> <h4><b>{job.title}</b>, {job.company}</h4> <ul>
-        <li>{job.dates}</li>
-        <li>{job.description}</li>
-        <li><b>{job.assets}</b></li>
-    </ul> </div>
+    <div className="mb-4"> 
+        <h5><b>{job.title}</b>, {job.company}</h5> 
+        <ul>
+            <li>{job.dates}</li>
+            <li>{job.description}</li>
+            <li><b>{job.assets}</b></li>
+        </ul>
+    </div>
 )
 
 const EXTRA = R.extra.map(item =>
-    <span className="chip">{item}</span>
+    <span className="mr-1 badge badge-primary">{item}</span>
 )
 
 const COURSES = R.courses.map(c =>
-    <li>{c.name}<span className="float-right">{c.grade}</span></li>
+    <li>{c.name}</li>
 )
 
 const AWARDS = R.awards.map (a =>
-    <div className="col s6 m4 l3" style={{height: "30vh"}}>
-        <h4>{a.name}</h4>
+    <div className="col-sm-6 col-md-4 col-lg-3" style={{minHeight: "20vh"}}>
+        <h5>{a.name}</h5>
         <p>{a.description}</p>
     </div>
 )
 
 function Resume() {
     return (
-        <div className="container">
-            <div className="row">
+        <section>
+            <div className="container">
+                <div className="row">
 
-                <div className="col s12 l6 my-3">
-                    <h2>Experience</h2>
-                    <ul type="bullet">{EXPERIENCE}</ul>
-                </div>
+                    <div className="col-sm-12 col-lg-6 my-3">
+                        <h2>Experience</h2>
+                        <hr/>
+                        {EXPERIENCE}
+                    </div>
 
 
                 <div className="col s12 l6 my-3">
                     <h2>Education</h2>
-                    <ul>
-                        <div className="mb-4"> <h4>Bachelor of Science in <b>Computer Science, 2022</b></h4> <ul>
+                    <hr/>
+                        <div className="mb-4"> 
+                            <h5><em>Bachelor of Science</em> in <b>Computer Science, 2022</b></h5> 
+                            <ul>
                                 <li>Luddy School of Informatics, Computing & Engineering<br/>Indiana University—Bloomington</li>
-                                <li>Specializing in <b className="theme-yellow">Software Engineering</b></li>
-                                <li>Minors in <b className="theme-yellow">Business, Math</b></li>
-                        </ul> </div>
+                                <li>Specializing in <b>Software Engineering</b></li>
+                                <li>Minor in <b>Business</b></li>
+                            </ul> 
+                        </div>
 
                         <div className="mb-4"> 
-                            <h4>Courses</h4> 
+                            <h5>Relevant Courses</h5> 
                             <ul>{COURSES}</ul>
                         </div>
 
@@ -58,19 +66,19 @@ function Resume() {
                             <p>Sports Analytics</p>
                         </div> */}
 
-                    </ul>
+
                 </div>
             </div>
 
 
-            <div className="row">
-                <div className="col s12 l6 my-3">
+            <div className="row my-5">
+                <div className="col-sm-12 col-lg-6">
                     <h2>Skills</h2>
-                    <ul id="skills"> {SKILLS} </ul>
+                    <div> {SKILLS} </div>
                 </div>
-                <div className="col s12 l6 my-3">
+                <div className="col-sm-12 col-lg-6">
                     <h2>Extra-Curricular</h2>
-                    <ul id="skills"> {EXTRA} </ul>
+                    <div> {EXTRA} </div>
                 </div>
             </div>
 
@@ -89,7 +97,7 @@ function Resume() {
             </div>
 
         </div>
-
+        </section>
     )
 }
 
