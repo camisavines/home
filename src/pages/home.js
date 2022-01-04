@@ -119,7 +119,7 @@ class Home extends React.Component {
             </section>
 
             <section>
-                <div className="container" style={{marginTop: "5rem", marginBottom: "10rem"}}>
+                <div className="container" style={{marginTop: "5rem", marginBottom: "5rem"}}>
                     <h2>Skills</h2>
 
                     <div className="row my-5">

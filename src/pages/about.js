@@ -37,27 +37,14 @@ class About extends React.Component {
     render() {
         return (
             <div className="container">
-                <div className="row justify-content-center align-items-center d-flex" style={{height: "80vh"}}>
-                    <div className="col-md-6 justify-content-center align-items-center d-flex">
-                        <div className="w-75" style={{
-                            backgroundImage: `url(${camisa})`, 
-                            backgroundRepeat: "no-repeat", 
-                            backgroundSize: "cover",
-                            backgroundPosition: "center",
-                            borderRadius: "50%", 
-                            paddingTop: "75%"}}>
-                        </div>
-                        {/* <img src={camisa} /> */}
-                    </div>
-
-                    <div className="col-md-6">
-                        <h3>Hello, again!</h3>                        
-                        <p>I am a highly capable and innovative young professional with an exemplary academic report, and a passion for continuous learning and development.</p>
-                        <p> I am have the ability to work well both independently and part of a team. Although still an undergraduate student, I have internship experience as a frontend web developer and software engineer. I am proficienct in many programming languages and platforms and am confident in my ability to succeed in roles similar to these.</p>
-                        <p>Most recently, I've worked as a Frontend Development Intern at IBM. This experience was transformative and helped me gain clarity about the corporate work environment and skills needed to thrive in a full stack development position.</p> 
-                       
-                    </div>
-                </div>
+                
+                {/* <div className="col-md-6">
+                    <h3>Hello, again!</h3>                        
+                    <p>I am a highly capable and innovative young professional with an exemplary academic report, and a passion for continuous learning and development.</p>
+                    <p> I am have the ability to work well both independently and part of a team. Although still an undergraduate student, I have internship experience as a frontend web developer and software engineer. I am proficienct in many programming languages and platforms and am confident in my ability to succeed in roles similar to these.</p>
+                    <p>Most recently, I've worked as a Frontend Development Intern at IBM. This experience was transformative and helped me gain clarity about the corporate work environment and skills needed to thrive in a full stack development position.</p> 
+                    
+                </div> */}
 
                 <section>
                     <h5>But, enough with the boring stuff...</h5>
