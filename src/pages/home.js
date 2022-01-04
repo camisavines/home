@@ -33,18 +33,18 @@ class Home extends React.Component {
         this.time = timeline.map(t => 
             <div className={`tl-item ${t.item_classes}`}>
                 <div className={`tl-dot ${t.bar_color}`}></div>
-                <div className="tl-content" style={{paddingBottom: "6rem"}}>
+                <div className="tl-content" style={{paddingBottom: "30%"}}>
                     <h6 className="text-muted" style={{marginTop: "0rem"}}>{t.date}</h6>
                     <h3>{t.title}</h3>
                     <div className="row">
-                        <div className="col-sm-12 col-md-6">
+                        <div className="col-sm-12 col-lg-6 pb-4">
                             <p>{t.content}</p>
                             <p><a href={t.link} target="_blank" rel="noopener noreferrer">{t.linkText}</a></p>
                             <div className="tl-date text-muted mt-1">{t.subtexts.map(t => { return <>{t}<br/></>})}</div>
                         </div>
 
                         {t.image ? 
-                            <div className="col-sm-12 col-md-6">
+                            <div className="col-sm-12 col-lg-8 col-xl-6">
                                 <img src={t.image} width="100%" alt="timeline_image" />
                             </div>
                         : null}

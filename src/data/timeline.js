@@ -16,7 +16,7 @@ const timeline = [
         bar_color: "b-primary",
         date: "August 2016",
         title: "First Internship",
-        content: "My first internship was as a web development intern building onlince courseware for universities around the US. Who knew that virtual school materials who be so needed today?!",
+        content: "My first internship was as a web development intern building onlince courseware for universities around the US. Who knew that virtual school materials would be so crucial today?!",
         subtexts: ["Luma", "Notre Dame, IN"]
     },
     {
@@ -24,15 +24,16 @@ const timeline = [
         date: "2018",
         title: "Diploma Status",
         content: "After high school, I decided to stay continue my education and career in tech at Indiana University-Bloomington studying Computer Science.",
-        subtexts: ["South Bend, IN"]
+        subtexts: ["South Bend, IN"],
+        image: "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,g_xy_center,h_573,q_60,w_573,x_1728,y_1417/v1/clients/bloomington/SampleGatesFall_Sunrise_10_edit_2f20bd0e-3463-416b-98ad-f45f347e29d1.jpg"
     },
     {
         item_classes: "active",
         bar_color: "b-primary",
         date: "2019",
         title: "Future Wonder",
-        content: "Began working at Future Wonder as a Tech Consulting Intern.",
-        subtexts: ["Future Wonder", "Bloomington, IN"],
+        content: "Began working at Future Wonder CO. as a Tech Consulting Intern, and then eventually as a Post-Intern",
+        subtexts: ["Future Wonder Co.", "Bloomington, IN"],
         linkText: "futurewonder.com",
         link: "https://www.futurewonder.com/"
     },
@@ -47,22 +48,21 @@ const timeline = [
     },
     {
         item_classes: "active",
-        bar_color: "b-danger",
+        bar_color: "b-primary",
         date: "May 2022",
         title: "College Grad!",
         content: "After 4 long years, I graduated from Indiana University with a degree in Computer Science and minor in Business!",
         subtexts: ["Luddy School of Informatics, Computing, and Engineering", "Indiana University-Bloomington"],
-        image: "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,g_xy_center,h_573,q_60,w_573,x_1728,y_1417/v1/clients/bloomington/SampleGatesFall_Sunrise_10_edit_2f20bd0e-3463-416b-98ad-f45f347e29d1.jpg"
+        image: "https://pbs.twimg.com/media/DasCVJ1XUAIkcog.jpg"
     },
-
-    {
-        item_classes: "",
-        bar_color: "b-primary",
-        date: "Fall 2022",
-        title: "Back to School?",
-        content: "After 4 long years, I'm headed back to pursue a Master's degree in Computer Science.",
-        subtexts: ["Luddy SICE", "Indiana University-Bloomington"]
-    },
+    // {
+    //     item_classes: "",
+    //     bar_color: "b-primary",
+    //     date: "Fall 2022",
+    //     title: "Back to School?",
+    //     content: "After 4 incredibly long years, am I headed back for a Master's degree?",
+    //     subtexts: ["Luddy SICE", "Indiana University-Bloomington"]
+    // },
     {
         item_classes: "",
         bar_color: "b-primary",

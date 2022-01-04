@@ -6,10 +6,10 @@ import '../css/navbar.css';
 
 const Navbar = ({ theme, setTheme }) => {
 
-    // const themeHandler = (color) => {
-    //     localStorage.setItem('theme-color', color);
-    //     setTheme(color);
-    // }
+    const themeHandler = (color) => {
+        localStorage.setItem('theme-color', color);
+        setTheme(color);
+    }
 
     return (
         <nav className={`navbar navbar-expand-lg ${theme === 'light' ? 'navbar-light bg-light' : 'navbar-dark bg-dark'}`}>
@@ -28,10 +28,10 @@ const Navbar = ({ theme, setTheme }) => {
                     </li> */}
                 </ul>
 
-                {/* <div className="form-inline">
+                <div className="form-inline">
                     <div className="theme-changer light mr-2" onClick={() => {themeHandler('light')}}></div>
                     <div className="theme-changer dark mr-2" onClick={() => {themeHandler('dark')}}></div>
-                </div> */}
+                </div>
             </div>
         </nav>
     )
