@@ -3,15 +3,12 @@ $theme-light-bg: #999;
 $theme-dark-bg: #222;
 
 
-.app-router.theme-light {
-    .navbar {
-        background-color: $theme-light-bg;
-    }
+.theme-light .bg-light {
+    color: black;
 }
 
 
-
-.app-router.theme-dark {
-    color: white !important;
+.bg-dark {
+    color: white;
 
 }

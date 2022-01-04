@@ -41,9 +41,11 @@ const App = () => {
           <Route path={ROUTES.RESUME} component={Resume} />
           <Route path={ROUTES.ABOUT} component={About} />
           {/* <Route path={ROUTES.NEWS} component={News} /> */}
+      
+      
+          <Footer />
         </div>
 
-      <Footer />
     </Router>
   );
 }
