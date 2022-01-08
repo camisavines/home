@@ -1,26 +1,62 @@
 import React from 'react';
 
-import companies from '../data/companies';
-// import ProjectCarousel from '../components/project/project-carousel';
+import ProjectComponent from "../components/project/projectComponent";
+import projects from "../data/project";
+import bdb from "../photos/projects/blackdatabase.png"
 
 
-const COMPANIES = companies.map(c =>
-  <div className="col-4 col-md-3 mb-3 pb-3 text-center company">
-    <img src={c.image} alt={c.name} width={c.size} />
-  </div>
-);
-
-
-function Portfolio() {
+const Portfolio = () => {
     return (
-        <div className="py-5 containers">
-            <h2>Projects</h2>
-            {/* <ProjectCarousel />  */}
+      <>
+        <div className="container">
+            <h1 className="py-5">Projects</h1>
 
+            <div className="row align-items-center p-5">
+                <div className="col-xs-12 text-center">
+                    <img src={bdb} width="75%" alt="hero" />
+                </div>
 
-            <h2 className="mt-5">Companies I've Worked With</h2>
-            <div className="justtify-center flex item-center container-fluid row"> {COMPANIES} </div>
+                <div className="col-xs-12 p-5">
+                    <h3>Black Database</h3>
+                    <p>I am currently working on a web application that displays a personally curated database containing accomplishments made by extraordinary, black individuals with a focus around tech and black culture. The app will be able to filter through items and give more information about each person, place, or category. Eventually, I'd like to include the accomplishments of all people of color represented in America today.</p>
+                </div>
+            </div>
         </div>
+
+
+        <section>
+            <div className="container">
+                <div className="row">
+                    {projects.map(p =>
+                        <ProjectComponent 
+                            imageURL={p.img} 
+                            alt={p.alt} 
+                            title={p.title} 
+                            description={p.description} 
+                            link={p.link}
+                            link2={p.link2}
+                            link2text={p.link2Text}
+                        />
+                    )}
+                </div>
+            </div>
+        </section>
+
+
+        <div className="container">
+            <div className="row align-items-center p-5">
+                <div className="col-xs-12 text-center">
+                    {/* <img src={bdb} width="75%" alt="hero" /> */}
+                </div>
+
+                <div className="col-xs-12 p-5">
+                    <h3>Black Female Auteurs</h3>
+                    <p>I am currently working on a web application that displays a personally curated database containing accomplishments made by extraordinary, black individuals with a focus around tech and black culture. The app will be able to filter through items and give more information about each person, place, or category. Eventually, I'd like to include the accomplishments of all people of color represented in America today.</p>
+                </div>
+            </div>
+        </div>
+
+      </>
     )
 }
 

@@ -26,14 +26,17 @@ const Navbar = ({ theme, setTheme }) => {
                         <Link className="nav-link" to={ROUTES.RESUME}>Resume</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to={ROUTES.ABOUT}>About</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link className="nav-link" to={ROUTES.USES}>Uses</Link>
+                        <Link className="nav-link" to={ROUTES.POTFOLIO}>Projects</Link>
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link" to={ROUTES.NEWS}>News</Link>
                     </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" to={ROUTES.ABOUT}>About</Link>
+                    </li>
+                    {/* <li className="nav-item">
+                        <Link className="nav-link" to={ROUTES.USES}>Uses</Link>
+                    </li> */}
                 </ul>
 
                 <div className="form-inline">

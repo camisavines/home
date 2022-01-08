@@ -1,15 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-import * as ROUTES from "../data/routes"
-import { SKILLS } from '../data/camisa';
 import ProjectComponent from "../components/project/projectComponent";
 import projects from "../data/project";
 import timeline from '../data/timeline';
-
-import bdb from "../photos/projects/blackdatabase.png";
-import me from "../photos/fun/me.JPG";
-import camisa from "../photos/camisa_pic.JPG";
 import '../css/timeline.css';
 
 
@@ -41,20 +34,9 @@ class Home extends React.Component {
             <section className="home-hero">
                 <div className="container">
                     <div className="row d-flex justify-content-center align-items-center">
-                        <div className="col-md-6">
-                            <h1>Hi, I'm Camisa</h1>
+                        <div className="col-md-10">
+                            <h1 style={{fontSize: "4em"}}>Hi, I'm Camisa</h1>
                             <h4>Student and Software Developer</h4>
-                        </div>
-                        <div className="col-md-6 justify-content-center align-items-center d-flex">
-                            {/* <div className="w-75" style={{
-                                backgroundImage: `url(${camisa})`, 
-                                backgroundRepeat: "no-repeat", 
-                                backgroundSize: "cover",
-                                backgroundPosition: "center",
-                                borderRadius: "50%", 
-                                paddingTop: "75%"}}>
-                            </div> */}
-                            {/* <img src={camisa} /> */}
                         </div>
                     </div>
                 </div>
@@ -95,31 +77,6 @@ class Home extends React.Component {
                 </div>
             </div>
 
-
-            {/* <section>
-                <div className="container">
-                    <h2 className="my-5">Projects</h2>
-
-                    <div className="row align-items-center p-5">
-                        <div className="col-xs-12 text-center">
-                            <img src={bdb} width="75%" alt="hero" />
-                        </div>
-
-                        <div className="col-xs-12 p-5">
-                            <h3>Black Database</h3>
-                            <p>I am currently working on a web application that displays a personally curated database containing accomplishments made by extraordinary, black individuals with a focus around tech and black culture. The app will be able to filter through items and give more information about each person, place, or category. Eventually, I'd like to include the accomplishments of all people of color represented in America today.</p>
-                        </div>
-                    </div>
-                </div>
-            </section> */}
-
-            {/* <section>
-                <div className="container">
-                    <div className="row">
-                        {this.projectPosts}
-                    </div>
-                </div>
-            </section> */}
 
             {/* <section>
                 <div className="container" style={{marginTop: "3rem", marginBottom: "3rem"}}>
