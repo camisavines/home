@@ -46,12 +46,13 @@ const Portfolio = () => {
         <div className="container">
             <div className="row align-items-center p-5">
                 <div className="col-xs-12 text-center">
+                    <h5 className='mx-5'>Coming Soon</h5>
                     {/* <img src={bdb} width="75%" alt="hero" /> */}
                 </div>
 
                 <div className="col-xs-12 p-5">
                     <h3>Black Female Auteurs</h3>
-                    <p>I am currently working on a web application that displays a personally curated database containing accomplishments made by extraordinary, black individuals with a focus around tech and black culture. The app will be able to filter through items and give more information about each person, place, or category. Eventually, I'd like to include the accomplishments of all people of color represented in America today.</p>
+                    <p>One of my senior projects was in a class that studied Black female auteurs. For my final project, I wrote a blog and published a site containing independent research on the topic.</p>
                 </div>
             </div>
         </div>

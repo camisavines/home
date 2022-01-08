@@ -40,16 +40,6 @@ export const extra = [
     "Collins Living Learning Community", "Black Student Union", "Collins Philanthropy Club", "Peer Tutor"
 ]
 
-export const courses = [
-    {name: "CSCI-C 200: Intro to Computers & Programming (Python)", grade: "A"},
-    {name: "CSCI-C 212: Intro to Software Systems (Java)", grade: "A-"},
-    {name: "CSCI-C 241: Discrete Structures", grade: "A"},
-    {name: "CSCI-C 291: Intro to C / Linux", grade: "A"},
-    {name: "CSCI-C 343: Data Structures", grade: "A"},
-    {name: "CSCI-C 322: Design Patterns", grade: "A"},
-    {name: "BUS-F 300: Intro to Financial Management", grade: "A"},
-    // {name: "BUS-A 200 Foundations of Accounting", grade: "A"},
-]
 
 export const awards = [
     {name: "BWH + RTC Hackathon", description: "2021 Black Wings Hacks 2nd place winner"},

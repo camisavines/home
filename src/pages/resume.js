@@ -1,103 +1,127 @@
 import React from 'react';
+
 import * as R from "../data/resume";
+import pdf from "../data/VinesCamisa_Resume.pdf";
 
-const SKILLS = R.skills.map(item =>
-    <span className="mr-1 badge badge-primary">{item}</span>
-)
 
-const EXPERIENCE = R.work.map(job =>
-    <div className="mb-4"> 
-        <h5><b>{job.title}</b>, {job.company}</h5> 
-        <ul>
-            <li>{job.dates}</li>
-            <li>{job.description}</li>
-            <li><b>{job.assets}</b></li>
-        </ul>
-    </div>
-)
-
-const EXTRA = R.extra.map(item =>
-    <span className="mr-1 badge badge-primary">{item}</span>
-)
-
-const COURSES = R.courses.map(c =>
-    <li>{c.name}</li>
-)
-
-const AWARDS = R.awards.map (a =>
-    <div className="col-sm-6 col-md-4 col-lg-3" style={{minHeight: "20vh"}}>
-        <h5>{a.name}</h5>
-        <p>{a.description}</p>
-    </div>
-)
-
-function Resume() {
+const Resume = () => {
     return (
-        <section>
-            <div className="container">
-                <div className="row">
-
-                    <div className="col-sm-12 col-lg-6 my-3">
-                        <h2>Experience</h2>
-                        <hr/>
-                        {EXPERIENCE}
-                    </div>
+        <>
+        <div className='container py-5'>
+            <h1>Resume</h1>
+            <p>Download a pdf version, <a href={pdf}>here</a>. <br/> Or scroll to view in detail.</p>
+        </div>
 
 
-                <div className="col s12 l6 my-3">
+        <div className='container'>
+            <div className='row my-5'>
+                <div className="col-lg-12">
+                    <h2>Experience</h2>
+                    <hr/>
+
+                    {R.work.map(job =>
+                        <div className='row py-4'>
+                            <div className='col-md-4'>
+                                <h5>{job.title}</h5>
+                                <h6 className='text-muted m-0'>{job.company}</h6>
+                                <small className='text-muted'>{job.dates}</small>
+                            </div>
+                            <div className='col-md-8'>
+                                <ul>
+                                    <li>{job.description}</li>
+                                    <li><b>{job.assets}</b></li>
+                                </ul>
+                            </div>
+                        </div>
+                    )}
+                </div>
+            </div>
+
+
+            <div className='row my-5'>
+                <div className='col-lg-12'>
                     <h2>Education</h2>
                     <hr/>
-                        <div className="mb-4"> 
-                            <h5><em>Bachelor of Science</em> in <b>Computer Science, 2022</b></h5> 
-                            <ul>
-                                <li>Luddy School of Informatics, Computing & Engineering<br/>Indiana University—Bloomington</li>
-                                <li>Specializing in <b>Software Engineering</b></li>
-                                <li>Minor in <b>Business</b></li>
-                            </ul> 
+
+                    <div className='row py-4'>
+                        <div className='col-md-12 mb-5'>
+                            <h5><em>Bachelor of Science</em> in <b>Computer Science</b></h5>
+                            <h6 className='text-muted m-0'>Indiana University—Bloomington</h6>
+                            <small className='text-muted'>May 2022</small>
                         </div>
-
-                        <div className="mb-4"> 
-                            <h5>Relevant Courses</h5> 
-                            <ul>{COURSES}</ul>
-                        </div>
-
-                        {/* <div>
-                            <h4>Research Interests</h4>
-                            <p>Sports Analytics</p>
-                        </div> */}
-
-
-                </div>
-            </div>
-
-
-            <div className="row my-5">
-                <div className="col-sm-12 col-lg-6">
-                    <h2>Skills</h2>
-                    <div> {SKILLS} </div>
-                </div>
-                <div className="col-sm-12 col-lg-6">
-                    <h2>Extra-Curricular</h2>
-                    <div> {EXTRA} </div>
-                </div>
-            </div>
-
-
-            <div className=" grey-bg py-5">
-                <div className="containers">
-
-                    <div className="row">
-                        <div className="col s12 my-5 px-3">
-                            <h2>Awards</h2>
-                            <ul><div className="row">{AWARDS}</div></ul>
+                        <div className='col-md-8'>
+                            <p className='m-0'>Specialization in <b>Software Engineering</b></p>
+                            <p className='m-0'>Minor in <b>Business</b></p>
+                            <p>Luddy School of Informatics, Computing & Engineering</p>
                         </div>
                     </div>
-                                
                 </div>
             </div>
 
+
+            <div className='row my-5'>
+                <div className='col-lg-12'>
+                    <h2>Skills</h2>
+                    <hr/>
+
+                    <div className='row my-4'>
+                        <div className='col-6 col-md-3'>
+                            <p><b>WebDev</b></p>
+                        </div>
+                        <div className='col-6 col-md-9'>
+                            <p>HTML, CSS, JavaScript, ReactJs, Responsive Web Design, Bootstrap, Tailwind, Material Design, Ruby on Rails, jQuery, Materialize</p>
+                        </div>
+                    </div>
+
+                    <div className='row my-4'>
+                        <div className='col-6 col-md-3'>
+                        <p><b>Programming languages</b></p>
+                        </div>
+                        <div className='col-6 col-md-9'>
+                            <p>Python, Java, C</p>
+                        </div>
+                    </div>
+
+                    <div className='row my-4'>
+                        <div className='col-6 col-md-3'>
+                        <p><b>Tools & Platforms</b></p>
+                        </div>
+                        <div className='col-6 col-md-9'>
+                            <p>Github, Version Control, Adobe Photoshop, Adobe InDesign, Adobe Illustrator, AWS EC2, Docker</p>
+                        </div>
+                    </div>
+
+                    <div className='row my-4'>
+                        <div className='col-6 col-md-3'>
+                        <p><b>Other Skills</b></p>
+                        </div>
+                        <div className='col-6 col-md-9'>
+                            <p>Organization, Teamwork, Leadership, Written and Verbal Communication, Reseach & Documentation, Googling</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div className='row my-5'>
+                <div className="col-lg-12">
+                    <h2>Awards</h2>
+                    <hr/>
+
+                    {R.awards.map (a =>
+                        <div className="row">
+                            <div className='col-sm-12 pb-4'>
+                                <h5>{a.name}</h5>
+                                <p>{a.description}</p>
+                            </div>
+                        </div>
+                    )}
+                </div>
+            </div>
+
+
         </div>
-        </section>
+        </>
     )
 }
 
