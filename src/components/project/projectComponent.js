@@ -2,14 +2,6 @@ import React from 'react';
 
 
 const ProjectComponent = ({imageURL, title, description, link, link2, link2text}) => {
-    // const imageStyle = {
-    //     backgroundImage: `url('${imageURL}')`,
-    //     backgroundSize: "contain",
-    //     backgroundPosition: "center",
-    //     backgroundRepeat: "no-repeat",
-    //     height: "40vh"
-    // }
-
     const separator = {
         marginLeft: "1rem",
         marginRight: "1rem"

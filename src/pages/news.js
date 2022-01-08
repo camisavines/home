@@ -4,16 +4,15 @@ import '../css/news.css';
 import posts from '../data/news_content';
 
 const NEWS = posts.map(p =>
-    <div className="col-xs-12 my-5">
+    <div className="my-3">
         <div className="card">
             {p.image ? (
-                <img className="card-img-top" src={p.image} alt={p.title }/>
+                <img className="card-img-top" src={p.image} alt={p.title} style={{border: "10px solid white"}}/>
             ) : (<></>)}
             <div className="card-body">
                 <h3>{p.title}</h3>
                 <p className="card-text">{p.description}</p>
-                <p><small className="text-muted"><a href={p.link} target="_blank">Visit</a></small></p>
-                <p><small className="text-muted">{p.date}</small></p>
+                <p><small className="text-muted m-0">{p.date} | <a href={p.link} target="_blank">Visit</a></small></p>
             </div>
         </div>
     </div>
@@ -27,12 +26,14 @@ function News() {
     return (
         <>
         <div className="container">
-            {/* <h2>News</h2> */}
-            <div className="row container-fluid">
-                <div className="col-xs-12 col-lg-6">{column1}</div>
-                <div className="col-xs-12 col-lg-6">{column2}</div>
+            <h1 className='py-5'>News</h1>
+
+            <div className="row">
+                <div className="col-lg-6">{column1}</div>
+                <div className="col-lg-6">{column2}</div>
             </div>
         </div>
+
         </>
     )
 }

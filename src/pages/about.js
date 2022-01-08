@@ -3,13 +3,14 @@ import React from 'react';
 import * as CAMISA from "../data/camisa";
 import '../css/about.css';
 import camisa from "../photos/camisa_pic.JPG"
+import dogs from "../photos/fun/dogs.JPG";
 
 const About = () => {
     return (
         <>
         <div className="container">
             <h1 className='py-5'>About Me</h1>
-            <div className="w-75" style={{fontSize: "16pt"}}>
+            <div className="w-75" style={{fontSize: "12pt"}}>
                 <p>Hey, again! I'm Camisa Vines - a developer from the corn haven of Indiana, USA, currently based in Austin, Texas. I am a recent college gradute. I studied Computer Science with a minor is Business at Indiana University-Bloomington.</p>
                 <p>
                     Although very early in my career, I am a highly capable and innovative young professional with an exemplary academic report, and a passion for continuous learning and development.
@@ -29,15 +30,19 @@ const About = () => {
             </div>
         </div>
 
+
         <div className='container-fluid my-5 p-5 text-center'>
             <hr/>
-            <h2>Random Lists</h2>
+            {/* <h2>More Stuff</h2> */}
             <hr/>
         </div>
 
-        <div className='container' style={{marginBottom: "3rem", marginTop: "5rem"}}>
+        <div className='container'>
             <div className='row'>
-                <div className='col-md-6 h-100'>
+                {/* Column 1 */}
+                <div className='col-md-6'>
+
+                    {/* Interest */}
                     <div class="card">
                         <div class="card-body">
                             <h3 class="card-title">Interests</h3>
@@ -48,9 +53,37 @@ const About = () => {
                             </p>
                         </div>
                     </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Fun Fact</h3>
+                            <p class="card-text">
+                                My first name translates to 'shirt' in 4 languages-- spelled and pronounced exactly the same.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Top 5 on my Travel Bucket List</h3>
+                            <p class="card-text">
+                                <ol>
+                                    <li>São Paulo, Brazil</li>
+                                    <li>Montego Bay, Jamaica</li>
+                                    <li>London, England</li>
+                                    <li>Los Angeles, California</li>
+                                    <li>Tokyo, Japan</li>
+                                </ol>
+                            </p>
+                        </div>
+                    </div>
+
                 </div>
 
-                <div className='col-md-6 h-100'>
+
+
+                {/* Column 2 */}
+                <div className='col-md-6'>
                     <div class="card">
                         <div class="card-body">
                             <h3 class="card-title">Hobbies</h3>
@@ -61,36 +94,25 @@ const About = () => {
                             </p>
                         </div>
                     </div>
-                </div>
-            </div>
 
-
-            <div className='row'>
-                <div className='col-md-6 h-100'>
-                    <div class="card">
+                    <div class="card mb-4">
                         <div class="card-body">
-                            <h3 class="card-title">Interests</h3>
-                            <p class="card-text">
-                                {CAMISA.INTERESTS.map(i =>
-                                <div className="badge badge-primary m-1 p-2">{i}</div>
-                                )}
+                            <h3 class="card-title">My doggies</h3>
+                            <img src={dogs} width="100%"/>
+
+                            <p class="card-text mt-3 mb-0 text-muted">
+                                <small>
+                                    FAQ: "What kind of dog is that?" <br/>
+                                    Answer: "American Rottweiler and Cane Corso"
+                                </small>
                             </p>
                         </div>
                     </div>
-                </div>
 
-                <div className='col-md-6 h-100'>
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h3 class="card-title">Fun Fact</h3>
-                            <p class="card-text">
-                                My first name translates to 'shirt' in 4 languages-- spelled and pronounced exactly the same.
-                            </p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
+
 
 
         <div className='container'>

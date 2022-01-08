@@ -9,7 +9,7 @@ const Resume = () => {
         <>
         <div className='container py-5'>
             <h1>Resume</h1>
-            <p>Download a pdf version, <a href={pdf}>here</a>. <br/> Or scroll to view in detail.</p>
+            <p>Download a pdf version, <a href={pdf}>here</a>.</p>
         </div>
 
 

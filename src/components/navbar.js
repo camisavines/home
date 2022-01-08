@@ -28,9 +28,9 @@ const Navbar = ({ theme, setTheme }) => {
                     <li className="nav-item">
                         <Link className="nav-link" to={ROUTES.POTFOLIO}>Projects</Link>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <Link className="nav-link" to={ROUTES.NEWS}>News</Link>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
                         <Link className="nav-link" to={ROUTES.ABOUT}>About</Link>
                     </li>
