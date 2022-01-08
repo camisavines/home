@@ -5,7 +5,8 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from './pages/home';
 import Resume from './pages/resume';
 import About from './pages/about';
-// import News from './pages/news';
+import News from './pages/news';
+import Portfolio from './pages/portfolio';
 // import ComingSoon from './pages/comingsoon';
 
 import Navbar from './components/navbar';
@@ -40,7 +41,8 @@ const App = () => {
           <Route exact path={ROUTES.HOME} component={Home}/>
           <Route path={ROUTES.RESUME} component={Resume} />
           <Route path={ROUTES.ABOUT} component={About} />
-          {/* <Route path={ROUTES.NEWS} component={News} /> */}
+          <Route path={ROUTES.NEWS} component={News} />
+          <Route path={ROUTES.POTFOLIO} component={Portfolio} />
       
       
           <Footer />

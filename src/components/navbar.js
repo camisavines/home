@@ -12,7 +12,7 @@ const Navbar = ({ theme, setTheme }) => {
     }
 
     return (
-        <nav className={`navbar navbar-expand-lg ${theme === 'light' ? 'navbar-light bg-light' : 'navbar-dark bg-dark'}`}>
+        <nav className={`navbar navbar-expand-lg py-4 ${theme === 'light' ? 'navbar-light bg-light' : 'navbar-dark bg-dark'}`}>
             <div className="container">
 
             <Link className="navbar-brand" to={ROUTES.HOME}>Camisa Vines</Link>
@@ -25,9 +25,15 @@ const Navbar = ({ theme, setTheme }) => {
                     <li className="nav-item">
                         <Link className="nav-link" to={ROUTES.RESUME}>Resume</Link>
                     </li>
-                    {/* <li className="nav-item">
+                    <li className="nav-item">
                         <Link className="nav-link" to={ROUTES.ABOUT}>About</Link>
-                    </li> */}
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" to={ROUTES.USES}>Uses</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" to={ROUTES.NEWS}>News</Link>
+                    </li>
                 </ul>
 
                 <div className="form-inline">

@@ -30,28 +30,6 @@ class Home extends React.Component {
             />
         )
 
-        this.time = timeline.map(t => 
-            <div className={`tl-item ${t.item_classes}`}>
-                <div className={`tl-dot ${t.bar_color}`}></div>
-                <div className="tl-content" style={{paddingBottom: "15%"}}>
-                    <h6 className="text-muted" style={{marginTop: "0rem"}}>{t.date}</h6>
-                    <h3>{t.title}</h3>
-                    <div className="row">
-                        <div className="col-sm-12 col-lg-6 pb-4">
-                            <p>{t.content}</p>
-                            <p><a href={t.link} target="_blank" rel="noopener noreferrer">{t.linkText}</a></p>
-                            <div className="tl-date text-muted mt-1">{t.subtexts.map(t => { return <>{t}<br/></>})}</div>
-                        </div>
-
-                        {t.image ? 
-                            <div className="col-sm-12 col-lg-8 col-xl-6">
-                                <img src={t.image} width="100%" alt="timeline_image" />
-                            </div>
-                        : null}
-                    </div>
-                </div>
-            </div>
-        )
     }
 
 
@@ -59,6 +37,7 @@ class Home extends React.Component {
     render() {
         return (
         <>
+            {/* Top Section */}
             <section className="home-hero">
                 <div className="container">
                     <div className="row d-flex justify-content-center align-items-center">
@@ -67,33 +46,57 @@ class Home extends React.Component {
                             <h4>Student and Software Developer</h4>
                         </div>
                         <div className="col-md-6 justify-content-center align-items-center d-flex">
-                            <div className="w-75" style={{
+                            {/* <div className="w-75" style={{
                                 backgroundImage: `url(${camisa})`, 
                                 backgroundRepeat: "no-repeat", 
                                 backgroundSize: "cover",
                                 backgroundPosition: "center",
                                 borderRadius: "50%", 
                                 paddingTop: "75%"}}>
-                            </div>
+                            </div> */}
                             {/* <img src={camisa} /> */}
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-sm-12">
-                            <div className="timeline">
-                                {this.time}
-                            </div>
+
+            {/* Timeline section */}
+            <div className="container">
+                <div className="row">
+                    <div className="col-sm-12">
+                        <div className="timeline">
+
+                                {timeline.map(t => 
+                                    <div className={`tl-item ${t.item_classes}`}>
+                                        <div className={`tl-dot ${t.bar_color}`}></div>
+                                        <div className="tl-content" style={{paddingBottom: "15%"}}>
+                                            <h6 className="text-muted" style={{marginTop: "0rem"}}>{t.date}</h6>
+                                            <h3>{t.title}</h3>
+                                            <div className="row">
+                                                <div className="col-sm-12 col-lg-6 pb-4">
+                                                    <p>{t.content}</p>
+                                                    <p><a href={t.link} target="_blank" rel="noopener noreferrer">{t.linkText}</a></p>
+                                                    <div className="tl-date text-muted mt-1">{t.subtexts.map(t => { return <>{t}<br/></>})}</div>
+                                                </div>
+
+                                                {t.image ? 
+                                                    <div className="col-sm-12 col-lg-8 col-xl-6">
+                                                        <img src={t.image} width="100%" alt="timeline_image" />
+                                                    </div>
+                                                : null}
+                                            </div>
+                                        </div>
+                                    </div>
+                                )}
+                            
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
 
-            <section>
+
+            {/* <section>
                 <div className="container">
                     <h2 className="my-5">Projects</h2>
 
@@ -108,17 +111,17 @@ class Home extends React.Component {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
-            <section>
+            {/* <section>
                 <div className="container">
                     <div className="row">
                         {this.projectPosts}
                     </div>
                 </div>
-            </section>
+            </section> */}
 
-            <section>
+            {/* <section>
                 <div className="container" style={{marginTop: "3rem", marginBottom: "3rem"}}>
                     <h2>Skills</h2>
 
@@ -160,10 +163,10 @@ class Home extends React.Component {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
 
-            <section>
+            {/* <section>
                 <div className="container"  style={{marginTop: "10rem", paddingBottom: "5rem"}}>
                         <h2 className="my-5">More About Me</h2>
                     <div className="row pb-5 d-flex justify-content-center align-items-center">
@@ -184,7 +187,7 @@ class Home extends React.Component {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
         </>
         )

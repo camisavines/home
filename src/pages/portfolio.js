@@ -1,6 +1,6 @@
 import React from 'react';
 
-import companies from '../js/companies';
+import companies from '../data/companies';
 // import ProjectCarousel from '../components/project/project-carousel';
 
 
