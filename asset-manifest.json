@@ -1,22 +1,37 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.39cf4f1f.chunk.css",
-    "main.js": "/home/static/js/main.a0fe60a9.chunk.js",
-    "main.js.map": "/home/static/js/main.a0fe60a9.chunk.js.map",
+    "main.css": "/home/static/css/main.ade87cd2.chunk.css",
+    "main.js": "/home/static/js/main.ab2ab0c4.chunk.js",
+    "main.js.map": "/home/static/js/main.ab2ab0c4.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.b3cf67a7.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.b3cf67a7.js.map",
-    "static/js/2.27a764f2.chunk.js": "/home/static/js/2.27a764f2.chunk.js",
-    "static/js/2.27a764f2.chunk.js.map": "/home/static/js/2.27a764f2.chunk.js.map",
+    "static/js/2.9dfc5c32.chunk.js": "/home/static/js/2.9dfc5c32.chunk.js",
+    "static/js/2.9dfc5c32.chunk.js.map": "/home/static/js/2.9dfc5c32.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.a495e4cec977647e574262e7c802e8fd.js": "/home/precache-manifest.a495e4cec977647e574262e7c802e8fd.js",
+    "precache-manifest.c740aaa2416f71fead3aaf1314be7078.js": "/home/precache-manifest.c740aaa2416f71fead3aaf1314be7078.js",
     "service-worker.js": "/home/service-worker.js",
-    "static/css/main.39cf4f1f.chunk.css.map": "/home/static/css/main.39cf4f1f.chunk.css.map",
-    "static/js/2.27a764f2.chunk.js.LICENSE.txt": "/home/static/js/2.27a764f2.chunk.js.LICENSE.txt"
+    "static/css/main.ade87cd2.chunk.css.map": "/home/static/css/main.ade87cd2.chunk.css.map",
+    "static/js/2.9dfc5c32.chunk.js.LICENSE.txt": "/home/static/js/2.9dfc5c32.chunk.js.LICENSE.txt",
+    "static/media/Pic4.jpeg": "/home/static/media/Pic4.db945d1d.jpeg",
+    "static/media/VinesCamisa_Resume.pdf": "/home/static/media/VinesCamisa_Resume.48b643c6.pdf",
+    "static/media/blackdatabase.png": "/home/static/media/blackdatabase.5a105990.png",
+    "static/media/camisa_pic.JPG": "/home/static/media/camisa_pic.7f15f7b6.JPG",
+    "static/media/covidfacts.png": "/home/static/media/covidfacts.0527ee44.png",
+    "static/media/dogs.JPG": "/home/static/media/dogs.f8f4ff92.JPG",
+    "static/media/futurewonder.png": "/home/static/media/futurewonder.8adf2aaa.png",
+    "static/media/headshot.jpg": "/home/static/media/headshot.f541c902.jpg",
+    "static/media/news1.jpeg": "/home/static/media/news1.a3ff63a0.jpeg",
+    "static/media/news2.jpg": "/home/static/media/news2.93d8982d.jpg",
+    "static/media/news3.jpg": "/home/static/media/news3.5a57e4b5.jpg",
+    "static/media/news4.png": "/home/static/media/news4.978705b0.png",
+    "static/media/news5.webp": "/home/static/media/news5.9a0560a1.webp",
+    "static/media/news6.png": "/home/static/media/news6.3a19f643.png",
+    "static/media/python_project.png": "/home/static/media/python_project.bb767d37.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b3cf67a7.js",
-    "static/js/2.27a764f2.chunk.js",
-    "static/css/main.39cf4f1f.chunk.css",
-    "static/js/main.a0fe60a9.chunk.js"
+    "static/js/2.9dfc5c32.chunk.js",
+    "static/css/main.ade87cd2.chunk.css",
+    "static/js/main.ab2ab0c4.chunk.js"
   ]
 }
