@@ -21,16 +21,16 @@ const timeline = [
     },
     {
         bar_color: "b-primary",
-        date: "2018",
+        date: "June 2018",
         title: "Diploma Status",
         content: "After high school, I decided to stay continue my education and career in tech at Indiana University-Bloomington studying Computer Science.",
         subtexts: ["South Bend, IN"],
-        image: "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,g_xy_center,h_573,q_60,w_573,x_1728,y_1417/v1/clients/bloomington/SampleGatesFall_Sunrise_10_edit_2f20bd0e-3463-416b-98ad-f45f347e29d1.jpg"
+        // image: "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,g_xy_center,h_573,q_60,w_573,x_1728,y_1417/v1/clients/bloomington/SampleGatesFall_Sunrise_10_edit_2f20bd0e-3463-416b-98ad-f45f347e29d1.jpg"
     },
     {
         item_classes: "active",
         bar_color: "b-primary",
-        date: "2019",
+        date: "May 2019",
         title: "Future Wonder",
         content: "Began working at Future Wonder CO. as a Tech Consulting Intern, and then eventually as a Post-Intern",
         subtexts: ["Future Wonder Co.", "Bloomington, IN"],
@@ -55,18 +55,18 @@ const timeline = [
         subtexts: ["Luddy School of Informatics, Computing, and Engineering", "Indiana University-Bloomington"],
         image: "https://pbs.twimg.com/media/DasCVJ1XUAIkcog.jpg"
     },
-    // {
-    //     item_classes: "",
-    //     bar_color: "b-primary",
-    //     date: "Fall 2022",
-    //     title: "Back to School?",
-    //     content: "After 4 incredibly long years, am I headed back for a Master's degree?",
-    //     subtexts: ["Luddy SICE", "Indiana University-Bloomington"]
-    // },
     {
         item_classes: "",
         bar_color: "b-primary",
         date: "2022",
+        title: "Back to Work!",
+        content: "After pondering grad school for a while, I decided to accept a full time offer as a Software Engineer back with IBM.",
+        subtexts: ["IBM", "Austin, TX"]
+    },
+    {
+        item_classes: "",
+        bar_color: "b-primary",
+        date: "Now",
         title: "What's Next?",
         content: "Now, I'm looking for my next adventure...",
         subtexts: []

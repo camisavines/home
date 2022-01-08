@@ -13,6 +13,8 @@ const Navbar = ({ theme, setTheme }) => {
 
     return (
         <nav className={`navbar navbar-expand-lg ${theme === 'light' ? 'navbar-light bg-light' : 'navbar-dark bg-dark'}`}>
+            <div className="container">
+
             <Link className="navbar-brand" to={ROUTES.HOME}>Camisa Vines</Link>
             <button className="navbar-toggler btn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="material-icons">menu</i>
@@ -32,6 +34,7 @@ const Navbar = ({ theme, setTheme }) => {
                     <div className="theme-changer light mr-2" onClick={() => {themeHandler('light')}}></div>
                     <div className="theme-changer dark mr-2" onClick={() => {themeHandler('dark')}}></div>
                 </div>
+            </div>
             </div>
         </nav>
     )
