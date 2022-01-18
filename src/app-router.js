@@ -7,17 +7,13 @@ import Resume from './pages/resume';
 import About from './pages/about';
 import News from './pages/news';
 import Portfolio from './pages/portfolio';
-// import ComingSoon from './pages/comingsoon';
-
 import Navbar from './components/navbar';
 import Footer from './components/footer';
 import * as ROUTES from "./data/routes";
 
-
 import "./css/index.css";
 import "./theme.scss";
-// import "./css/theme_light.css";
-// import "./css/theme_dark.css";
+
 
 const App = () => {
   const [theme, setTheme] = useState('light');
@@ -37,17 +33,15 @@ const App = () => {
         <Navbar setTheme={setTheme} theme={theme} />
 
         <div className={`container-fluid ${theme === 'light' ? "bg-light" : "bg-dark"}`}>
-          {/* <Route exact path={ROUTES.HOME} component={ComingSoon} /> */}
           <Route exact path={ROUTES.HOME} component={Home}/>
           <Route path={ROUTES.RESUME} component={Resume} />
           <Route path={ROUTES.ABOUT} component={About} />
           <Route path={ROUTES.NEWS} component={News} />
           <Route path={ROUTES.POTFOLIO} component={Portfolio} />
       
-      
-          <Footer />
         </div>
-
+      
+        <Footer />
     </Router>
   );
 }

@@ -1,15 +1,19 @@
 $theme-light-bg: #999;
+$theme-light-color: black;
+
+
 $theme-dark-bg: #222;
 
 
 .theme-light .bg-light {
-    color: black;
+    color: red;
     transition: 1s;
 }
 
 
 .bg-dark {
     color: white;
+    background-color: red;
     transition: 1s;
 }
 

@@ -1,9 +1,8 @@
 import React from 'react';
 
 import * as CAMISA from "../data/camisa";
-import '../css/about.css';
-import camisa from "../photos/camisa_pic.JPG"
 import dogs from "../photos/fun/dogs.JPG";
+import '../css/about.css';
 
 const About = () => {
     return (
@@ -24,9 +23,6 @@ const About = () => {
                     And I look forward to continuing this journey.
                 </p>
                 <p>When I'm not coding, you can find me streaming new movies and tv series, listening to music, traveling, cooking, or hanging with friends and family.</p>
-
-
-                {/* <p>But, enough with the formalities...</p> */}
             </div>
         </div>
 
@@ -106,7 +102,7 @@ const About = () => {
         <div className="container">
             <h1 className='py-5 mt-5'>My Doggies</h1>
             <div className="w-75" style={{fontSize: "12pt"}}>
-                <img src={dogs} width="100%"/>
+                <img src={dogs} width="100%" alt="thedogs" />
 
                 <div className='py-4'>
                     <p>FAQ: "What kind of dog is that?"</p>

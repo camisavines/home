@@ -32,6 +32,17 @@ li, small {
     font-weight: 300;
 }
 
+a {
+    font-family: 'Roboto Slab', serif;
+    color: green;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: greenyellow;
+    text-decoration: none;
+}
+
 .footer {
     height: 30vh;
     background-position: left;

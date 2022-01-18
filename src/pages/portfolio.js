@@ -2,7 +2,8 @@ import React from 'react';
 
 import ProjectComponent from "../components/project/projectComponent";
 import projects from "../data/project";
-import bdb from "../photos/projects/blackdatabase.png"
+import bdb from "../photos/projects/blackdatabase.png";
+import bfa from "../photos/projects/BFA.png";
 
 
 const Portfolio = () => {
@@ -46,8 +47,8 @@ const Portfolio = () => {
         <div className="container">
             <div className="row align-items-center p-5">
                 <div className="col-xs-12 text-center">
-                    <h5 className='mx-5'>Coming Soon</h5>
-                    {/* <img src={bdb} width="75%" alt="hero" /> */}
+                    {/* <h5 className='mx-5'>Coming Soon</h5> */}
+                    <img src={bfa} width="75%" alt="hero" />
                 </div>
 
                 <div className="col-xs-12 p-5">
