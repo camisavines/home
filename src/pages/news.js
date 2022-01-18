@@ -12,7 +12,7 @@ const NEWS = posts.map(p =>
             <div className="card-body">
                 <h3>{p.title}</h3>
                 <p className="card-text">{p.description}</p>
-                <p><small className="text-muted m-0">{p.date} | <a href={p.link} target="_blank">Visit</a></small></p>
+                <p><small className="text-muted m-0">{p.date} | <a href={p.link}>Visit</a></small></p>
             </div>
         </div>
     </div>

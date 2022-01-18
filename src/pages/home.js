@@ -42,7 +42,7 @@ const Home = () => {
                                     <div className={`tl-dot ${t.bar_color}`}></div>
                                     <div className="tl-content" style={{paddingBottom: "15%"}}>
                                         <h6 className="text-muted" style={{marginTop: "0rem"}}>{t.date}</h6>
-                                        <h3>{t.title}</h3>
+                                        <h3 className="tl-title">{t.title}</h3>
                                         <div className="row">
                                             <div className="col-sm-12 col-lg-6 pb-4">
                                                 <p>{t.content}</p>
