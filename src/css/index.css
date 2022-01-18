@@ -2,24 +2,42 @@
 html { height: 100%; }
 
 .home-hero {
-    /* min-height: 50vh; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+h1, h2, h3 {
+    font-family: 'Noto Sans', sans-serif;
+    /* font-weight: 700; */
+}
+
+h4 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
+h5 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+}
+
+h6, p {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
   
+li, small {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
 
 .footer {
     height: 30vh;
-    /* background-image: url("../photos/heroimage.png"); */
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
     /* border-top: 1px solid #e0e0e0; */
     /* background-color: #e9e9e9; */
+    /* background-image: url("../photos/heroimage.png"); */
 }
-
-/* 
-    Brown Theme
-    #5F3310,#101010,#BB6536,#FDE7AD,#AD8A60,#FFFFFF,#D4937A,#ECC091,#5F3310,#ECC091 
-*/

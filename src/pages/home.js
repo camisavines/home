@@ -14,7 +14,7 @@ const Home = () => {
                 <div className="row d-flex justify-content-center align-items-center">
                     <div className="col-md-6 pb-5">
                         <h1 style={{fontSize: "4em"}}>Hi, I'm Camisa</h1>
-                        <h4>Student and Software Developer</h4>
+                        <h4 className='text-muted'>Student and Software Developer</h4>
                     </div>
                     <div className="col-md-6 d-flex text-center align-items-center justify-content-center">
                         <div className="w-75" style={{
@@ -40,7 +40,7 @@ const Home = () => {
                             {timeline.map(t => 
                                 <div className={`tl-item ${t.item_classes}`}>
                                     <div className={`tl-dot ${t.bar_color}`}></div>
-                                    <div className="tl-content" style={{paddingBottom: "15%"}}>
+                                    <div className="tl-content" style={{paddingBottom: "25%"}}>
                                         <h6 className="text-muted" style={{marginTop: "0rem"}}>{t.date}</h6>
                                         <h3 className="tl-title">{t.title}</h3>
                                         <div className="row">

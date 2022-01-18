@@ -26,125 +26,101 @@ const About = () => {
                 <p>When I'm not coding, you can find me streaming new movies and tv series, listening to music, traveling, cooking, or hanging with friends and family.</p>
 
 
-                <p>But, enough with the formalities...</p>
+                {/* <p>But, enough with the formalities...</p> */}
             </div>
         </div>
 
 
-        <div className='container-fluid my-5 p-5 text-center'>
-            <hr/>
-            {/* <h2>More Stuff</h2> */}
-            <hr/>
-        </div>
+        <div className="container">
+            <h1 className='py-5'>Uses</h1>
+            <div className="w-75" style={{fontSize: "12pt"}}>
+                <h5>Editor + Terminal</h5>
+                <ul>
+                    <li><b>Editor</b> - VSCode</li>
+                    <li><b>Color Theme</b> - Dark+ (default dark)</li>
+                    <li><b>Terminal</b> - MacOS (better options for backend dev)</li>
+                </ul>
 
-        <div className='container'>
-            <div className='row'>
-                {/* Column 1 */}
-                <div className='col-md-6'>
-
-                    {/* Interest */}
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-title">Interests</h3>
-                            <p class="card-text">
-                                {CAMISA.INTERESTS.map(i =>
-                                <div className="badge badge-primary m-1 p-2">{i}</div>
-                                )}
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-title">Fun Fact</h3>
-                            <p class="card-text">
-                                My first name translates to 'shirt' in 4 languages-- spelled and pronounced exactly the same.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-title">Top 5 on my Travel Bucket List</h3>
-                            <p class="card-text">
-                                <ol>
-                                    <li>São Paulo, Brazil</li>
-                                    <li>Montego Bay, Jamaica</li>
-                                    <li>London, England</li>
-                                    <li>Los Angeles, California</li>
-                                    <li>Tokyo, Japan</li>
-                                </ol>
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-
-
-
-                {/* Column 2 */}
-                <div className='col-md-6'>
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-title">Hobbies</h3>
-                            <p class="card-text">
-                                {CAMISA.HOBBIES.map(i =>
-                                <div className="badge badge-primary m-1 p-2">{i}</div>
-                                )}
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h3 class="card-title">My doggies</h3>
-                            <img src={dogs} width="100%"/>
-
-                            <p class="card-text mt-3 mb-0 text-muted">
-                                <small>
-                                    FAQ: "What kind of dog is that?" <br/>
-                                    Answer: "American Rottweiler and Cane Corso"
-                                </small>
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
+                <h5>Desktop Apps</h5>
+                <ul>
+                    <li><b>Slack</b> - for communication and I honestly prefer this over discord</li>
+                    <li><b>Notion</b> - boards for everything</li>
+                    <li><b>Zoom</b> - for Zoom University and online classes</li>
+                    <li><b>WebEx</b> - for meetings with company crew</li>
+                    <li><b>Hyper</b> - I dont have this yet, but I heard it was great for Mac terminals</li>
+                </ul>
+                
+                <h5>Desk Setup</h5>
+                <ul>
+                    <li>MacBook Pro 16" 2021 16GB RAM 516GB Storage (Work Computer)</li>
+                    <li>MacBook Air 13" 2018 16GB RAM 128GB Storage (Personal/School Computer)</li>
+                    <li>Currently ISO a larger monitor and keyboard</li>
+                    <li>Coffee nearby almost always (my favorite is a blueberry coffee with a french vanilla creamer)</li>
+                    <li>A scented candle (most likely vanilla or lavender scented)</li>
+                </ul>
+                
+                <h5>This Website</h5>
+                <p>Built in ReactJS using Bootstrap for positioning. The fonts are Roboto Slab and Noto Sans.</p>
             </div>
         </div>
 
-
-
-        <div className='container'>
-            <div className='my-5'>
-                <h3>Music I Like</h3>
-                <p>Just so you know, this short list changes every week...</p>
-                <div className="row">
-                    {CAMISA.MUSIC.map(m =>
-                        <div className="col-6 col-sm-3 col-md-2">
-                            <div className="music-cover" style={{backgroundImage: `url(${m.img})`}}></div>
-                            <h6>{m.artist} x {m.album}</h6>
-                            <p style={{lineHeight: "1"}}><small>{m.more}</small></p>
-                        </div>
+        <div className="container">
+            <h1 className='py-5 mt-5'>Interests</h1>
+            <div className="w-75" style={{fontSize: "12pt"}}>
+                <ul>
+                    {CAMISA.INTERESTS.map(i =>
+                        <li className="m-0 p-0">{i}</li>
                     )}
-                </div>
+                </ul>
             </div>
+        </div>
 
 
-            <div className='my-5'>
-                <h3>Movies I Like</h3>
-                <p>Also changes very often...</p>
-                <div className="row">
-                    {CAMISA.MOVIES.map(m =>
-                        <div className="col-6 col-sm-3 col-md-2">
-                            <div className="movie-cover" style={{backgroundImage: `url(${m.img})`}}></div>
-                            <h6>{m.title}</h6>
-                            <p style={{lineHeight: "1"}}><small>{m.info}</small></p>
-                        </div>  
+        <div className="container">
+            <h1 className='py-5 mt-5'>Hobbies</h1>
+            <div className="w-75" style={{fontSize: "12pt"}}>
+                <ul>
+                    {CAMISA.HOBBIES.map(i =>
+                        <li className="m-0 p-0">{i}</li>
                     )}
+                </ul>
+            </div>
+        </div>
+        
+
+
+        <div className="container">
+            <h1 className='py-5 mt-5'>Top 5 Places on My Travel Bucket List</h1>
+            <div className="w-75" style={{fontSize: "12pt"}}>
+                <ol>
+                    <li>São Paulo, Brazil</li>
+                    <li>Montego Bay, Jamaica</li>
+                    <li>London, England</li>
+                    <li>Los Angeles, California</li>
+                    <li>Tokyo, Japan</li>
+                </ol>
+            </div>
+        </div>
+
+
+        <div className="container">
+            <h1 className='py-5 mt-5'>My Doggies</h1>
+            <div className="w-75" style={{fontSize: "12pt"}}>
+                <img src={dogs} width="100%"/>
+
+                <div className='py-4'>
+                    <p>FAQ: "What kind of dog is that?"</p>
+                    <p>Answer: "American Rottweiler and Cane Corso"</p>
                 </div>
             </div>
+        </div>
 
+
+        <div className="container" style={{marginBottom: "10rem"}}>
+            <h1 className='py-5 mt-5'>Fun Fact</h1>
+            <div className="w-75" style={{fontSize: "12pt"}}>
+                <p>My first name translates to 'shirt' in 4 languages-- spelled and pronounced exactly the same.</p>
+            </div>
         </div>
             
 
