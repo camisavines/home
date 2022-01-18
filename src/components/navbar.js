@@ -12,7 +12,7 @@ const Navbar = ({ theme, setTheme }) => {
     }
 
     return (
-        <nav className={`navbar navbar-expand-lg py-4 ${theme === 'light' ? 'navbar-light bg-light' : 'navbar-dark bg-dark'}`}>
+        <nav className={`navbar navbar-expand-lg py-4 ${theme === 'light' ? 'navbar-light theme-light' : 'navbar-dark theme-dark'}`}>
             <div className="container">
 
             <Link className="navbar-brand" to={ROUTES.HOME}>Camisa Vines</Link>

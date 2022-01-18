@@ -112,7 +112,7 @@ const About = () => {
         </div>
 
 
-        <div className="container" style={{marginBottom: "10rem"}}>
+        <div className="container" style={{paddingBottom: "10rem"}}>
             <h1 className='py-5 mt-5'>Fun Fact</h1>
             <div className="w-75" style={{fontSize: "12pt"}}>
                 <p>My first name translates to 'shirt' in 4 languages-- spelled and pronounced exactly the same.</p>

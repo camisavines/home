@@ -1,24 +1,67 @@
-$theme-light-bg: #999;
+// Light Theme
+$theme-light-bg: #F1F5F2;
 $theme-light-color: black;
+$theme-light-accent: #EF8354;
+$theme-light-accent-2: #f5b498;
+$theme-light-footer-bg: #e4e4e4;
 
 
-$theme-dark-bg: #222;
 
 
-.theme-light .bg-light {
-    color: red;
+// Dark Theme
+$theme-dark-bg: #242325;
+$theme-dark-color: #F2F4F3;
+$theme-dark-accent: #448bff;
+// $theme-dark-accent: #A9927D;
+$theme-dark-accent-2: #53503F;
+$theme-dark-footer-bg: #111;
+
+
+
+
+// -------------------------------------------------------
+// -------------------------------------------------------
+
+
+.theme-light {
+    background-color: $theme-light-bg;
+    color: $theme-light-color;
     transition: 1s;
+
+    .tl-title, a { color: $theme-light-accent; }
+    a:hover { color: $theme-light-accent-2; }
+
+    .b-primary, .tl-item.active .tl-dot:before { border-color: $theme-light-accent; }
+}
+
+.footer-light {
+    background-color: $theme-light-footer-bg;
+
+    a { color: $theme-light-accent; }
+    a:hover { color: $theme-light-accent-2; }
 }
 
 
-.bg-dark {
-    color: white;
-    background-color: red;
+
+
+
+
+.theme-dark {
+    background-color: $theme-dark-bg;
+    color: $theme-dark-color;
     transition: 1s;
+
+    .tl-title, a { color: $theme-dark-accent; }
+    a:hover { color: $theme-dark-accent-2; }
+
+    .b-primary, .tl-item.active .tl-dot:before { border-color: $theme-dark-accent; }
+
 }
 
+.footer-dark {
+    background-color: $theme-dark-footer-bg;
+    color: $theme-dark-color;
 
-/* 
-    Brown Theme
-    #5F3310,#101010,#BB6536,#FDE7AD,#AD8A60,#FFFFFF,#D4937A,#ECC091,#5F3310,#ECC091 
-*/
+    a { color: $theme-dark-accent; }
+    a:hover { color: $theme-dark-accent-2; }
+}

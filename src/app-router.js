@@ -32,7 +32,7 @@ const App = () => {
       <Router className={`app-router theme-${theme}`}>
         <Navbar setTheme={setTheme} theme={theme} />
 
-        <div className={`container-fluid ${theme === 'light' ? "bg-light" : "bg-dark"}`}>
+        <div className={`container-fluid ${theme === 'light' ? "theme-light" : "theme-dark"}`}>
           <Route exact path={ROUTES.HOME} component={Home}/>
           <Route path={ROUTES.RESUME} component={Resume} />
           <Route path={ROUTES.ABOUT} component={About} />
@@ -40,8 +40,9 @@ const App = () => {
           <Route path={ROUTES.POTFOLIO} component={Portfolio} />
       
         </div>
-      
-        <Footer />
+
+
+        <Footer theme={theme} />
     </Router>
   );
 }
