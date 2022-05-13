@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ProjectComponent from "../components/project/projectComponent";
+import ProjectComponent from "../components/projectComponent";
 import projects from "../data/project";
 import bdb from "../photos/projects/blackdatabase.png";
 import bfa from "../photos/projects/BFA.png";

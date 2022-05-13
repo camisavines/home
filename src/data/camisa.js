@@ -4,14 +4,14 @@ export const INTERESTS = [
     "iOS Mobile Development",
     "Sports Analytics",
     "UX/UI Design",
-    "Building Drones",
-    "Quantum Technology",
-    "Cloud Services",
-    "Data Science",
-    "AWS Services",
-    "Personal Branding",
-    "Startups",
-    "Patening"
+    // "Building Drones",
+    // "Quantum Technology",
+    // "Cloud Services",
+    // "Data Science",
+    // "AWS Services",
+    // "Personal Branding",
+    // "Startups",
+    // "Patening"
 ];
 
 
@@ -42,11 +42,11 @@ export const MOVIES = [
         img: "https://i.ytimg.com/vi/U386EMeWo3I/movieposter.jpg",
         info: "For obvious reasons."
     },
-    // {
-    //     title: "The Perks of Being a Wallflower",
-    //     img: "https://m.media-amazon.com/images/I/51VnN-M3ljL._AC_.jpg",
-    //     info: "Channeling my inner teenager."
-    // }
+    {
+        title: "The Perks of Being a Wallflower",
+        img: "https://m.media-amazon.com/images/I/51VnN-M3ljL._AC_.jpg",
+        info: "Channeling my inner teenager."
+    }
 ];
 
 
@@ -71,7 +71,7 @@ export const MUSIC = [
         img: "https://images.genius.com/92fe61edad0376f8f51e5f839be31465.1000x1000x1.png"
     },
     {
-        artist: "Luck Daye",
+        artist: "Lucky Daye",
         album: "Painted Deluxe",
         more: "This is a really good jazzy / hip-hop album.",
         img: "https://ratedrnb.com/cdn/2020/05/Lucky-Daye.v1-1140x1140.png"
@@ -91,12 +91,12 @@ export const MUSIC = [
 ];
 
 export const HOBBIES = [
-    "Taking care of my pets",
     "Listening to music",
     "Traveling",
     "Cooking",
     "Photography",
     "Trying new things",
+    "Taking care of my pets",
 ]
 
 
@@ -116,5 +116,5 @@ export const SKILLS = [
     "Organization",
     "Responsive Web Design",
     "Written and Verbal Communication",
-    "Reaserch & Documentation",
+    "Research & Documentation",
 ]

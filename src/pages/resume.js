@@ -96,14 +96,14 @@ const Resume = () => {
                         <p><b>Other Skills</b></p>
                         </div>
                         <div className='col-6 col-md-9'>
-                            <p>Organization, Teamwork, Leadership, Written and Verbal Communication, Reseach & Documentation, Googling</p>
+                            <p>Organization, Teamwork, Leadership, Written and Verbal Communication, Research & Documentation, Googling</p>
                         </div>
                     </div>
                 </div>
             </div>
 
 
-            <div className='row my-5'>
+            <div className='row py-5'>
                 <div className="col-lg-12">
                     <h2>Awards</h2>
                     <hr/>
