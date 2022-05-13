@@ -1,4 +1,5 @@
-import sbcs from "../photos/Pic4.jpeg"
+import sbcs from "../photos/Pic4.jpeg";
+import ibmgif from "../photos/ibm.gif";
 
 const timeline = [
     {
@@ -25,7 +26,7 @@ const timeline = [
         title: "Diploma Status",
         content: "After high school, I decided to stay continue my education and career in tech at Indiana University-Bloomington studying Computer Science.",
         subtexts: ["South Bend, IN"],
-        // image: "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,g_xy_center,h_573,q_60,w_573,x_1728,y_1417/v1/clients/bloomington/SampleGatesFall_Sunrise_10_edit_2f20bd0e-3463-416b-98ad-f45f347e29d1.jpg"
+        image: "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,g_xy_center,h_573,q_60,w_573,x_1728,y_1417/v1/clients/bloomington/SampleGatesFall_Sunrise_10_edit_2f20bd0e-3463-416b-98ad-f45f347e29d1.jpg"
     },
     {
         item_classes: "active",
@@ -61,7 +62,8 @@ const timeline = [
         date: "2022",
         title: "Back to Work!",
         content: "After pondering grad school for a while, I decided to accept a full time offer as a Software Engineer back with IBM.",
-        subtexts: ["IBM", "Austin, TX"]
+        subtexts: ["IBM", "Austin, TX"],
+        image: ibmgif
     },
     {
         item_classes: "",
