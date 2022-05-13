@@ -17,7 +17,7 @@ const Navbar = ({ theme, setTheme }) => {
 
             <Link className="navbar-brand" to={ROUTES.HOME}>Camisa Vines</Link>
             <button className="navbar-toggler btn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="material-icons">menu</i>
+                <i className="material-icons">menu</i>
             </button>
 
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -26,7 +26,7 @@ const Navbar = ({ theme, setTheme }) => {
                         <Link className="nav-link" to={ROUTES.RESUME}>Resume</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to={ROUTES.POTFOLIO}>Projects</Link>
+                        <Link className="nav-link" to={ROUTES.PORTFOLIO}>Projects</Link>
                     </li>
                     {/* <li className="nav-item">
                         <Link className="nav-link" to={ROUTES.NEWS}>News</Link>
