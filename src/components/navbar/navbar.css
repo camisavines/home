@@ -36,6 +36,8 @@
 .themes {
   display: flex;
   height: 3rem;
+  margin-bottom: 2rem;
+  align-items: center;
 }
 
 .theme-changer {

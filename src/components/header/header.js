@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className="header-container">
       <div style={{display: "flex", alignItems: "center", fontSize: "1.3rem"}}>
-        <span className="material-symbols-outlined" style={{ marginRight: "0.5rem"}}>home</span>
+        {/* <span className="material-symbols-outlined" style={{ marginRight: "0.5rem"}}>home</span> */}
         <span><Link to={Routes.HOME} className="header-title">Camisa Vines</Link></span>
       </div>
       <div

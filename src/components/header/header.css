@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: -2rem;
   /* border-bottom: 0.25px solid #2d2d2d; */
 }
 

@@ -1,10 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom";
 
 import * as ROUTES from "../../constant/routes";
 import "./navbar.css";
 
 const Navbar = ({ theme, setTheme }) => {
+  const [currentPage, setCurrentPage] = useState("Home")
   const themeHandler = (color) => {
     localStorage.setItem("theme-color", color);
     setTheme(color);
@@ -12,10 +13,7 @@ const Navbar = ({ theme, setTheme }) => {
 
   return (
     <div className="navbar-container">
-      <div
-        className="themes"
-        style={{ height: "3rem", alignItems: "center", marginBottom: "2rem" }}
-      >
+      <div className="themes">
         <div
           className="theme-changer light mr-2"
           onClick={() => {
@@ -39,13 +37,19 @@ const Navbar = ({ theme, setTheme }) => {
           marginBottom: "2rem",
         }}
       >
-        Home page
+        {currentPage}
       </div>
 
       {/* Section 1 */}
       <div className="nav-section">
         <p className="nav-section-header">Library</p>
         <ul>
+        <Link to={ROUTES.HOME}>
+            <li onClick={() => setCurrentPage("Home")}>
+              <span class="material-symbols-outlined">home</span>
+              Home
+            </li>
+          </Link>
           <li>My journey</li>
           <li>Recently Added</li>
         </ul>
@@ -56,7 +60,7 @@ const Navbar = ({ theme, setTheme }) => {
         <p className="nav-section-header">Playlists</p>
         <ul>
           <Link to={ROUTES.PROJECTS}>
-            <li>
+            <li onClick={() => setCurrentPage("Projects")}>
               <span class="material-symbols-outlined">star</span>
               Projects
             </li>
