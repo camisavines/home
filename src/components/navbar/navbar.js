@@ -1,11 +1,11 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import * as ROUTES from "../../constant/routes";
 import "./navbar.css";
 
 const Navbar = ({ theme, setTheme }) => {
-  const [currentPage, setCurrentPage] = useState("Home")
+  const [currentPage, setCurrentPage] = useState("Home");
   const themeHandler = (color) => {
     localStorage.setItem("theme-color", color);
     setTheme(color);
@@ -44,7 +44,7 @@ const Navbar = ({ theme, setTheme }) => {
       <div className="nav-section">
         <p className="nav-section-header">Library</p>
         <ul>
-        <Link to={ROUTES.HOME}>
+          <Link to={ROUTES.HOME}>
             <li onClick={() => setCurrentPage("Home")}>
               <span class="material-symbols-outlined">home</span>
               Home
@@ -55,7 +55,6 @@ const Navbar = ({ theme, setTheme }) => {
         </ul>
       </div>
 
-
       <div className="nav-section">
         <p className="nav-section-header">Playlists</p>
         <ul>
@@ -65,7 +64,12 @@ const Navbar = ({ theme, setTheme }) => {
               Projects
             </li>
           </Link>
-          <li>Resume</li>
+          <Link to={ROUTES.RESUME}>
+            <li onClick={() => setCurrentPage("Resume")}>
+              <span class="material-symbols-outlined">menu</span>
+              Resume
+            </li>
+          </Link>
           <li>News</li>
           <li>About</li>
           <li>My music</li>

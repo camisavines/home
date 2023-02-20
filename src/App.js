@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
-import { Home, Projects } from "./pages";
+import { Home, Projects, Resume } from "./pages";
 import { Layout, Navbar, Header } from "./components";
 import * as ROUTES from "./constant/routes";
 import "./theme.scss";
@@ -35,6 +35,7 @@ function App() {
             <Routes>
               <Route path={ROUTES.HOME} exact element={<Home />} />
               <Route path={ROUTES.PROJECTS} element={<Projects />} />
+              <Route path={ROUTES.RESUME} element={<Resume />} />
             </Routes>
             </div>
           </div>
