@@ -6,7 +6,7 @@ import bfa from "../photos/projects/BFA.png";
 
 const projects = [
     {
-        title: "Black Female Auteurs Blog",
+        title: "Black Female Auteur",
         alt: "bfa",
         img: bfa,
         link: "https://camisavines.github.io/black-female-auteurs/",

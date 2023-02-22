@@ -18,7 +18,7 @@ const ProjectComponent = ({imageURL, title, description, link, link2, link2text}
     return (
         <div className="project card">
             <div className="card-content">
-                <div class="card-image waves-effect waves-block waves-light">
+                <div className="card-image waves-effect waves-block waves-light">
                     <div className="activator" style={imageStyle}></div>
                 </div>
 
@@ -30,7 +30,7 @@ const ProjectComponent = ({imageURL, title, description, link, link2, link2text}
             </div>
 
             <div className="card-reveal">
-                <span className="card-title grey-text text-darken-4">{title}<i class="material-icons right">close</i></span>
+                <span className="card-title grey-text text-darken-4">{title}<i className="material-icons right">close</i></span>
                 <p className="grey-text text-darken-4">{description}</p>
             </div>
         </div>

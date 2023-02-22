@@ -46,13 +46,13 @@ const Navbar = ({ theme, setTheme }) => {
         <ul>
           <Link to={ROUTES.HOME}>
             <li onClick={() => setCurrentPage("Home")}>
-              <span class="material-symbols-outlined">home</span>
+              <span className="material-symbols-outlined">home</span>
               Home
             </li>
           </Link>
           {/* <Link to={ROUTES.HOME}>
             <li onClick={() => setCurrentPage("Recently Added")}>
-              <span class="material-symbols-outlined">headphones</span>
+              <span className="material-symbols-outlined">headphones</span>
               Recently Added
             </li>
           </Link> */}
@@ -64,33 +64,33 @@ const Navbar = ({ theme, setTheme }) => {
         <ul>
           <Link to={ROUTES.PROJECTS}>
             <li onClick={() => setCurrentPage("Projects")}>
-              <span class="material-symbols-outlined">star</span>
+              <span className="material-symbols-outlined">star</span>
               Projects
             </li>
           </Link>
           <Link to={ROUTES.RESUME}>
             <li onClick={() => setCurrentPage("Resume")}>
-              <span class="material-symbols-outlined">menu</span>
+              <span className="material-symbols-outlined">menu</span>
               Resume
             </li>
           </Link>
           {/* <Link to={ROUTES.NEWS}>
             <li onClick={() => setCurrentPage("News")}>
-              <span class="material-symbols-outlined">newspaper</span>
+              <span className="material-symbols-outlined">newspaper</span>
               News
             </li>
           </Link> */}
           
           {/* <Link to={ROUTES.ABOUT}>
             <li onClick={() => setCurrentPage("About")}>
-              <span class="material-symbols-outlined">menu</span>
+              <span className="material-symbols-outlined">menu</span>
               About
             </li>
           </Link> */}
 
           {/* <Link to={ROUTES.JOURNEY}>
             <li onClick={() => setCurrentPage("My Journey")}>
-              <span class="material-symbols-outlined">flight</span>
+              <span className="material-symbols-outlined">flight</span>
               My journey
             </li>
           </Link> */}

@@ -5,27 +5,27 @@ const About = () => {
     <>
       <div className="row" style={{ marginTop: "3rem" }}>
         <div className="col s12 m6 l4">
-          <div class="card">
-            <div class="card-image waves-effect waves-block waves-light">
+          <div className="card">
+            <div className="card-image waves-effect waves-block waves-light">
               <img
-                class="activator"
+                className="activator"
                 src="https://images.theconversation.com/files/223729/original/file-20180619-126566-1jxjod2.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
               />
               <span
-                class="card-title activator grey-text text-darken-4"
+                className="card-title activator grey-text text-darken-4"
                 style={{ width: "100%" }}
               >
-                Card Title<i class="material-icons right">more_vert</i>
+                Card Title<i className="material-icons right">more_vert</i>
               </span>
             </div>
-            {/* <div class="card-content red">
+            {/* <div className="card-content red">
             <p>
               <a href="#">This is a link</a>
             </p>
           </div> */}
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">
-                Card Title<i class="material-icons right">close</i>
+            <div className="card-reveal">
+              <span className="card-title grey-text text-darken-4">
+                Card Title<i className="material-icons right">close</i>
               </span>
               <p>
                 Here is some more information about this product that is only
@@ -38,22 +38,22 @@ const About = () => {
 
       <div className="row" style={{ marginTop: "3rem" }}>
         <div className="col s12 m6 l4">
-          <div class="card">
-            <div class="card-image waves-effect waves-block waves-light">
+          <div className="card">
+            <div className="card-image waves-effect waves-block waves-light">
               <img
-                class="activator"
+                className="activator"
                 src="https://i.pinimg.com/originals/6d/c8/f1/6dc8f11334c7e1564bde781d84f9dfb7.gif"
               />
               <span
-                class="card-title activator grey-text text-darken-4"
+                className="card-title activator grey-text text-darken-4"
                 style={{ width: "100%" }}
               >
-                Uses<i class="material-icons right">more_vert</i>
+                Uses<i className="material-icons right">more_vert</i>
               </span>
             </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">
-                Uses<i class="material-icons right">close</i>
+            <div className="card-reveal">
+              <span className="card-title grey-text text-darken-4">
+                Uses<i className="material-icons right">close</i>
               </span>
 
               <h5>Editor + Terminal</h5>

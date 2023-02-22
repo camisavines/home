@@ -9,12 +9,12 @@ const Home = () => {
 
       <div className="row" style={{ marginTop: "2rem" }}>
         <div className="col s12 m6 l4">
-          <div class="card" style={{ borderRadius: "10px" }}>
-            <div class="card-image">
+          <div className="card" style={{ borderRadius: "10px" }}>
+            <div className="card-image">
               <img src={camisa} />
-              {/* <span class="card-title">Camisa</span> */}
+              {/* <span className="card-title">Camisa</span> */}
             </div>
-            {/* <div class="card-content">
+            {/* <div className="card-content">
               <p>Hey what's up?! Welcome to my site!</p>
             </div> */}
           </div>
@@ -39,9 +39,9 @@ const Home = () => {
 
             <div>
               <p>Connect with me and let me know what you're listening to!</p>
-              {/* <a class="waves-effect waves-light btn red"><i class="material-icons left">play_arrow</i>Play</a> */}
-              <a class="waves-effect waves-light btn red" href="https://www.linkedin.com/in/camisavines/" target="_blank" rel="noreferer">
-                <i class="material-icons left">add</i>Connect
+              {/* <a className="waves-effect waves-light btn red"><i className="material-icons left">play_arrow</i>Play</a> */}
+              <a className="waves-effect waves-light btn red" href="https://www.linkedin.com/in/camisavines/" target="_blank" rel="noreferer">
+                <i className="material-icons left">add</i>Connect
               </a>
             </div>
           </div>

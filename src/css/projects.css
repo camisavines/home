@@ -1,7 +1,6 @@
 .project {
-  padding: 2rem;
-  /* filter: drop-shadow(0 0 0.75rem black); */
-  border: 1px solid #a1a1a1;
-  border-radius: 0.5rem;
-  height: "100%"
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 0.45rem;
+  height: 100%;
+  width: 100%;
 }
