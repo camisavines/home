@@ -50,8 +50,12 @@ const Navbar = ({ theme, setTheme }) => {
               Home
             </li>
           </Link>
-          <li>My journey</li>
-          <li>Recently Added</li>
+          {/* <Link to={ROUTES.HOME}>
+            <li onClick={() => setCurrentPage("Recently Added")}>
+              <span class="material-symbols-outlined">headphones</span>
+              Recently Added
+            </li>
+          </Link> */}
         </ul>
       </div>
 
@@ -70,9 +74,26 @@ const Navbar = ({ theme, setTheme }) => {
               Resume
             </li>
           </Link>
-          <li>News</li>
-          <li>About</li>
-          <li>My music</li>
+          {/* <Link to={ROUTES.NEWS}>
+            <li onClick={() => setCurrentPage("News")}>
+              <span class="material-symbols-outlined">newspaper</span>
+              News
+            </li>
+          </Link> */}
+          
+          {/* <Link to={ROUTES.ABOUT}>
+            <li onClick={() => setCurrentPage("About")}>
+              <span class="material-symbols-outlined">menu</span>
+              About
+            </li>
+          </Link> */}
+
+          {/* <Link to={ROUTES.JOURNEY}>
+            <li onClick={() => setCurrentPage("My Journey")}>
+              <span class="material-symbols-outlined">flight</span>
+              My journey
+            </li>
+          </Link> */}
         </ul>
       </div>
     </div>

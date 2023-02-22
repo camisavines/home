@@ -1,4 +1,5 @@
 import { Home } from "./home";
 import { Projects } from "./projects";
-import { Resume } from "./resume"
-export { Home, Projects, Resume }
+import { Resume } from "./resume";
+import { About } from "./about";
+export { Home, Projects, Resume, About }
