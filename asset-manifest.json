@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.d333f2c9.css",
-    "main.js": "/static/js/main.7c494cd1.js",
-    "static/media/camisa_pic.JPG": "/static/media/camisa_pic.c259faf0e4d33b002e0c.JPG",
-    "static/media/BFA.png": "/static/media/BFA.062bcbe4da0079f32894.png",
-    "static/media/python_project.png": "/static/media/python_project.e1af4dae64c15d781075.png",
-    "static/media/covidfacts.png": "/static/media/covidfacts.983543059d46cefb1ce0.png",
-    "static/media/futurewonder.png": "/static/media/futurewonder.fe40dbb3d1dab86a754f.png",
-    "static/media/IMG_5279.jpg": "/static/media/IMG_5279.649c3ac9ac8b731e84c9.jpg",
-    "static/media/blackdatabase.png": "/static/media/blackdatabase.3abb3157b20e284bb251.png",
-    "index.html": "/index.html",
-    "main.d333f2c9.css.map": "/static/css/main.d333f2c9.css.map",
-    "main.7c494cd1.js.map": "/static/js/main.7c494cd1.js.map"
+    "main.css": "/home/static/css/main.d333f2c9.css",
+    "main.js": "/home/static/js/main.6fbb91ee.js",
+    "static/media/camisa_pic.JPG": "/home/static/media/camisa_pic.c259faf0e4d33b002e0c.JPG",
+    "static/media/BFA.png": "/home/static/media/BFA.062bcbe4da0079f32894.png",
+    "static/media/python_project.png": "/home/static/media/python_project.e1af4dae64c15d781075.png",
+    "static/media/covidfacts.png": "/home/static/media/covidfacts.983543059d46cefb1ce0.png",
+    "static/media/futurewonder.png": "/home/static/media/futurewonder.fe40dbb3d1dab86a754f.png",
+    "static/media/IMG_5279.jpg": "/home/static/media/IMG_5279.649c3ac9ac8b731e84c9.jpg",
+    "static/media/blackdatabase.png": "/home/static/media/blackdatabase.3abb3157b20e284bb251.png",
+    "index.html": "/home/index.html",
+    "main.d333f2c9.css.map": "/home/static/css/main.d333f2c9.css.map",
+    "main.6fbb91ee.js.map": "/home/static/js/main.6fbb91ee.js.map"
   },
   "entrypoints": [
     "static/css/main.d333f2c9.css",
-    "static/js/main.7c494cd1.js"
+    "static/js/main.6fbb91ee.js"
   ]
 }
