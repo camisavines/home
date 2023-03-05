@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import * as Routes from "../../constant/routes"
 
 import "./header.css";
-import camisa from "../../photos/camisa_pic.JPG";
+import camisa from "../../photos/headshot.jpg";
 
 const Header = () => {
   return (
