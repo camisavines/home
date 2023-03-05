@@ -16,3 +16,16 @@
     background-color: black;
     /* border: .5px solid grey; */
 }
+
+.navbar {
+    background: transparent !important;
+    box-shadow: none;
+}
+
+.brand-logo {
+    color: inherit !important;
+}
+
+.navbar-light {
+    /* color: black; */
+}
