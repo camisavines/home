@@ -1,0 +1,61 @@
+.navbar-container {
+  background-color: rgba(50,50,50,0.2);
+  padding: 1rem;
+  height: 100vh;
+  margin: 0;
+}
+
+.nav-section {
+  margin-bottom: 2rem;
+}
+
+.nav-section-header {
+  margin: 0;
+  color: #a1a1a1;
+  font-size: 0.75rem;
+  margin-bottom: -1rem;
+}
+.nav-section ul li {
+  transition: 0.3s;
+  padding: 0.25rem;
+  align-items: center;
+  display: flex;
+  color: red;
+}
+.nav-section ul li:hover {
+  background-color: rgba(50,50,50,0.1);
+}
+.nav-section ul li span {
+  font-size: 1.25rem;
+  margin-right: .5rem;
+}
+
+
+
+/* THEMES */
+.themes {
+  display: flex;
+  height: 3rem;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+.theme-changer {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+.theme-changer:hover {
+  cursor: pointer;
+}
+
+.theme-changer.light {
+  background-color: lightgrey;
+  margin-right: 0.5rem;
+  /* border: .5px solid black; */
+}
+
+.theme-changer.dark {
+  background-color: black;
+  /* border: .5px solid grey; */
+}

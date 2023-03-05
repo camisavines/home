@@ -1,72 +1,89 @@
-import React from 'react';
-
-import timeline from '../data/timeline';
-import camisa from "../photos/headshot.jpg";
-import '../css/timeline.css';
-
+import React from "react";
+import camisa from "../photos/IMG_5279.jpg";
+import { songs } from "../constant/songs";
 
 const Home = () => {
-    return (
-    <>
-        {/* Top Section */}
-        <section className="home-hero">
-            <div className="container">
-                <div className="row d-flex justify-content-center align-items-center">
-                    <div className="col-md-6 pb-5">
-                        <h1 style={{fontSize: "4em"}}>Hi, I'm Camisa</h1>
-                        <h4 className='text-muted'>Student and Software Developer</h4>
-                    </div>
-                    <div className="col-md-6 d-flex text-center align-items-center justify-content-center">
-                        <div className="w-75" style={{
-                            backgroundImage: `url(${camisa})`, 
-                            backgroundRepeat: "no-repeat", 
-                            backgroundSize: "cover",
-                            backgroundPosition: "center",
-                            borderRadius: "50%", 
-                            paddingTop: "75%"}}>
-                        </div>
-                    </div>
-                </div>
+  return (
+    <div>
+      {/* <h1>Welcome</h1> */}
+
+      <div className="row" style={{ marginTop: "2rem" }}>
+        <div className="col s12 m6 l4">
+          <div className="card" style={{ borderRadius: "10px" }}>
+            <div className="card-image">
+              <img src={camisa} />
+              {/* <span className="card-title">Camisa</span> */}
             </div>
-        </section>
-
-
-        {/* Timeline section */}
-        <div className="container">
-            <div className="row">
-                <div className="col-sm-12">
-                    <div className="timeline">
-
-                            {timeline.map(t => 
-                                <div className={`tl-item ${t.item_classes}`}>
-                                    <div className={`tl-dot ${t.bar_color}`}></div>
-                                    <div className="tl-content" style={{paddingBottom: "25%"}}>
-                                        <h6 className="text-muted" style={{marginTop: "0rem"}}>{t.date}</h6>
-                                        <h3 className="tl-title">{t.title}</h3>
-                                        <div className="row">
-                                            <div className="col-sm-12 col-lg-6 pb-4">
-                                                <p>{t.content}</p>
-                                                <p><a href={t.link} target="_blank" rel="noopener noreferrer">{t.linkText}</a></p>
-                                                <div className="tl-date text-muted mt-1">{t.subtexts.map(t => { return <>{t}<br/></>})}</div>
-                                            </div>
-
-                                            {t.image ? 
-                                                <div className="col-sm-12 col-lg-8 col-xl-6">
-                                                    <img src={t.image} width="100%" alt="timeline_image" />
-                                                </div>
-                                            : null}
-                                        </div>
-                                    </div>
-                                </div>
-                            )}
-                        
-                    </div>
-                </div>
-            </div>
+            {/* <div className="card-content">
+              <p>Hey what's up?! Welcome to my site!</p>
+            </div> */}
+          </div>
         </div>
 
-    </>
-    )
-}
+        <div className="col s12 m6 l8">
+          <div
+            style={{
+              display: "flex",
+              alignItems: "start",
+              justifyContent: "space-between",
+              flexDirection: "column",
+              minHeight: "45vh",
+            }}
+          >
+            <h3>Welcome!</h3>
+            <p>
+              Hey, there! I'm Camisa. <br /> I'm a software developer who really
+              loves music. <br /> Click the links on the left to explore and
+              checkout my top 10 songs below.
+            </p>
 
-export default Home;
+            <div>
+              <p>Connect with me and let me know what you're listening to!</p>
+              {/* <a className="waves-effect waves-light btn red"><i className="material-icons left">play_arrow</i>Play</a> */}
+              <a className="waves-effect waves-light btn red" href="https://www.linkedin.com/in/camisavines/" target="_blank" rel="noreferer">
+                <i className="material-icons left">add</i>Connect
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="row">
+        <table className="highlight">
+          <thead>
+            <tr>
+              <th>Song</th>
+              <th>Artist</th>
+              <th>Album</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            {songs.map((song, index) => (
+              <tr>
+                <td style={{ display: "flex", alignItems: "center" }}>
+                  <p style={{ marginRight: "1rem", color: "#a1a1a1"}}>{index + 1}</p>
+                  <div
+                    style={{
+                      backgroundImage: `url(${song.art})`,
+                      height: "4rem",
+                      width: "4rem",
+                      backgroundSize: "cover",
+                      backgroundPosition: "center",
+                      marginRight: "1rem"
+                    }}
+                  />
+                  {song.title}
+                </td>
+                <td>{song.artist}</td>
+                <td>{song.album}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+};
+
+export { Home };

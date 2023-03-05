@@ -8,18 +8,24 @@ export const skills = [
 
 export const work = [
   {
+    title: "Software Developer", company: "IBM",
+    dates: "June 2022 - Present",
+    description: "Work on identity team to develop and maintain internal applications",
+    assets: "React, Java, HTML, CSS, JS, TS"
+  },
+  {
     title: "Frontend Development Intern", company: "IBM",
     dates: "Summer 2021",
-    description: "Will work on company’s CIO team to develop and maintain internal applications",
+    description: "Worked within company’s CIO domain to develop and maintain internal applications",
     assets: "React, Java, HTML, CSS"
   },
   { title: "Post-Intern", company: "Future Wonder",
-    dates: "May 2019 - Present",
+    dates: "May 2019 - April 2022",
     description: "Communicate with clients to improve company’s website and/or application; Partner with senior engineers to address github tickets",
     assets: "JavaScript, React, Python, Docker, Postgres, Angular, Bootstrap"
   },
   { title: "Undergrad Instructor", company: "Indiana University",
-    dates: "Jan 2019 - Present",
+    dates: "Jan 2019 - May 2022",
     description: "TA for introductory Python course CSCI-C 200 since January 2019",
     assets: "Python"
   },
