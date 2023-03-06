@@ -2,10 +2,13 @@ import React from "react";
 
 import timeline from "../data/timeline";
 import camisa from "../photos/headshot.jpg";
-import linkedinlogo from "../photos/linkedin-logo.png"
+import linkedinlogo from "../photos/linkedin-logo.svg"
+import linkedinlogo_light from "../photos/linkedin-logo-light.svg"
 import "../css/timeline.css";
 
 const Home = () => {
+  const currentThemeColor = localStorage.getItem("theme-color");
+
   return (
     <>
       <section
@@ -20,7 +23,7 @@ const Home = () => {
               High level experience in web development, producing solutions in
               big tech.
             </p>
-            <span><img src={linkedinlogo} width="20px"/></span>
+            <a href="https://www.linkedin.com/in/camisavines/"><img src={currentThemeColor === "light" ? linkedinlogo_light : linkedinlogo} width="20px"/></a>
           </div>
           <div
             className="col s8 m5"
