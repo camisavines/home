@@ -4,8 +4,18 @@ import news3 from '../photos/news/news3.jpg';
 import news4 from '../photos/news/news4.png';
 import news5 from '../photos/news/news5.webp';
 import news6 from '../photos/news/news6.png';
+import news7 from "../photos/news/news7.jpg";
 
 const posts = [
+    {
+        title: "All Kinds of Black in Tech",
+        link: "https://www.ofcolor.org/",
+        description: "@_ofcoloratx presents All Kinds of Black in Tech, an immersive photo exhibit highlighting the voices and images of black professionals in the Technology workforce.",
+        image: news7,
+
+        date: "Feb 1, 2023",
+        bar_color: "b-primary",
+    },
     {
         title: "Black Wings Hacks + Rewriting the Code Hackathon Winners",
         link: "https://blackwingshacks2021.devpost.com/project-gallery",

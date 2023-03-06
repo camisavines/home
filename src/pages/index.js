@@ -1,4 +1,6 @@
 import { Home } from "./home";
 import { About } from "./about";
 import { Portfolio } from "./portfolio";
-export { Home, About, Portfolio }
+import { Resume } from "./resume";
+import { News } from "./news";
+export { Home, About, Portfolio, Resume, News }

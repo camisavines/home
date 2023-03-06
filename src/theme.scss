@@ -28,8 +28,8 @@ $theme-dark-footer-bg: #111;
     color: $theme-light-color;
     transition: 1s;
 
-    .tl-title { color: $theme-light-accent; }
-    a { color: black }
+    .tl-title, a { color: $theme-light-accent; }
+    // a { color: black }
     a:hover { color: $theme-light-accent-2; }
 
     .b-primary, .tl-item.active .tl-dot:before { border-color: $theme-light-accent; }

@@ -1,5 +1,5 @@
-import sbcs from "../photos/Pic4.jpeg";
-import ibmgif from "../photos/ibm.gif";
+import sbcs from "../photos/timeline/Pic4.jpeg";
+import ibmgif from "../photos/timeline/ibm.gif";
 
 const timeline = [
     {

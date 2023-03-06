@@ -28,12 +28,19 @@ const Navbar = ({ theme, setTheme }) => {
             <i className="material-icons">menu</i>
           </a>
           <ul className="right hide-on-med-and-down">
-            <li>
+            {/* <li>
               <Link to={ROUTES.ABOUT}>About</Link>
-            </li>
+            </li> */}
             <li>
               <Link to={ROUTES.PORTFOLIO}>Projects</Link>
             </li>
+            <li>
+              <Link to={ROUTES.RESUME}>Resume</Link>
+            </li>
+            <li>
+              <Link to={ROUTES.NEWS}>News</Link>
+            </li>
+            
             <li>
               <a
                 onClick={() => {
@@ -61,11 +68,17 @@ const Navbar = ({ theme, setTheme }) => {
             </i>
           </a>
         </li>
-        <li>
+        {/* <li>
           <Link to={ROUTES.ABOUT}>About</Link>
-        </li>
+        </li> */}
         <li>
           <Link to={ROUTES.PORTFOLIO}>Projects</Link>
+        </li>
+        <li>
+          <Link to={ROUTES.RESUME}>Resume</Link>
+        </li>
+        <li>
+          <Link to={ROUTES.NEWS}>News</Link>
         </li>
       </ul>
     </>

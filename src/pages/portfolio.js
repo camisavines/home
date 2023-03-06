@@ -19,7 +19,9 @@ const Portfolio = () => {
               <div className="col s12 m6 l8">
                 <h4>{p.title}</h4>
                 <p>{p.description}</p>
-                <p><a href={p.link2}>{p.link2Text}</a><span> | </span>   <a href={p.link}>Visit</a></p>
+                {p.link &&(
+                  <p><a href={p.link2}>{p.link2Text}</a><span> | </span><a href={p.link}>Visit</a></p>
+                )}
               </div>
             </div>
           ))}
