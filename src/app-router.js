@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
-import { Home } from "./pages";
+import { Home, About, Portfolio } from "./pages";
 // import Resume from './pages/resume';
 // import About from './pages/about';
 // import News from './pages/news';
@@ -30,18 +30,18 @@ const App = () => {
     <Router className={`app-router theme-${theme}`}>
       <Navbar setTheme={setTheme} theme={theme} />
 
-      {/* <div className={`container-fluid ${theme === 'light' ? "theme-light" : "theme-dark"}`}> */}
+      <div className={`container-fluid ${theme === 'light' ? "theme-light" : "theme-dark"}`}>
       <Routes>
         <Route exact path={ROUTES.HOME} element={<Home />} />
-        {/* <Route path={ROUTES.ABOUT} element={<About />} /> */}
+        <Route path={ROUTES.ABOUT} element={<About />} />
+        <Route path={ROUTES.PORTFOLIO} element={<Portfolio />} />
         {/* <Route path={ROUTES.RESUME} element={<Resume />} /> */}
         {/* <Route path={ROUTES.NEWS} element={<News />} /> */}
-        {/* <Route path={ROUTES.PORTFOLIO} element={<Portfolio />} /> */}
       </Routes>
-      {/* </div>
-       */}
+      </div>
+      
 
-      {/* <Footer theme={theme} /> */}
+      <Footer theme={theme} />
     </Router>
   );
 };

@@ -2,6 +2,7 @@ import React from "react";
 
 import timeline from "../data/timeline";
 import camisa from "../photos/headshot.jpg";
+import linkedinlogo from "../photos/linkedin-logo.png"
 import "../css/timeline.css";
 
 const Home = () => {
@@ -14,19 +15,12 @@ const Home = () => {
         <div className="row" style={{ width: "100%" }}>
           <div className="col s12 m7" style={{ paddingRight: "3rem" }}>
             <h1>Hi, I'm Camisa</h1>
-            <p>Front Stack Developer</p>
+            <h5>Front Stack Developer</h5>
             <p>
               High level experience in web development, producing solutions in
               big tech.
             </p>
-            <button
-              class="btn waves-effect waves-light"
-              type="submit"
-              name="action"
-            >
-                Connect
-              <i class="material-icons left">add</i>
-            </button>
+            <span><img src={linkedinlogo} width="20px"/></span>
           </div>
           <div
             className="col s8 m5"
