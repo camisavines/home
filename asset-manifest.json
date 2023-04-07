@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/home/static/css/main.9a567a3e.css",
-    "main.js": "/home/static/js/main.8b5d3b9e.js",
+    "main.js": "/home/static/js/main.071cb751.js",
     "static/media/ibm.gif": "/home/static/media/ibm.5cddcac6f237d0a31b80.gif",
     "static/media/BFA.png": "/home/static/media/BFA.062bcbe4da0079f32894.png",
     "static/media/dogs.JPG": "/home/static/media/dogs.90687b403ad8e6cc0dd1.JPG",
@@ -18,15 +18,16 @@
     "static/media/news3.jpg": "/home/static/media/news3.eb196838f955ad8731aa.jpg",
     "static/media/news2.jpg": "/home/static/media/news2.998606efefd4e28abab6.jpg",
     "static/media/blackdatabase.png": "/home/static/media/blackdatabase.3abb3157b20e284bb251.png",
+    "static/media/luma.png": "/home/static/media/luma.9422322be6c30c743b3b.png",
     "static/media/news1.jpeg": "/home/static/media/news1.ab1b5b4c67069fcc1561.jpeg",
     "index.html": "/home/index.html",
     "static/media/linkedin-logo-light.svg": "/home/static/media/linkedin-logo-light.5e936fd87c03869b7eaa8e1c307d2b45.svg",
     "static/media/linkedin-logo.svg": "/home/static/media/linkedin-logo.504e26db2fc90179e38f63a9c77522b8.svg",
     "main.9a567a3e.css.map": "/home/static/css/main.9a567a3e.css.map",
-    "main.8b5d3b9e.js.map": "/home/static/js/main.8b5d3b9e.js.map"
+    "main.071cb751.js.map": "/home/static/js/main.071cb751.js.map"
   },
   "entrypoints": [
     "static/css/main.9a567a3e.css",
-    "static/js/main.8b5d3b9e.js"
+    "static/js/main.071cb751.js"
   ]
 }
