@@ -40,6 +40,9 @@ const Navbar = ({ theme, setTheme }) => {
             <li>
               <Link to={ROUTES.NEWS}>News</Link>
             </li>
+            <li>
+              <Link to="https://camiseta.launchcart.store/" target={"_blank"}>Store</Link>
+            </li>
             
             <li>
               <a
