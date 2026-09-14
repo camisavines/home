@@ -8,46 +8,34 @@ import "yet-another-react-lightbox/plugins/captions.css";
 
 const PHOTOS = [
   {
-    src: "https://picsum.photos/seed/a/800/600",
-    thumb: "https://picsum.photos/seed/a/400/300",
-    alt: "Photo 1",
-    title: "Photo 1",
-    description: "Your description here",
+    src: "/about-photos/dogs.JPG",
+    thumb: "/about-photos/dogs.JPG",
+    alt: "doggies",
+    title: "My Dogs",
+    description: "I love big dogs! I have an American Rott and Cane Corso.",
   },
   {
-    src: "https://picsum.photos/seed/b/800/600",
-    thumb: "https://picsum.photos/seed/b/400/300",
-    alt: "Photo 2",
-    title: "Photo 2",
-    description: "Your description here",
+    src: "/about-photos/brazil.JPG",
+    thumb: "/about-photos/brazil.JPG",
+    alt: "Brazil",
+    title: "Brazil",
+    description:
+      "My favorite thing in the world to do is travel. This is from my recent trip to Rio de Janeiro. Next, I'm headed to China and Thailand.",
   },
   {
-    src: "https://picsum.photos/seed/c/800/600",
-    thumb: "https://picsum.photos/seed/c/400/300",
-    alt: "Photo 3",
-    title: "Photo 3",
-    description: "Your description here",
+    src: "/about-photos/magnet-1.JPG",
+    thumb: "/about-photos/magnet-1.JPG",
+    alt: "magent-1",
+    title: "Magnets",
+    description: "I have a magnet collection of over 100 magnets.",
   },
   {
-    src: "https://picsum.photos/seed/d/800/600",
-    thumb: "https://picsum.photos/seed/d/400/300",
-    alt: "Photo 4",
-    title: "Photo 4",
-    description: "Your description here",
-  },
-  {
-    src: "https://picsum.photos/seed/e/800/600",
-    thumb: "https://picsum.photos/seed/e/400/300",
-    alt: "Photo 5",
-    title: "Photo 5",
-    description: "Your description here",
-  },
-  {
-    src: "https://picsum.photos/seed/f/800/600",
-    thumb: "https://picsum.photos/seed/f/400/300",
-    alt: "Photo 6",
-    title: "Photo 6",
-    description: "Your description here",
+    src: "/about-photos/codeschool.jpg",
+    thumb: "/about-photos/codeschool.jpg",
+    alt: "code school",
+    title: "South Bend Code School",
+    description:
+      "I used to be an instructor with South Bend Code School, an after-school program teaching young students how to code.",
   },
 ];
 
@@ -98,8 +86,8 @@ export const About = () => {
               background: "none",
               cursor: "pointer",
               overflow: "hidden",
-              height: "120%"
-            //   aspectRatio: "4/3",
+              height: "100%",
+                aspectRatio: "2/3",
             }}
           >
             <img

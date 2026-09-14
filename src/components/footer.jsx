@@ -8,7 +8,6 @@ export const Footer = () => {
         display: "flex",
         alignItems: "center",
         justifyContent: "space-around",
-        // backgroundColor: "var(--cds-background-active)",
         color: "var(--cds-text-secondary)",
       }}
     >
