@@ -20,7 +20,8 @@ export const Navbar = ({ theme, onToggleTheme }) => {
     >
       <SkipToContent />
 
-      <HeaderName href="#hero" prefix="CamisaCloud"></HeaderName>
+      <HeaderName href="#hero" prefix="CamisaCloud">
+      </HeaderName>
 
       <HeaderGlobalBar>
         <HeaderGlobalAction

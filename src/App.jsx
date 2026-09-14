@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Theme } from "@carbon/react";
 import { Hero } from "./components/hero";
 import { Navbar } from "./components/navbar";
+import { Contact } from "./components/contact";
+import { Footer } from "./components/footer";
 
 function App() {
   const [theme, setTheme] = useState("white");
@@ -25,6 +27,8 @@ function App() {
         <Navbar theme={theme} onToggleTheme={toggleTheme} />
         <Hero />
       </div>
+      <Contact />
+      <Footer />
     </Theme>
   );
 }
