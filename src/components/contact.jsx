@@ -5,7 +5,7 @@ export const Contact = () => {
   return (
     <div
       style={{
-        padding: "10vh 48px",
+        padding: "10vh 1rem",
         maxWidth: "1500px",
         margin: "auto",
       }}

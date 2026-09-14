@@ -8,13 +8,18 @@ export const Profile = () => {
         backgroundColor: "rgba(137, 117, 224, 0.5)",
         padding: "2rem",
         aspectRatio: 1,
-        flex: 1,
+        // flex: 1,
       }}
     >
-      <img src="/headshot.jpg" style={{ width: "50%", borderRadius: "50%", marginBottom: "1rem" }} />
+      <img
+        src="/headshot.jpg"
+        style={{ width: "50%", borderRadius: "50%", marginBottom: "1rem" }}
+      />
       <h1 style={{ fontSize: "32px" }}>Camisa</h1>
       <p>camisa@camisavines.com</p>
-      <p style={{color: "var(--cds-text-secondary)", fontSize: "0.75rem"}}>Software Engineer at IBM</p>
+      <p style={{ color: "var(--cds-text-secondary)", fontSize: "0.75rem" }}>
+        Software Engineer at IBM
+      </p>
     </Tile>
   );
 };

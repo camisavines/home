@@ -9,8 +9,8 @@ export const Hero = () => {
     <div
       style={{
         minHeight: "100vh",
-        padding: "10vh 48px",
-        maxWidth: "1500px",
+        padding: "10vh 1rem",
+        maxWidth: "1300px",
         margin: "auto",
       }}
     >
@@ -53,7 +53,7 @@ export const Hero = () => {
         </Column>
         <Column
           sm={4}
-          md={8}
+          md={4}
           lg={5}
           style={{
             display: "flex",

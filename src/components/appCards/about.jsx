@@ -37,6 +37,21 @@ const PHOTOS = [
     description:
       "I used to be an instructor with South Bend Code School, an after-school program teaching young students how to code.",
   },
+    {
+    src: "/about-photos/magnet-1.JPG",
+    thumb: "/about-photos/magnet-1.JPG",
+    alt: "magent-1",
+    title: "Magnets",
+    description: "I have a magnet collection of over 100 magnets.",
+  },
+  {
+    src: "/about-photos/codeschool.jpg",
+    thumb: "/about-photos/codeschool.jpg",
+    alt: "code school",
+    title: "South Bend Code School",
+    description:
+      "I used to be an instructor with South Bend Code School, an after-school program teaching young students how to code.",
+  },
 ];
 
 export const About = () => {
@@ -73,6 +88,7 @@ export const About = () => {
           display: "grid",
           gridTemplateColumns: "repeat(4, 1fr)",
           gap: "2px",
+          overflow: "hidden"
           //   padding: "0.75rem",
         }}
       >
@@ -87,7 +103,7 @@ export const About = () => {
               cursor: "pointer",
               overflow: "hidden",
               height: "100%",
-                aspectRatio: "2/3",
+              aspectRatio: "10/8",
             }}
           >
             <img
