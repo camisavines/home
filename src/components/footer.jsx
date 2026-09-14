@@ -3,17 +3,16 @@ export const Footer = () => {
     <div
       style={{
         fontSize: "0.5rem",
-        maxWidth: "1500px",
         height: "5vh",
         margin: "auto",
         display: "flex",
         alignItems: "center",
         justifyContent: "space-around",
-        backgroundColor: "var(--cds-background-active)",
+        // backgroundColor: "var(--cds-background-active)",
         color: "var(--cds-text-secondary)",
       }}
     >
-      <div>
+      <div style={{ maxWidth: "1200px" }}>
         <a
           href="https://www.linkedin.com/in/camisavines/"
           target="_blank"

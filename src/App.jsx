@@ -27,7 +27,7 @@ function App() {
         <Navbar theme={theme} onToggleTheme={toggleTheme} />
         <Hero />
       </div>
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </Theme>
   );
