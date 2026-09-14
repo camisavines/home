@@ -43,7 +43,7 @@ export const Articles = () => {
     <Tile
       style={{
         borderRadius: "10px",
-        backgroundColor: "rgba(137, 117, 224, 0.5)",
+        backgroundColor: "rgba(90, 230, 240, 0.5)",
         padding: "0",
         overflow: "hidden",
         flex: 1,

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Theme } from "@carbon/react";
-import { Hero } from "./components/hero";
 import { Navbar } from "./components/navbar";
+import { Hero } from "./components/hero";
 import { Contact } from "./components/contact";
 import { Footer } from "./components/footer";
 
