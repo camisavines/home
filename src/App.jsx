@@ -21,7 +21,8 @@ function App() {
               ? "url('/apple-wallpaper-light.jpg')"
               : "url('/apple-wallpaper-dark.jpg')",
           backgroundSize: "cover",
-          backgroundPosition: "fixed",
+          backgroundAttachment: "fixed",
+          
         }}
       >
         <Navbar theme={theme} onToggleTheme={toggleTheme} />

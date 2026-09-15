@@ -3,8 +3,6 @@ import { Tile } from "@carbon/react";
 import { Camera } from "@carbon/react/icons";
 import Lightbox from "yet-another-react-lightbox";
 import Captions from "yet-another-react-lightbox/plugins/captions";
-import LiquidGlass from "liquid-glass-react";
-
 import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/captions.css";
 
@@ -78,10 +76,13 @@ export const About = () => {
     <Tile
       style={{
         borderRadius: "10px",
-        backgroundColor: "rgba(38, 58, 212, 0.59)",
+        // backgroundColor: "rgba(38, 58, 212, 0.59)",
         padding: "0",
         overflow: "hidden",
         flex: 1,
+        backgroundColor: "rgba(255, 255, 255, 0.1)",
+        backdropFilter: "blur(16px)",
+        zIndex: 1000,
       }}
     >
       {/* Header */}

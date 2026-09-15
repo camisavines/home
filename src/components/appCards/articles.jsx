@@ -43,10 +43,13 @@ export const Articles = () => {
     <Tile
       style={{
         borderRadius: "10px",
-        backgroundColor: "rgba(90, 230, 240, 0.5)",
+        backgroundColor: "rgba(90, 230, 240, 0.2)",
         padding: "0",
         overflow: "hidden",
         flex: 1,
+        backgroundColor: "rgba(255, 255, 255, 0.1)",
+        backdropFilter: "blur(16px)",
+        zIndex: 1000,
       }}
     >
       {/* Header */}

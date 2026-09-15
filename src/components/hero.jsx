@@ -11,7 +11,7 @@ export const Hero = () => {
       style={{
         minHeight: "100vh",
         padding: "10vh 1rem",
-        maxWidth: "1300px",
+        maxWidth: "1200px",
         minWidth: "50vh",
         margin: "auto",
       }}

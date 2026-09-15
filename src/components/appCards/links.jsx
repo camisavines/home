@@ -28,9 +28,12 @@ export const Links = () => {
     <Tile
       style={{
         borderRadius: "10px",
-        backgroundColor: "rgba(110, 174, 238, 0.5)",
+        // backgroundColor: "rgba(110, 174, 238, 0.5)",
         aspectRatio: 1,
         flex: 1,
+        backgroundColor: "rgba(255, 255, 255, 0.1)",
+        backdropFilter: "blur(16px)",
+        zIndex: 1000,
       }}
     >
       <div
