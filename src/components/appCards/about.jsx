@@ -3,16 +3,56 @@ import { Tile } from "@carbon/react";
 import { Camera } from "@carbon/react/icons";
 import Lightbox from "yet-another-react-lightbox";
 import Captions from "yet-another-react-lightbox/plugins/captions";
+import LiquidGlass from "liquid-glass-react";
+
 import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/captions.css";
 
 const PHOTOS = [
   {
+    src: "/about-photos/iugrad.jpeg",
+    thumb: "/about-photos/iugrad.jpeg",
+    alt: "Indiana University Graduate",
+    title: "IU Alumni",
+    description: "I attended Indiana University--Bloomington. Go Hoosiers!",
+  },
+  {
+    src: "/about-photos/codeschool.jpg",
+    thumb: "/about-photos/codeschool.jpg",
+    alt: "code school",
+    title: "South Bend Code School",
+    description:
+      "I used to be an instructor with South Bend Code School, an after-school program teaching young students how to code.",
+  },
+  {
     src: "/about-photos/dogs.JPG",
     thumb: "/about-photos/dogs.JPG",
     alt: "doggies",
     title: "My Dogs",
-    description: "I love big dogs! I have an American Rott and Cane Corso.",
+    description:
+      "I love big dogs! I have an American Rottweiler and Cane Corso.",
+  },
+  {
+    src: "/about-photos/ayp.jpeg",
+    thumb: "/about-photos/ayp.jpeg",
+    alt: "AYP Org",
+    title: "Austin Young Professional Organization",
+    description: "Austin has a thriving community of youn professionals.",
+  },
+  {
+    src: "/about-photos/ibm-friends.jpeg",
+    thumb: "/about-photos/ibm-friends.jpeg",
+    alt: "ibmers",
+    title: "IBMers",
+    description: "When IBMers get together to volunteer, great things happen.",
+  },
+  {
+    src: "/about-photos/ibmers.jpeg",
+    thumb: "/about-photos/ibmers.jpeg",
+    alt: "ibmers",
+    title: "IBMers",
+    description:
+      "I've been working with some people so long, we are friends now lol.",
   },
   {
     src: "/about-photos/brazil.JPG",
@@ -29,29 +69,6 @@ const PHOTOS = [
     title: "Magnets",
     description: "I have a magnet collection of over 100 magnets.",
   },
-  {
-    src: "/about-photos/codeschool.jpg",
-    thumb: "/about-photos/codeschool.jpg",
-    alt: "code school",
-    title: "South Bend Code School",
-    description:
-      "I used to be an instructor with South Bend Code School, an after-school program teaching young students how to code.",
-  },
-    {
-    src: "/about-photos/magnet-1.JPG",
-    thumb: "/about-photos/magnet-1.JPG",
-    alt: "magent-1",
-    title: "Magnets",
-    description: "I have a magnet collection of over 100 magnets.",
-  },
-  {
-    src: "/about-photos/codeschool.jpg",
-    thumb: "/about-photos/codeschool.jpg",
-    alt: "code school",
-    title: "South Bend Code School",
-    description:
-      "I used to be an instructor with South Bend Code School, an after-school program teaching young students how to code.",
-  },
 ];
 
 export const About = () => {
@@ -61,7 +78,7 @@ export const About = () => {
     <Tile
       style={{
         borderRadius: "10px",
-        backgroundColor: "rgba(240, 85, 217, 0.5)",
+        backgroundColor: "rgba(38, 58, 212, 0.59)",
         padding: "0",
         overflow: "hidden",
         flex: 1,
@@ -88,7 +105,7 @@ export const About = () => {
           display: "grid",
           gridTemplateColumns: "repeat(4, 1fr)",
           gap: "2px",
-          overflow: "hidden"
+          overflow: "hidden",
           //   padding: "0.75rem",
         }}
       >

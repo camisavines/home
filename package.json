@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@carbon/react": "^1.116.0",
+    "liquid-glass-react": "^1.1.1",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "yet-another-react-lightbox": "^3.32.2"

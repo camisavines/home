@@ -20,7 +20,7 @@ export const Links = () => {
     },
     {
       icon: Plane,
-      link: "https://www.magnets.camisavines.com/",
+      link: "https://magnets.camisavines.com/",
       name: "Travel",
     },
   ];

@@ -4,6 +4,7 @@ import { Articles } from "./appCards/articles";
 import { Links } from "./appCards/links";
 import { About } from "./appCards/about";
 
+
 export const Hero = () => {
   return (
     <div
@@ -11,9 +12,11 @@ export const Hero = () => {
         minHeight: "100vh",
         padding: "10vh 1rem",
         maxWidth: "1300px",
+        minWidth: "50vh",
         margin: "auto",
       }}
     >
+
       <Grid fullWidth style={{ alignItems: "stretch" }}>
         <Column
           sm={4}
