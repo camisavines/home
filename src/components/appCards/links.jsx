@@ -1,5 +1,5 @@
 import { Tile } from "@carbon/react";
-import { LogoLinkedin, Email, Plane, Code } from "@carbon/react/icons";
+import { LogoLinkedin, Email, Plane, Code, ApplicationWeb } from "@carbon/react/icons";
 
 export const Links = () => {
   const linksList = [
@@ -12,6 +12,11 @@ export const Links = () => {
       icon: LogoLinkedin,
       link: "https://www.linkedin.com/in/camisavines/",
       name: "LinkedIn",
+    },
+        {
+      icon: ApplicationWeb,
+      link: "https://consulting.camisavines.com/",
+      name: "Tech Consulting",
     },
     {
       icon: Code,
@@ -66,7 +71,7 @@ export const Links = () => {
             >
               <l.icon size={48} />
             </div>
-            <small>{l.name}</small>
+            <span style={{fontSize: "10px", lineHeight: "-1.5px"}}>{l.name}</span>
           </div>
         ))}
       </div>
