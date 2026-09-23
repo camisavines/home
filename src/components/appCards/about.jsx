@@ -1,10 +1,12 @@
 import { useState } from "react";
 import { Tile } from "@carbon/react";
-import { Camera } from "@carbon/react/icons";
 import Lightbox from "yet-another-react-lightbox";
 import Captions from "yet-another-react-lightbox/plugins/captions";
 import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/captions.css";
+
+const appleFont =
+  '-apple-system, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif';
 
 const PHOTOS = [
   {
@@ -35,7 +37,7 @@ const PHOTOS = [
     thumb: "/about-photos/ayp.jpeg",
     alt: "AYP Org",
     title: "Austin Young Professional Organization",
-    description: "Austin has a thriving community of youn professionals.",
+    description: "Austin has a thriving community of young professionals.",
   },
   {
     src: "/about-photos/ibm-friends.jpeg",
@@ -69,35 +71,66 @@ const PHOTOS = [
   },
 ];
 
-export const About = () => {
+export const About = ({ isDark }) => {
   const [lightboxIndex, setLightboxIndex] = useState(-1);
 
   return (
     <Tile
       style={{
-        borderRadius: "10px",
-        // backgroundColor: "rgba(38, 58, 212, 0.59)",
-        padding: "0",
+        borderRadius: "18px",
         overflow: "hidden",
         flex: 1,
-        backgroundColor: "rgba(255, 255, 255, 0.1)",
-        backdropFilter: "blur(16px)",
-        zIndex: 1000,
+        padding: "0",
+        background: isDark ? "rgba(28,28,30,0.78)" : "rgba(255,255,255,0.62)",
+        backdropFilter: "saturate(180%) blur(16px)",
+        WebkitBackdropFilter: "saturate(180%) blur(16px)",
+        border: isDark
+          ? "1px solid rgba(255,255,255,0.1)"
+          : "1px solid rgba(255,255,255,0.85)",
+        boxShadow: isDark
+          ? "0 2px 12px rgba(0,0,0,0.4), 0 0 0 0.5px rgba(255,255,255,0.06)"
+          : "0 2px 8px rgba(0,0,0,0.08), 0 0 0 0.5px rgba(0,0,0,0.06)",
+        fontFamily: appleFont,
+        marginBottom: "1rem",
       }}
     >
-      {/* Header */}
+      {/* Header — matches iCloud widget header style */}
       <div
         style={{
-          padding: "0.875rem 1rem",
-          background: "rgba(255, 255, 255, 0.25)",
+          // padding: "0.5rem 1rem",
+          padding: "11px 16px 10px",
+          background: isDark ? "rgba(44,44,46,0.6)" : "rgba(255,255,255,0.5)",
+          borderBottom: isDark
+            ? "1px solid rgba(255,255,255,0.08)"
+            : "1px solid rgba(0,0,0,0.06)",
           display: "flex",
           alignItems: "center",
-          gap: "0.5rem",
-          borderBottom: "1px solid rgba(255,255,255,0.3)",
+          justifyContent: "space-between",
         }}
       >
-        <Camera size={24} />
-        <span style={{ fontWeight: 600, fontSize: "0.9rem" }}>About</span>
+        <span
+          style={{
+            fontWeight: 600,
+            fontSize: "15px",
+            letterSpacing: "-0.015em",
+            color: isDark ? "#f5f5f7" : "#1d1d1f",
+            fontFamily: appleFont,
+          }}
+        >
+          Photos
+        </span>
+        <span
+          style={{
+            fontSize: "13px",
+            color: "#0071e3",
+            fontWeight: 400,
+            letterSpacing: "-0.01em",
+            fontFamily: appleFont,
+            cursor: "default",
+          }}
+        >
+          {PHOTOS.length} items
+        </span>
       </div>
 
       {/* Image grid */}
@@ -106,8 +139,6 @@ export const About = () => {
           display: "grid",
           gridTemplateColumns: "repeat(4, 1fr)",
           gap: "2px",
-          overflow: "hidden",
-          //   padding: "0.75rem",
         }}
       >
         {PHOTOS.map((photo, index) => (
@@ -120,8 +151,8 @@ export const About = () => {
               background: "none",
               cursor: "pointer",
               overflow: "hidden",
-              height: "100%",
-              aspectRatio: "10/8",
+              aspectRatio: "1 / 1",
+              display: "block",
             }}
           >
             <img
@@ -132,10 +163,10 @@ export const About = () => {
                 height: "100%",
                 objectFit: "cover",
                 display: "block",
-                transition: "transform 0.2s ease",
+                transition: "transform 0.25s ease",
               }}
               onMouseEnter={(e) =>
-                (e.currentTarget.style.transform = "scale(1.05)")
+                (e.currentTarget.style.transform = "scale(1.06)")
               }
               onMouseLeave={(e) =>
                 (e.currentTarget.style.transform = "scale(1)")

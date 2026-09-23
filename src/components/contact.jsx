@@ -8,6 +8,7 @@ export const Contact = () => {
         padding: "10vh 1rem",
         maxWidth: "1500px",
         margin: "auto",
+        background: "black"
       }}
     >
       <Grid>

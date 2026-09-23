@@ -4,67 +4,49 @@ import { Articles } from "./appCards/articles";
 import { Links } from "./appCards/links";
 import { About } from "./appCards/about";
 
-
-export const Hero = () => {
+export const Hero = ({ isDark }) => {
   return (
     <div
+      id="hero"
       style={{
         minHeight: "100vh",
-        padding: "10vh 1rem",
+        padding: "128px 16px 32px",
         maxWidth: "1200px",
-        minWidth: "50vh",
         margin: "auto",
       }}
     >
-
-      <Grid fullWidth style={{ alignItems: "stretch" }}>
+      <Grid fullWidth style={{ alignItems: "stretch", rowGap: "16px" }}>
         <Column
           sm={4}
           md={4}
           lg={5}
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            marginBottom: "2rem",
-          }}
+          style={{ display: "flex", flexDirection: "column" }}
         >
-          <Profile />
+          <Profile isDark={isDark} />
         </Column>
         <Column
           sm={4}
           md={8}
           lg={10}
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            marginBottom: "2rem",
-          }}
+          style={{ display: "flex", flexDirection: "column" }}
         >
-          <About />
+          <About isDark={isDark} />
         </Column>
         <Column
           sm={4}
           md={8}
           lg={10}
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            marginBottom: "2rem",
-          }}
+          style={{ display: "flex", flexDirection: "column" }}
         >
-          <Articles />
+          <Articles isDark={isDark} />
         </Column>
         <Column
           sm={4}
           md={4}
           lg={5}
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            marginBottom: "2rem",
-          }}
+          style={{ display: "flex", flexDirection: "column" }}
         >
-          <Links />
+          <Links isDark={isDark} />
         </Column>
       </Grid>
     </div>

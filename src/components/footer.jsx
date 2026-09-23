@@ -1,34 +1,77 @@
-export const Footer = () => {
+const appleFont =
+  '-apple-system, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif';
+
+export const Footer = ({ isDark }) => {
   return (
     <div
       style={{
-        fontSize: "0.5rem",
-        height: "5vh",
-        margin: "auto",
+        padding: "12px 16px",
         display: "flex",
         alignItems: "center",
-        justifyContent: "space-around",
-        color: "var(--cds-text-secondary)",
+        justifyContent: "center",
+        gap: "12px",
+        borderTop: isDark
+          ? "1px solid rgba(255,255,255,0.08)"
+          : "1px solid rgba(0,0,0,0.08)",
+        background: isDark ? "rgba(28,28,30,0.8)" : "rgba(255,255,255,0.6)",
+        backdropFilter: "saturate(180%) blur(20px)",
+        WebkitBackdropFilter: "saturate(180%) blur(20px)",
       }}
     >
-      <div style={{ maxWidth: "1200px" }}>
-        <a
-          href="https://www.linkedin.com/in/camisavines/"
-          target="_blank"
-          style={{ textDecoration: "none", color: "var(--cds-text-secondary)" }}
-        >
-          LinkedIn
-        </a>
-        <span style={{ margin: "0 0.25rem" }}>|</span>
-        <a
-          href="https://www.dev.camisavines.com/"
-          target="_blank"
-          style={{ textDecoration: "none", color: "var(--cds-text-secondary)" }}
-        >
-          Dev Site
-        </a>
-      </div>
-      <div>Copyright @ 2026 Camisa Vines. All rights reserved</div>
+      <a
+        href="https://www.linkedin.com/in/camisavines/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          textDecoration: "none",
+          fontSize: "12px",
+          color: "#0071e3",
+          fontFamily: appleFont,
+          letterSpacing: "-0.01em",
+        }}
+      >
+        LinkedIn
+      </a>
+      <span
+        style={{
+          fontSize: "10px",
+          color: isDark ? "rgba(255,255,255,0.2)" : "rgba(0,0,0,0.2)",
+        }}
+      >
+        ·
+      </span>
+      <a
+        href="https://www.dev.camisavines.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          textDecoration: "none",
+          fontSize: "12px",
+          color: "#0071e3",
+          fontFamily: appleFont,
+          letterSpacing: "-0.01em",
+        }}
+      >
+        Dev Site
+      </a>
+      <span
+        style={{
+          fontSize: "10px",
+          color: isDark ? "rgba(255,255,255,0.2)" : "rgba(0,0,0,0.2)",
+        }}
+      >
+        ·
+      </span>
+      <span
+        style={{
+          fontSize: "12px",
+          color: isDark ? "#98989d" : "#6e6e73",
+          fontFamily: appleFont,
+          letterSpacing: "-0.01em",
+        }}
+      >
+        Copyright © 2026 Camisa Vines
+      </span>
     </div>
   );
 };
