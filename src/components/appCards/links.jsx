@@ -1,16 +1,24 @@
 import { Tile } from "@carbon/react";
-import { LogoLinkedin, Email, Plane, Code, ApplicationWeb } from "@carbon/react/icons";
+import {
+  LogoLinkedin,
+  Email,
+  Plane,
+  Code,
+  ApplicationWeb,
+} from "@carbon/react/icons";
 
 const appleFont =
   '-apple-system, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif';
 
 /* iOS-style app icon gradient backgrounds */
 const iconStyles = {
-  Mail:        { background: "linear-gradient(145deg, #4facfe 0%, #00f2fe 100%)" },
-  LinkedIn:    { background: "linear-gradient(145deg, #0077b5 0%, #00a0dc 100%)" },
-  "Tech Consulting": { background: "linear-gradient(145deg, #f093fb 0%, #f5576c 100%)" },
-  ".dev":      { background: "linear-gradient(145deg, #4e54c8 0%, #8f94fb 100%)" },
-  Travel:      { background: "linear-gradient(145deg, #43e97b 0%, #38f9d7 100%)" },
+  Mail: { background: "linear-gradient(145deg, #4facfe 0%, #00f2fe 100%)" },
+  LinkedIn: { background: "linear-gradient(145deg, #0077b5 0%, #00a0dc 100%)" },
+  "Tech Consulting": {
+    background: "linear-gradient(145deg, #f093fb 0%, #f5576c 100%)",
+  },
+  ".dev": { background: "linear-gradient(145deg, #4e54c8 0%, #8f94fb 100%)" },
+  Travel: { background: "linear-gradient(145deg, #43e97b 0%, #38f9d7 100%)" },
 };
 
 export const Links = ({ isDark }) => {
@@ -58,8 +66,7 @@ export const Links = ({ isDark }) => {
           ? "0 2px 12px rgba(0,0,0,0.4), 0 0 0 0.5px rgba(255,255,255,0.06)"
           : "0 2px 8px rgba(0,0,0,0.08), 0 0 0 0.5px rgba(0,0,0,0.06)",
         fontFamily: appleFont,
-        marginBottom: "1rem"
-
+        marginBottom: "1rem",
       }}
     >
       <div

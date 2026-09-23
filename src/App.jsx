@@ -42,7 +42,7 @@ function App() {
           <div style={{ flex: 1 }}>
             <Hero isDark={isDark} />
           </div>
-          {/* <Contact /> */}
+          <Contact isDark={isDark} />
           <Footer isDark={isDark} />
         </div>
       </div>
