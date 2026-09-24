@@ -14,7 +14,7 @@ const appleFont =
 const iconStyles = {
   Mail: { background: "linear-gradient(145deg, #4facfe 0%, #00f2fe 100%)" },
   LinkedIn: { background: "linear-gradient(145deg, #0077b5 0%, #00a0dc 100%)" },
-  "Tech Consulting": {
+  "Consulting": {
     background: "linear-gradient(145deg, #f093fb 0%, #f5576c 100%)",
   },
   ".dev": { background: "linear-gradient(145deg, #4e54c8 0%, #8f94fb 100%)" },
@@ -36,7 +36,7 @@ export const Links = ({ isDark }) => {
     {
       icon: ApplicationWeb,
       link: "https://consulting.camisavines.com/",
-      name: "Tech Consulting",
+      name: "Consulting",
     },
     {
       icon: Code,
@@ -120,7 +120,7 @@ export const Links = ({ isDark }) => {
                   "0 1px 3px rgba(0,0,0,0.18), 0 0 0 0.5px rgba(0,0,0,0.06)";
               }}
             >
-              <l.icon size={28} style={{ color: "#fff" }} />
+              <l.icon size={32} style={{ color: "#fff" }} />
             </div>
             <span
               style={{

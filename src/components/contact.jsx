@@ -6,11 +6,11 @@ const appleFont =
 /* ─── Storage bar ─────────────────────────────────────────────────────────── */
 // Segments fill left-to-right, each representing a category of used storage.
 const storageSegments = [
-  { label: "Photos",   pct: 38, color: "#ff9f0a" },
-  { label: "Apps",     pct: 22, color: "#30d158" },
-  { label: "Mail",     pct: 14, color: "#0071e3" },
-  { label: "Docs",     pct: 11, color: "#bf5af2" },
-  { label: "Other",    pct:  9, color: "#ff375f" },
+  { label: "Photos", pct: 38, color: "#ff9f0a" },
+  { label: "Apps", pct: 22, color: "#30d158" },
+  { label: "Mail", pct: 14, color: "#0071e3" },
+  { label: "Docs", pct: 11, color: "#bf5af2" },
+  { label: "Other", pct: 9, color: "#ff375f" },
   // remaining ~6% is "free" — shown as the track background
 ];
 
@@ -41,8 +41,8 @@ const StorageBar = ({ isDark }) => {
                 i === 0
                   ? "4px 0 0 4px"
                   : i === storageSegments.length - 1
-                  ? "0 4px 4px 0"
-                  : 0,
+                    ? "0 4px 4px 0"
+                    : 0,
             }}
           />
         ))}
@@ -105,7 +105,7 @@ const StorageBar = ({ isDark }) => {
 
       {/* Upgrade CTA */}
       <button
-        onClick={() => {}}
+        onClick={() => window.open("https://dev.camisavines.com", "_blank")}
         style={{
           marginTop: "12px",
           display: "inline-flex",
@@ -270,10 +270,10 @@ export const Contact = ({ isDark }) => {
               }}
             >
               <h4 style={sectionTitle(isDark)}>
-                Data Recovery <Chevron isDark={isDark} />
+                Data Discovery <Chevron isDark={isDark} />
               </h4>
             </button>
-            <p style={sectionValue(isDark)}>Theme saved</p>
+            <p style={sectionValue(isDark)}>See my latest <a href="https://magnets.camisavines.com/" target="_blank">travel plans</a> and collections</p>
           </Column>
         </Grid>
       </div>
